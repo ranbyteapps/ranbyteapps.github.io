@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,6 +29,19 @@
       padding: 18px;
       margin: 18px 0;
     }
+    .platforms {
+      margin-top: 12px;
+    }
+    .platforms span {
+      display: inline-block;
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 999px;
+      padding: 4px 10px;
+      margin: 4px 6px 4px 0;
+      font-size: 0.95rem;
+      color: #333;
+    }
     a {
       color: #0a66c2;
     }
@@ -40,10 +54,15 @@
   <div class="card">
     <h2>Grafiq</h2>
     <p>
-      Grafiq is a local-first photo, video, and file utility for Mac.
+      Grafiq is a local-first photo, video, and file utility for Mac and Windows.
       No accounts. No ads. No subscriptions. No watermarks.
     </p>
     <p><strong>Tagline:</strong> No flash. Just features.</p>
+
+    <div class="platforms" aria-label="Available platforms">
+      <span>Mac</span>
+      <span>Windows</span>
+    </div>
   </div>
 
   <h2>Support</h2>
@@ -54,8 +73,9 @@
 
   <h2>Privacy</h2>
   <p>
-    Grafiq is designed to process files locally by default. A full privacy policy
-    will be posted here before release.
+    Grafiq is designed to process files locally by default. It does not require
+    accounts, ads, subscriptions, watermarks, or data harvesting.
   </p>
 </body>
 </html>
+```
