@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -48,14 +49,14 @@
       <a href="mailto:ranbyteapps@gmail.com">ranbyteapps@gmail.com</a>
     </p>
     <p>
-      Please include your Mac model, macOS version, Grafiq version, and a short description
+      Please include your operating system, computer model if known, Grafiq version, and a short description
       of what you were trying to do when the issue happened.
     </p>
   </div>
 
   <h2>About Grafiq</h2>
   <p>
-    Grafiq is a local-first photo, video, and file utility for Mac.
+    Grafiq is a local-first photo, video, and file utility for Mac and Windows.
     It includes tools for working with images, videos, GIFs, metadata, scanned photos,
     file organization, classic resizing/upscaling, conversion, redaction, cropping,
     and other everyday media tasks.
@@ -72,6 +73,17 @@
     <li>No watermarks</li>
     <li>Local processing by default</li>
   </ul>
+
+  <h2>Mac and Windows Versions</h2>
+  <p>
+    Grafiq is available for Mac and Windows. Most core tools are designed to work similarly across both versions,
+    including conversion, metadata tools, crop tools, GIF/video tools, redaction, duplicate finding,
+    organizing, photo splitting, downscaling, classic resizing/upscaling, and SVG tools.
+  </p>
+  <p>
+    Some features may vary by platform because macOS and Windows handle sandboxing, media tools,
+    local AI libraries, file permissions, and bundled system components differently.
+  </p>
 
   <h2>Apple silicon and Intel Macs</h2>
   <p>
@@ -90,7 +102,8 @@
   <h3>Where do exported files go?</h3>
   <p>
     Many Grafiq tools ask you to choose an output folder. Some tools may create an
-    <code>Edited</code> folder next to the original file or save exports to the folder you selected.
+    <code>Edited</code> folder next to the original file, save exports next to the original file,
+    or save exports to the folder you selected.
     Check the app log for the exact saved file path after an export finishes.
   </p>
 
@@ -101,24 +114,41 @@
     you configured. See the privacy policy for details.
   </p>
 
+  <h3>How do I report inappropriate AI-generated output?</h3>
+  <p>
+    Grafiq may include optional AI-generated captions or descriptions when you choose to use AI features.
+    If an AI-generated result is inappropriate, harmful, offensive, inaccurate, or otherwise problematic,
+    you can report it from inside Grafiq by choosing:
+  </p>
+  <p>
+    <code>Help → Report AI Output Issue</code>
+  </p>
+  <p>
+    You may also email:
+    <a href="mailto:ranbyteapps@gmail.com">ranbyteapps@gmail.com</a>
+  </p>
+  <p>
+    Please do not include private images, passwords, API keys, or sensitive personal information unless needed for the report.
+  </p>
+
   <h3>Why does a feature take time to open?</h3>
   <p>
-    Some tools may load larger local processing libraries or models. On Apple silicon Macs,
-    Torch-based local image tools such as Background Remover and RealESRGAN AI upscaling may take
-    a few seconds to open or begin processing.
+    Some tools may load larger local processing libraries or models. Local image/video processing,
+    background removal, AI upscaling, and video tools may take a few seconds to open or begin processing,
+    depending on your computer and the selected file.
   </p>
 
   <h3>What file types does Grafiq support?</h3>
   <p>
     Grafiq supports many common media and document formats, including JPG, PNG, GIF, TIFF, WebP,
-    HEIC/HEIF/AVIF where supported by macOS, MP4, PDF, DOCX, XLSX, and SVG-related workflows.
-    Support varies by tool.
+    HEIC/HEIF/AVIF where supported by the operating system, MP4, PDF, DOCX, XLSX, and SVG-related workflows.
+    Support varies by tool and platform.
   </p>
 
   <h3>Does Grafiq edit MP3 or MP4 metadata?</h3>
   <p>
-    In the Mac App Store version, some audio/video metadata editing features may be limited or
-    read-only to keep the app compatible with App Store and licensing requirements.
+    Some audio/video metadata editing features may be limited or read-only to keep the app compatible
+    with store and licensing requirements.
   </p>
 
   <h2>Reporting a Problem</h2>
@@ -128,10 +158,10 @@
 
   <ul>
     <li>Grafiq version</li>
-    <li>macOS version</li>
-    <li>Mac model if known, such as Intel Mac or Apple silicon Mac</li>
+    <li>Operating system version, such as macOS version or Windows version</li>
+    <li>Computer model if known, such as Intel Mac, Apple silicon Mac, or Windows PC</li>
     <li>The feature you were using</li>
-    <li>The file type involved, such as JPG, PNG, GIF, MP4, or PDF</li>
+    <li>The file type involved, such as JPG, PNG, GIF, MP4, PDF, DOCX, XLSX, or SVG</li>
     <li>Any error message shown in the app</li>
   </ul>
 
@@ -155,3 +185,4 @@
   </p>
 </body>
 </html>
+```
