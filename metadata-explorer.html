@@ -1,0 +1,424 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Image Metadata Across a Folder | Grafiq</title>
+  <meta name="description" content="Use Grafiq Metadata Explorer to search image metadata across folders locally, review embedded information, and export metadata results without uploading your files.">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 920px;
+      margin: 48px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #fafafa;
+    }
+
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 32px;
+}
+
+.tagline {
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 22px;
+  margin: 22px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.lead {
+  font-size: 1.08rem;
+}
+
+.promise {
+  background: #f1f4f8;
+  border: 1px solid #d8e0ea;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 16px 0;
+  font-weight: 600;
+}
+
+.note {
+  background: #fff8e6;
+  border: 1px solid #ead89a;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 16px 0;
+}
+
+.privacy-note {
+  background: #eef7ff;
+  border: 1px solid #cde5fa;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 16px 0;
+}
+
+.buttons {
+  margin: 18px 0 8px 0;
+}
+
+.button {
+  display: inline-block;
+  background: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 6px 8px 6px 0;
+  font-weight: 600;
+}
+
+.button.secondary {
+  background: #333;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.steps {
+  padding-left: 24px;
+}
+
+.steps li {
+  margin-bottom: 10px;
+}
+
+.features {
+  padding-left: 20px;
+}
+
+.features li {
+  margin-bottom: 7px;
+}
+
+.small {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.top-nav {
+  margin-bottom: 22px;
+  font-size: 0.95rem;
+}
+
+.top-nav a {
+  margin-right: 14px;
+}
+
+code {
+  background: #f1f4f8;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: #0a66c2;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  margin-top: 36px;
+  padding-top: 16px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="top-nav">
+    <a href="index.html">Ranbyte Apps</a>
+    <a href="photo-splitter.html">Photo Splitter Guide</a>
+    <a href="redaction.html">Redaction Guide</a>
+    <a href="metadata.html">Metadata Guide</a>
+    <a href="duplicate-images.html">Duplicate Images Guide</a>
+    <a href="gif-tools.html">GIF Tools Guide</a>
+    <a href="converter.html">Converter Guide</a>
+    <a href="downscaler.html">Downscaler Guide</a>
+    <a href="background-remover.html">Background Remover Guide</a>
+    <a href="crop-studio.html">Crop Studio Guide</a>
+    <a href="video-tools.html">Video Tools Guide</a>
+    <a href="upscaler.html">Upscaler Guide</a>
+    <a href="organizer.html">Organizer Guide</a>
+    <a href="rename-files.html">Rename Files Guide</a>
+    <a href="black-and-white.html">Black & White Guide</a>
+    <a href="motion-effects.html">Motion Effects Guide</a>
+    <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a>
+    <a href="svg-tools.html">SVG Tools Guide</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+
+  <h1>Search image metadata across a folder</h1>
+  <p class="tagline">Use Grafiq Metadata Explorer to inspect and search embedded image information locally, without uploading your files.</p>
+
+  <div class="card">
+    <p class="lead">
+      Photos and image files can contain more than pixels. They may include captions, dates, software names, camera information, keywords, GPS fields, descriptions, and other embedded metadata.
+      Grafiq Metadata Explorer helps you search that information across a folder.
+    </p>
+
+
+<p>
+  Use it for photo archives, scanned image projects, captioned image collections, cleanup work, privacy review, and finding files that contain specific embedded information.
+</p>
+
+<div class="promise">
+  No account. No ads. No subscriptions. No watermarks. No data harvesting.
+</div>
+
+<div class="buttons" aria-label="Get Grafiq">
+  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+</div>
+
+
+  </div>
+
+  <h2>What Metadata Explorer is for</h2>
+  <p>
+    Metadata Explorer is useful when you want to look inside image files and search for embedded information.
+    Instead of opening one file at a time, you can scan a folder and review the metadata that Grafiq finds.
+  </p>
+
+  <ul class="features">
+    <li>Search image metadata across a selected folder.</li>
+    <li>Review embedded captions, descriptions, authors, software names, keywords, dates, or other available fields.</li>
+    <li>Look for privacy-sensitive fields before sharing images.</li>
+    <li>Find images that contain specific words or metadata values.</li>
+    <li>Use metadata information to help organize photo archives.</li>
+    <li>Export metadata results to CSV where available.</li>
+    <li>Work locally without uploading images to an online metadata viewer.</li>
+  </ul>
+
+  <div class="privacy-note">
+    <strong>Local-first note:</strong>
+    Metadata Explorer works on folders you choose on your computer. You do not need to upload private photos or archives to an online metadata search tool.
+  </div>
+
+  <h2>What image metadata can include</h2>
+
+  <p>
+    Metadata depends on the file, camera, app, scanner, editor, and format. Not every file has the same fields.
+    Some images may have a lot of metadata, while others may have very little.
+  </p>
+
+  <ul class="features">
+    <li>Title or caption fields.</li>
+    <li>Description or comment fields.</li>
+    <li>Author or creator fields.</li>
+    <li>Copyright information.</li>
+    <li>Software or app names.</li>
+    <li>Keywords or tags.</li>
+    <li>Date and time fields.</li>
+    <li>Camera or device information.</li>
+    <li>GPS latitude and longitude fields where present.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Important:</strong>
+    Metadata varies by file. A missing field does not always mean something went wrong — the file may simply not contain that metadata.
+  </div>
+
+  <h2>How to search image metadata in Grafiq</h2>
+
+  <ol class="steps">
+    <li>
+      <strong>Open Metadata Explorer.</strong><br>
+      In Grafiq, open <strong>More → Metadata Explorer</strong>, or open it from the metadata tools area if available in your build.
+    </li>
+
+
+<li>
+  <strong>Choose a folder.</strong><br>
+  Select the folder that contains the images you want to inspect.
+</li>
+
+<li>
+  <strong>Include subfolders if needed.</strong><br>
+  Enable subfolder scanning if your images are stored inside nested folders.
+</li>
+
+<li>
+  <strong>Enter a search term.</strong><br>
+  Search for a word, name, caption, keyword, software name, location text, or other metadata value.
+</li>
+
+<li>
+  <strong>Run the search.</strong><br>
+  Let Grafiq scan the selected folder and show matching files.
+</li>
+
+<li>
+  <strong>Review the results.</strong><br>
+  Open or inspect matching files to confirm which metadata fields matched your search.
+</li>
+
+<li>
+  <strong>Export results if needed.</strong><br>
+  Use CSV export if you want a spreadsheet-friendly record of the metadata search results.
+</li>
+
+
+  </ol>
+
+  <h2>How to use Metadata Explorer for privacy review</h2>
+
+  <p>
+    Metadata can sometimes reveal information you did not intend to share. Metadata Explorer can help you inspect files before sending or publishing them.
+  </p>
+
+  <ol class="steps">
+    <li>
+      <strong>Choose the folder you plan to share from.</strong><br>
+      Select the folder that contains images you may upload, email, or post.
+    </li>
+
+
+<li>
+  <strong>Search for sensitive fields.</strong><br>
+  Look for GPS, location, device, author, software, name, project, or caption information that might matter.
+</li>
+
+<li>
+  <strong>Inspect matching files.</strong><br>
+  Review the files that contain metadata you care about.
+</li>
+
+<li>
+  <strong>Use the right cleanup tool.</strong><br>
+  Use Grafiq metadata editing or Redactor’s Strip EXIF workflow when you need to remove or reduce embedded metadata before sharing.
+</li>
+
+<li>
+  <strong>Check the exported copy.</strong><br>
+  After cleanup, inspect the exported file again before sharing.
+</li>
+
+
+  </ol>
+
+  <div class="note">
+    <strong>Privacy reminder:</strong>
+    Metadata cleanup is different from visual redaction. Removing metadata does not hide information that is visibly shown inside the image itself.
+  </div>
+
+  <h2>How to use Metadata Explorer for archives</h2>
+
+  <p>
+    Metadata Explorer can also help with photo archive projects, especially when you are captioning, scanning, or organizing large folders.
+  </p>
+
+  <ul class="features">
+    <li>Find photos that mention a person’s name.</li>
+    <li>Find images with a certain caption or keyword.</li>
+    <li>Check which files already have descriptions.</li>
+    <li>Look for files created or edited by a certain app.</li>
+    <li>Find images that still need metadata cleanup.</li>
+    <li>Export metadata to CSV for a spreadsheet-based review.</li>
+  </ul>
+
+  <h2>Good search ideas</h2>
+
+  <ul class="features">
+    <li>Search for a family name, project name, event name, or location.</li>
+    <li>Search for <code>GPS</code>, <code>latitude</code>, or <code>longitude</code> when checking location metadata.</li>
+    <li>Search for camera or software names if you are sorting files by source.</li>
+    <li>Search for keywords you previously added to image files.</li>
+    <li>Search for copyright or author names.</li>
+    <li>Search for terms from captions or descriptions.</li>
+  </ul>
+
+  <h2>Metadata Explorer vs. Metadata Editor</h2>
+
+  <ul class="features">
+    <li><strong>Metadata Explorer:</strong> Best for searching and reviewing metadata across a folder.</li>
+    <li><strong>Metadata Editor:</strong> Best for editing metadata on supported files.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Good workflow:</strong>
+    Use Metadata Explorer to find files that need attention. Then use metadata editing or Redactor’s Strip EXIF option when you need to change or remove metadata.
+  </div>
+
+  <h2>What to watch out for</h2>
+
+  <ul class="features">
+    <li>Not all image formats store metadata the same way.</li>
+    <li>Some images may contain little or no metadata.</li>
+    <li>Different apps may use different metadata fields for captions, descriptions, or keywords.</li>
+    <li>Metadata search does not detect information visibly shown inside the image.</li>
+    <li>CSV export is useful for review, but check important files directly before sharing.</li>
+    <li>Keep originals until you confirm any edited or cleaned copies are correct.</li>
+  </ul>
+
+  <div class="card">
+    <h2>Get Grafiq</h2>
+    <p>
+      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+      Metadata Explorer is included alongside SVG Tools, Cinematic Slideshow, Motion Effects, Black & White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, photo splitting, duplicate finding, and more.
+    </p>
+
+
+<div class="buttons" aria-label="Get Grafiq">
+  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+</div>
+
+<p class="small">
+  Built like a utility, not a subscription platform.
+</p>
+
+
+  </div>
+
+  <footer>
+    <p>
+      <a href="index.html">Ranbyte Apps</a> |
+      <a href="photo-splitter.html">Photo Splitter Guide</a> |
+      <a href="redaction.html">Redaction Guide</a> |
+      <a href="metadata.html">Metadata Guide</a> |
+      <a href="duplicate-images.html">Duplicate Images Guide</a> |
+      <a href="gif-tools.html">GIF Tools Guide</a> |
+      <a href="converter.html">Converter Guide</a> |
+      <a href="downscaler.html">Downscaler Guide</a> |
+      <a href="background-remover.html">Background Remover Guide</a> |
+      <a href="crop-studio.html">Crop Studio Guide</a> |
+      <a href="video-tools.html">Video Tools Guide</a> |
+      <a href="upscaler.html">Upscaler Guide</a> |
+      <a href="organizer.html">Organizer Guide</a> |
+      <a href="rename-files.html">Rename Files Guide</a> |
+      <a href="black-and-white.html">Black & White Guide</a> |
+      <a href="motion-effects.html">Motion Effects Guide</a> |
+      <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
+      <a href="svg-tools.html">SVG Tools Guide</a> |
+      <a href="support.html">Support</a> |
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+    <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
+  </footer>
+</body>
+</html>
