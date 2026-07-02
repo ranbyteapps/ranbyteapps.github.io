@@ -82,7 +82,8 @@ h3 {
   background: #333;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   text-decoration: underline;
 }
 
@@ -120,8 +121,31 @@ h3 {
   margin-top: 14px;
 }
 
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 8px;
+  background: #fff;
+  color: #0a66c2;
+  padding: 8px 12px;
+  border: 2px solid #0a66c2;
+  border-radius: 6px;
+  z-index: 1000;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  left: 8px;
+}
+
 a {
   color: #0a66c2;
+}
+
+a:focus,
+.button:focus {
+  outline: 3px solid #111;
+  outline-offset: 3px;
 }
 
 footer {
@@ -132,128 +156,142 @@ footer {
   font-size: 0.95rem;
 }
 
-
   </style>
 </head>
 <body>
-  <h1>Ranbyte Apps</h1>
-  <p class="tagline">Small apps. Real features. No subscription traps.</p>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <div class="card">
-    <h2>Grafiq</h2>
+  <main id="main-content">
+    <h1>Ranbyte Apps</h1>
+    <p class="tagline">Small apps. Real features. No subscription traps.</p>
 
+<section class="card" aria-labelledby="grafiq-heading">
+  <h2 id="grafiq-heading">Grafiq</h2>
 
-<p class="lead">
-  Grafiq is a local-first desktop toolbox for everyday image, video, GIF,
-  metadata, and file cleanup tasks.
-</p>
+  <p class="lead">
+    Grafiq is a local-first desktop toolbox for everyday image, video, GIF,
+    metadata, and file cleanup tasks.
+  </p>
 
-<p>
-  It is built for people who want useful desktop tools without subscriptions,
-  accounts, ads, uploads, watermarks, or data harvesting.
-</p>
+  <p>
+    It is built for people who want useful desktop tools without subscriptions,
+    accounts, ads, uploads, watermarks, or data harvesting.
+  </p>
 
-<div class="promise">
-  No accounts. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
-
-<div class="buttons" aria-label="Download Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<div class="platforms" aria-label="Platform availability">
-  <span>Windows</span>
-  <span>Mac</span>
-  <span>One-time purchase</span>
-  <span>No subscriptions</span>
-</div>
-
-<p class="note">
-  Grafiq is designed like an old-school utility: choose your files, choose a tool,
-  export the result.
-</p>
-
-<h3>Photos &amp; Images</h3>
-<ul class="features">
-  <li><strong>Manage Metadata:</strong> Edit captions, descriptions, and metadata for supported files.</li>
-  <li><strong>Background Remover:</strong> Remove image backgrounds locally and refine difficult areas.</li>
-  <li><strong>Crop Studio:</strong> Crop images, animated GIFs, and videos with aspect presets, batch apply, and clean exports.</li>
-  <li><strong>Photo Splitter:</strong> Split one scanned image or scanned PDF page containing multiple printed photos into separate cropped JPG or PNG files.</li>
-  <li><strong>Upscaler:</strong> Enlarge images or videos using classic scaling or built-in local AI models; no API keys required.</li>
-  <li><strong>Black &amp; White Tools:</strong> Convert or process images and videos in grayscale/black-and-white workflows.</li>
-  <li><strong>Redactor:</strong> Blur, hide, pixelate, crop, spotlight, highlight, or mark up sensitive image content.</li>
-  <li><strong>Find Image Duplicates:</strong> Detect visually similar or duplicate images.</li>
-</ul>
-
-<h3>Video, GIF &amp; Graphics</h3>
-<ul class="features">
-  <li><strong>Video Tools:</strong> Trim, rotate, reorder, combine, mute, add audio overlays, and create picture-in-picture style video overlays.</li>
-  <li><strong>GIF Tools:</strong> Preview, build, convert, extract frames, add captions, and work with animated GIFs.</li>
-  <li><strong>Motion Effects:</strong> Apply motion-style visual effects to supported media.</li>
-  <li><strong>Cinematic Slideshow:</strong> Play media in a fullscreen-style slideshow with overlays and transitions.</li>
-  <li><strong>SVG Tools:</strong> Preview, edit, batch convert, and export SVG graphics.</li>
-  <li><strong>Converter:</strong> Convert supported image files and videos into common output formats.</li>
-  <li><strong>Downscaler:</strong> Reduce the file size of your image and video files.</li>
-</ul>
-
-<h3>Organization &amp; Search</h3>
-<ul class="features">
-  <li><strong>Organizer:</strong> Copy or move files by date, type, folder, and extension with preview and optional renaming.</li>
-  <li><strong>Rename Files:</strong> Batch rename files using patterns, metadata, or sequence rules.</li>
-  <li><strong>AI Metadata Search:</strong> Search folders using AI-assisted metadata and descriptions. Experimental feature.</li>
-  <li><strong>Run CLI Panel:</strong> Use safe in-app commands for folder analysis and organization. Experimental feature.</li>
-</ul>
-
-<h3>Help &amp; Advanced</h3>
-<ul class="features">
-   <li><strong>Interactive Help:</strong> Get guided help and searchable feature answers inside the app.</li>
-   <li><strong>More:</strong> Open advanced utilities like Upscaler, Organizer, Video Tools, and more.</li>
-   <li><strong>AI Studio:</strong> Access experimental AI-powered media tools.</li>
-   <li><strong>Preferences:</strong> Adjust Grafiq behavior and workflow settings.</li>
- </ul>
-
-<h3>Mini How-To Guides</h3>
-<ul class="features">
-   <li><a href="photo-splitter.html">Split scanned photo sheets into separate images</a></li>
-   <li><a href="redaction.html">Blur or redact private information in photos and screenshots</a></li>
-   <li><a href="metadata.html">Edit or remove photo metadata without uploading your files</a></li>
-   <li><a href="duplicate-images.html">Find duplicate images on your computer</a></li>
-   <li><a href="gif-tools.html">Convert GIFs to MP4 and build GIF or MP4 projects</a></li>
-   <li><a href="converter.html">Convert images and videos without uploading your files</a></li>
-   <li><a href="downscaler.html">Make image and video files smaller without uploading them</a></li>
-   <li><a href="background-remover.html">Remove image backgrounds without uploading your files</a></li>
-   <li><a href="crop-studio.html">Crop images, GIFs, and videos in one desktop app</a></li>
-   <li><a href="video-tools.html">Create picture-in-picture videos and simple MP4 edits</a></li>
-   <li><a href="upscaler.html">Enlarge images and videos with classic or local AI upscaling</a></li>
-   <li><a href="organizer.html">Organize files by date, type, and folder</a></li>
-   <li><a href="rename-files.html">Batch rename files with patterns, numbers, and metadata</a></li>
-   <li><a href="black-and-white.html">Convert photos, GIFs, and videos to black and white</a></li>
-   <li><a href="motion-effects.html">Create motion from still images with zoom, pan, and parallax</a></li>
-   <li><a href="cinematic-slideshow.html">Turn photos into a cinematic slideshow video</a></li>
-   <li><a href="svg-tools.html">Preview and convert SVG files without uploading them</a></li>
-   <li><a href="metadata-explorer.html">Search image metadata across a folder</a></li>
-   <li><a href="image-caption-overlay.html">Add captions and text overlays to photos</a></li>
-   <li><a href="metadata-csv.html">Import and export image captions and metadata with CSV</a></li>
-</ul>
-
-
-<h3>Workflow Guides</h3>
-<ul class="features">
-  <li><a href="photo-archive-workflow.html">Digitize and organize old family photos</a></li>
-  <li><a href="privacy-photo-cleanup.html">Clean up photos before sharing them online</a></li>
-  <li><a href="creator-video-toolbox.html">Simple video tools for creators without a subscription</a></li>
-</ul>
-
+  <div class="promise">
+    No accounts. No ads. No subscriptions. No watermarks. No data harvesting.
   </div>
 
-  <h2>Support</h2>
+  <nav class="buttons" aria-label="Get Grafiq">
+    <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+    <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+  </nav>
+
+  <div class="platforms" aria-label="Platform availability">
+    <span>Windows</span>
+    <span>Mac</span>
+    <span>One-time purchase</span>
+    <span>No subscriptions</span>
+  </div>
+
+  <p class="note">
+    Grafiq is designed like an old-school utility: choose your files, choose a tool,
+    export the result.
+  </p>
+
+  <section class="feature-section" aria-labelledby="photos-images-heading">
+    <h3 id="photos-images-heading">Photos &amp; Images</h3>
+    <ul class="features">
+      <li><strong>Manage Metadata:</strong> Edit captions, descriptions, and metadata for supported files.</li>
+      <li><strong>Background Remover:</strong> Remove image backgrounds locally and refine difficult areas.</li>
+      <li><strong>Crop Studio:</strong> Crop images, animated GIFs, and videos with aspect presets, batch apply, and clean exports.</li>
+      <li><strong>Photo Splitter:</strong> Split one scanned image or scanned PDF page containing multiple printed photos into separate cropped JPG or PNG files.</li>
+      <li><strong>Upscaler:</strong> Enlarge images or videos using classic scaling or built-in local AI models where supported; no API keys required.</li>
+      <li><strong>Black &amp; White Tools:</strong> Convert or process images and videos in grayscale/black-and-white workflows.</li>
+      <li><strong>Redactor:</strong> Blur, hide, pixelate, crop, spotlight, highlight, or mark up sensitive image content.</li>
+      <li><strong>Find Image Duplicates:</strong> Detect visually similar or duplicate images.</li>
+    </ul>
+  </section>
+
+  <section class="feature-section" aria-labelledby="video-gif-heading">
+    <h3 id="video-gif-heading">Video, GIF &amp; Graphics</h3>
+    <ul class="features">
+      <li><strong>Video Tools:</strong> Trim, rotate, reorder, combine, mute, add audio overlays, and create picture-in-picture style video overlays.</li>
+      <li><strong>GIF Tools:</strong> Preview, build, convert, extract frames, add captions, and work with animated GIFs.</li>
+      <li><strong>Motion Effects:</strong> Apply motion-style visual effects to supported media.</li>
+      <li><strong>Cinematic Slideshow:</strong> Play media in a fullscreen-style slideshow with overlays and transitions.</li>
+      <li><strong>SVG Tools:</strong> Preview, edit, batch convert, and export SVG graphics.</li>
+      <li><strong>Converter:</strong> Convert supported image files and videos into common output formats.</li>
+      <li><strong>Downscaler:</strong> Reduce the file size of your image and video files.</li>
+    </ul>
+  </section>
+
+  <section class="feature-section" aria-labelledby="organization-search-heading">
+    <h3 id="organization-search-heading">Organization &amp; Search</h3>
+    <ul class="features">
+      <li><strong>Organizer:</strong> Copy or move files by date, type, folder, and extension with preview and optional renaming.</li>
+      <li><strong>Rename Files:</strong> Batch rename files using patterns, metadata, or sequence rules.</li>
+      <li><strong>AI Metadata Search:</strong> Search folders using AI-assisted metadata and descriptions. Experimental feature.</li>
+      <li><strong>Run CLI Panel:</strong> Use safe in-app commands for folder analysis and organization. Experimental feature.</li>
+    </ul>
+  </section>
+
+  <section class="feature-section" aria-labelledby="help-advanced-heading">
+    <h3 id="help-advanced-heading">Help &amp; Advanced</h3>
+    <ul class="features">
+      <li><strong>Interactive Help:</strong> Get guided help and searchable feature answers inside the app.</li>
+      <li><strong>More:</strong> Open advanced utilities like Upscaler, Organizer, Video Tools, and more.</li>
+      <li><strong>AI Studio:</strong> Access experimental AI-powered media tools.</li>
+      <li><strong>Preferences:</strong> Adjust Grafiq behavior and workflow settings.</li>
+    </ul>
+  </section>
+
+  <nav class="feature-section" aria-labelledby="mini-guides-heading">
+    <h3 id="mini-guides-heading">Mini How-To Guides</h3>
+    <ul class="features">
+      <li><a href="photo-splitter.html">Split scanned photo sheets into separate images</a></li>
+      <li><a href="redaction.html">Blur or redact private information in photos and screenshots</a></li>
+      <li><a href="metadata.html">Edit or remove photo metadata without uploading your files</a></li>
+      <li><a href="duplicate-images.html">Find duplicate images on your computer</a></li>
+      <li><a href="gif-tools.html">Convert GIFs to MP4 and build GIF or MP4 projects</a></li>
+      <li><a href="converter.html">Convert images and videos without uploading your files</a></li>
+      <li><a href="downscaler.html">Make image and video files smaller without uploading them</a></li>
+      <li><a href="background-remover.html">Remove image backgrounds without uploading your files</a></li>
+      <li><a href="crop-studio.html">Crop images, GIFs, and videos in one desktop app</a></li>
+      <li><a href="video-tools.html">Create picture-in-picture videos and simple MP4 edits</a></li>
+      <li><a href="upscaler.html">Enlarge images and videos with classic or local AI upscaling</a></li>
+      <li><a href="organizer.html">Organize files by date, type, and folder</a></li>
+      <li><a href="rename-files.html">Batch rename files with patterns, numbers, and metadata</a></li>
+      <li><a href="black-and-white.html">Convert photos, GIFs, and videos to black and white</a></li>
+      <li><a href="motion-effects.html">Create motion from still images with zoom, pan, and parallax</a></li>
+      <li><a href="cinematic-slideshow.html">Turn photos into a cinematic slideshow video</a></li>
+      <li><a href="svg-tools.html">Preview and convert SVG files without uploading them</a></li>
+      <li><a href="metadata-explorer.html">Search image metadata across a folder</a></li>
+      <li><a href="image-caption-overlay.html">Add captions and text overlays to photos</a></li>
+      <li><a href="metadata-csv.html">Import and export image captions and metadata with CSV</a></li>
+    </ul>
+  </nav>
+
+  <nav class="feature-section" aria-labelledby="workflow-guides-heading">
+    <h3 id="workflow-guides-heading">Workflow Guides</h3>
+    <ul class="features">
+      <li><a href="photo-archive-workflow.html">Digitize and organize old family photos</a></li>
+      <li><a href="privacy-photo-cleanup.html">Clean up photos before sharing them online</a></li>
+      <li><a href="creator-video-toolbox.html">Simple video tools for creators without a subscription</a></li>
+    </ul>
+  </nav>
+</section>
+
+<section aria-labelledby="support-heading">
+  <h2 id="support-heading">Support</h2>
   <p>
     For support, contact:
     <a href="mailto:ranbyteapps@gmail.com">ranbyteapps@gmail.com</a>
   </p>
+</section>
 
-  <h2>Privacy</h2>
+<section aria-labelledby="privacy-heading">
+  <h2 id="privacy-heading">Privacy</h2>
   <p>
     Grafiq is designed to process files locally by default. It does not require
     accounts, ads, subscriptions, watermarks, or data harvesting.
@@ -264,12 +302,27 @@ footer {
     to Ranbyte Apps. The only exception is if you choose to email or share files with us
     for support.
   </p>
+</section>
+
+<section aria-labelledby="accessibility-heading">
+  <h2 id="accessibility-heading">Accessibility</h2>
+  <p>
+    Ranbyte Apps wants the Grafiq website to be usable by as many people as possible.
+    If you have trouble accessing any part of this site, please email
+    <a href="mailto:ranbyteapps@gmail.com">ranbyteapps@gmail.com</a>
+    and describe the page and issue so we can review it.
+  </p>
+</section>
+
+  </main>
 
   <footer>
-    <p>
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
