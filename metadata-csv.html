@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
-```
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
+
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -164,277 +191,283 @@ footer {
     <a href="upscaler.html">Upscaler Guide</a>
     <a href="organizer.html">Organizer Guide</a>
     <a href="rename-files.html">Rename Files Guide</a>
-    <a href="black-and-white.html">Black & White Guide</a>
+    <a href="black-and-white.html">Black &amp; White Guide</a>
     <a href="motion-effects.html">Motion Effects Guide</a>
     <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a>
     <a href="svg-tools.html">SVG Tools Guide</a>
     <a href="metadata-explorer.html">Metadata Explorer Guide</a>
-    <a href="image-caption-overlay.html">Caption & Overlay Guide</a>
+    <a href="image-caption-overlay.html">Caption &amp; Overlay Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Import and export image captions and metadata with CSV</h1>
-  <p class="tagline">Use Grafiq to move image descriptions and metadata into or out of spreadsheet-friendly CSV files.</p>
+  <main id="main-content">
+    <h1>Import and export image captions and metadata with CSV</h1>
+    <p class="tagline">Use Grafiq to move image descriptions and metadata into or out of spreadsheet-friendly CSV files.</p>
 
-  <div class="card">
-    <p class="lead">
-      When you are working with a folder of photos, scans, or project images, editing one file at a time can be slow.
-      CSV workflows make it easier to review captions, descriptions, filenames, and metadata in a spreadsheet-style format.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Metadata CSV overview</h2>
+      <p class="lead">
+        When you are working with a folder of photos, scans, or project images, editing one file at a time can be slow.
+        CSV workflows make it easier to review captions, descriptions, filenames, and metadata in a spreadsheet-style format.
+      </p>
 
+      <p>
+        Grafiq can help you export image metadata for review and import descriptions or captions back into supported files.
+        This is useful for family archives, scanned photo projects, image catalogs, documentation folders, and metadata cleanup.
+      </p>
 
-<p>
-  Grafiq can help you export image metadata for review and import descriptions or captions back into supported files.
-  This is useful for family archives, scanned photo projects, image catalogs, documentation folders, and metadata cleanup.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What CSV metadata workflows are for</h2>
+      <p>
+        A CSV file is a simple spreadsheet-friendly text file. It can hold rows for filenames and columns for captions, descriptions, tags, or other metadata fields.
+        This makes it useful when you want to review many files at once instead of opening each image individually.
+      </p>
 
+      <ul class="features">
+        <li>Export image metadata to a CSV file for review.</li>
+        <li>Open exported metadata in a spreadsheet app.</li>
+        <li>Review filenames, captions, descriptions, and other available fields.</li>
+        <li>Prepare or edit descriptions in a table-style workflow.</li>
+        <li>Import descriptions or captions back into supported images where available.</li>
+        <li>Use CSV as a simple record of an image archive or project folder.</li>
+        <li>Work locally without uploading images to an online metadata service.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        CSV metadata workflows happen with files you choose on your computer. You do not need to upload private photos, scans, or archives to an online metadata tool.
+      </div>
+    </section>
 
-  <h2>What CSV metadata workflows are for</h2>
-  <p>
-    A CSV file is a simple spreadsheet-friendly text file. It can hold rows for filenames and columns for captions, descriptions, tags, or other metadata fields.
-    This makes it useful when you want to review many files at once instead of opening each image individually.
-  </p>
+    <section aria-labelledby="export-heading">
+      <h2 id="export-heading">How to export image metadata to CSV</h2>
 
-  <ul class="features">
-    <li>Export image metadata to a CSV file for review.</li>
-    <li>Open exported metadata in a spreadsheet app.</li>
-    <li>Review filenames, captions, descriptions, and other available fields.</li>
-    <li>Prepare or edit descriptions in a table-style workflow.</li>
-    <li>Import descriptions or captions back into supported images where available.</li>
-    <li>Use CSV as a simple record of an image archive or project folder.</li>
-    <li>Work locally without uploading images to an online metadata service.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open the metadata tools.</strong><br>
+          In Grafiq, open the metadata feature area, such as <strong>Metadata Explorer</strong> or the available metadata export workflow.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    CSV metadata workflows happen with files you choose on your computer. You do not need to upload private photos, scans, or archives to an online metadata tool.
-  </div>
+        <li>
+          <strong>Choose the folder or files.</strong><br>
+          Select the image folder or image files you want to review.
+        </li>
 
-  <h2>How to export image metadata to CSV</h2>
+        <li>
+          <strong>Run the metadata scan.</strong><br>
+          Let Grafiq read available metadata from the selected files.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open the metadata tools.</strong><br>
-      In Grafiq, open the metadata feature area, such as <strong>Metadata Explorer</strong> or the available metadata export workflow.
-    </li>
+        <li>
+          <strong>Review the results.</strong><br>
+          Check that the files and fields look reasonable before exporting.
+        </li>
 
+        <li>
+          <strong>Export to CSV.</strong><br>
+          Use the CSV export option and choose where to save the CSV file.
+        </li>
 
-<li>
-  <strong>Choose the folder or files.</strong><br>
-  Select the image folder or image files you want to review.
-</li>
+        <li>
+          <strong>Open the CSV in a spreadsheet app.</strong><br>
+          Review the exported rows and columns in Excel, Numbers, LibreOffice, Google Sheets, or another spreadsheet tool.
+        </li>
+      </ol>
 
-<li>
-  <strong>Run the metadata scan.</strong><br>
-  Let Grafiq read available metadata from the selected files.
-</li>
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Export first, review the CSV, and keep that CSV as a reference before doing large metadata edits.
+      </div>
+    </section>
 
-<li>
-  <strong>Review the results.</strong><br>
-  Check that the files and fields look reasonable before exporting.
-</li>
+    <section aria-labelledby="import-heading">
+      <h2 id="import-heading">How to import descriptions from CSV</h2>
 
-<li>
-  <strong>Export to CSV.</strong><br>
-  Use the CSV export option and choose where to save the CSV file.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Prepare your CSV file.</strong><br>
+          Make sure the CSV includes a filename or file path column and a description or caption column that Grafiq can match.
+        </li>
 
-<li>
-  <strong>Open the CSV in a spreadsheet app.</strong><br>
-  Review the exported rows and columns in Excel, Numbers, LibreOffice, Google Sheets, or another spreadsheet tool.
-</li>
+        <li>
+          <strong>Keep filenames stable.</strong><br>
+          Do not rename or move the image files between exporting the CSV and importing it back, unless your CSV uses updated paths.
+        </li>
 
+        <li>
+          <strong>Open the import workflow.</strong><br>
+          In Grafiq, choose the available option to import descriptions or metadata from CSV.
+        </li>
 
-  </ol>
+        <li>
+          <strong>Select the CSV file.</strong><br>
+          Choose the prepared CSV file.
+        </li>
 
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Export first, review the CSV, and keep that CSV as a reference before doing large metadata edits.
-  </div>
+        <li>
+          <strong>Map or confirm fields if prompted.</strong><br>
+          Confirm which CSV column contains filenames and which column contains captions or descriptions.
+        </li>
 
-  <h2>How to import descriptions from CSV</h2>
+        <li>
+          <strong>Run the import.</strong><br>
+          Let Grafiq apply matching descriptions to supported files.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Prepare your CSV file.</strong><br>
-      Make sure the CSV includes a filename or file path column and a description or caption column that Grafiq can match.
-    </li>
+        <li>
+          <strong>Check a few files.</strong><br>
+          Open several updated images and confirm the imported text landed where expected.
+        </li>
+      </ol>
+    </section>
 
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for metadata CSV files</h2>
 
-<li>
-  <strong>Keep filenames stable.</strong><br>
-  Do not rename or move the image files between exporting the CSV and importing it back, unless your CSV uses updated paths.
-</li>
+      <ul class="features">
+        <li>Create captions for a folder of scanned family photos.</li>
+        <li>Review image descriptions in a spreadsheet before importing them.</li>
+        <li>Keep a simple archive list of filenames and captions.</li>
+        <li>Share a metadata review sheet with someone helping identify people or places.</li>
+        <li>Find missing captions or incomplete descriptions.</li>
+        <li>Prepare image metadata before using Rename Files or Organizer.</li>
+        <li>Export a record of metadata before stripping or editing fields.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Open the import workflow.</strong><br>
-  In Grafiq, choose the available option to import descriptions or metadata from CSV.
-</li>
+    <section aria-labelledby="scanned-photos-heading">
+      <h2 id="scanned-photos-heading">Suggested CSV workflow for scanned photos</h2>
 
-<li>
-  <strong>Select the CSV file.</strong><br>
-  Choose the prepared CSV file.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Split scanned photo sheets first.</strong><br>
+          Use <strong>Photo Splitter</strong> if your scanner created pages containing multiple photos.
+        </li>
 
-<li>
-  <strong>Map or confirm fields if prompted.</strong><br>
-  Confirm which CSV column contains filenames and which column contains captions or descriptions.
-</li>
+        <li>
+          <strong>Rename files into a clean sequence.</strong><br>
+          Use <strong>Rename Files</strong> or <strong>Organizer</strong> so the image filenames are stable and easy to review.
+        </li>
 
-<li>
-  <strong>Run the import.</strong><br>
-  Let Grafiq apply matching descriptions to supported files.
-</li>
+        <li>
+          <strong>Export metadata to CSV.</strong><br>
+          Create a spreadsheet-style list of the image files.
+        </li>
 
-<li>
-  <strong>Check a few files.</strong><br>
-  Open several updated images and confirm the imported text landed where expected.
-</li>
+        <li>
+          <strong>Add captions or descriptions in the CSV.</strong><br>
+          Fill in names, dates, places, events, or notes.
+        </li>
 
+        <li>
+          <strong>Import descriptions back into Grafiq.</strong><br>
+          Apply the CSV captions or descriptions to the matching files where supported.
+        </li>
 
-  </ol>
+        <li>
+          <strong>Optionally add visible captions.</strong><br>
+          Use <strong>Image Caption &amp; Overlay</strong> if you also want visible text on exported copies.
+        </li>
+      </ol>
+    </section>
 
-  <h2>Good uses for metadata CSV files</h2>
+    <section aria-labelledby="tips-heading">
+      <h2 id="tips-heading">CSV tips</h2>
 
-  <ul class="features">
-    <li>Create captions for a folder of scanned family photos.</li>
-    <li>Review image descriptions in a spreadsheet before importing them.</li>
-    <li>Keep a simple archive list of filenames and captions.</li>
-    <li>Share a metadata review sheet with someone helping identify people or places.</li>
-    <li>Find missing captions or incomplete descriptions.</li>
-    <li>Prepare image metadata before using Rename Files or Organizer.</li>
-    <li>Export a record of metadata before stripping or editing fields.</li>
-  </ul>
+      <ul class="features">
+        <li>Keep a backup copy of the CSV before editing.</li>
+        <li>Keep filenames and paths consistent between export and import.</li>
+        <li>Use short, clear column names.</li>
+        <li>Avoid changing filename extensions in the CSV unless you also changed the actual files.</li>
+        <li>Be careful with commas inside captions if your spreadsheet app changes CSV formatting.</li>
+        <li>Test with a few files before importing a large CSV.</li>
+      </ul>
+    </section>
 
-  <h2>Suggested CSV workflow for scanned photos</h2>
+    <section aria-labelledby="comparison-heading">
+      <h2 id="comparison-heading">CSV metadata vs. visible captions</h2>
 
-  <ol class="steps">
-    <li>
-      <strong>Split scanned photo sheets first.</strong><br>
-      Use <strong>Photo Splitter</strong> if your scanner created pages containing multiple photos.
-    </li>
+      <ul class="features">
+        <li><strong>CSV metadata workflow:</strong> Best for reviewing and importing embedded descriptions or captions across many files.</li>
+        <li><strong>Visible caption overlay:</strong> Best when you want text drawn directly onto an exported image.</li>
+      </ul>
 
+      <div class="note">
+        <strong>Good workflow:</strong>
+        Use CSV metadata for archive organization and searchable descriptions.
+        Use visible caption overlays when the text needs to appear directly on the image.
+      </div>
+    </section>
 
-<li>
-  <strong>Rename files into a clean sequence.</strong><br>
-  Use <strong>Rename Files</strong> or <strong>Organizer</strong> so the image filenames are stable and easy to review.
-</li>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-<li>
-  <strong>Export metadata to CSV.</strong><br>
-  Create a spreadsheet-style list of the image files.
-</li>
+      <ul class="features">
+        <li>Not every image format supports every metadata field.</li>
+        <li>Metadata import depends on matching the CSV row to the correct file.</li>
+        <li>If files are renamed after exporting the CSV, imports may not match.</li>
+        <li>Spreadsheet apps can sometimes reformat text, dates, or special characters.</li>
+        <li>Keep originals and backups before running large metadata imports.</li>
+        <li>After importing, check a few files before assuming the whole batch is correct.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Add captions or descriptions in the CSV.</strong><br>
-  Fill in names, dates, places, events, or notes.
-</li>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        CSV metadata workflows are part of Grafiq’s metadata tools, alongside Metadata Explorer, Image Caption &amp; Overlay, SVG Tools, Cinematic Slideshow, Motion Effects, Black &amp; White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, photo splitting, duplicate finding, and more.
+      </p>
 
-<li>
-  <strong>Import descriptions back into Grafiq.</strong><br>
-  Apply the CSV captions or descriptions to the matching files where supported.
-</li>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-<li>
-  <strong>Optionally add visible captions.</strong><br>
-  Use <strong>Image Caption & Overlay</strong> if you also want visible text on exported copies.
-</li>
-
-
-  </ol>
-
-  <h2>CSV tips</h2>
-
-  <ul class="features">
-    <li>Keep a backup copy of the CSV before editing.</li>
-    <li>Keep filenames and paths consistent between export and import.</li>
-    <li>Use short, clear column names.</li>
-    <li>Avoid changing filename extensions in the CSV unless you also changed the actual files.</li>
-    <li>Be careful with commas inside captions if your spreadsheet app changes CSV formatting.</li>
-    <li>Test with a few files before importing a large CSV.</li>
-  </ul>
-
-  <h2>CSV metadata vs. visible captions</h2>
-
-  <ul class="features">
-    <li><strong>CSV metadata workflow:</strong> Best for reviewing and importing embedded descriptions or captions across many files.</li>
-    <li><strong>Visible caption overlay:</strong> Best when you want text drawn directly onto an exported image.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Good workflow:</strong>
-    Use CSV metadata for archive organization and searchable descriptions.
-    Use visible caption overlays when the text needs to appear directly on the image.
-  </div>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Not every image format supports every metadata field.</li>
-    <li>Metadata import depends on matching the CSV row to the correct file.</li>
-    <li>If files are renamed after exporting the CSV, imports may not match.</li>
-    <li>Spreadsheet apps can sometimes reformat text, dates, or special characters.</li>
-    <li>Keep originals and backups before running large metadata imports.</li>
-    <li>After importing, check a few files before assuming the whole batch is correct.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      CSV metadata workflows are part of Grafiq’s metadata tools, alongside Metadata Explorer, Image Caption & Overlay, SVG Tools, Cinematic Slideshow, Motion Effects, Black & White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, photo splitting, duplicate finding, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="video-tools.html">Video Tools Guide</a> |
-      <a href="upscaler.html">Upscaler Guide</a> |
-      <a href="organizer.html">Organizer Guide</a> |
-      <a href="rename-files.html">Rename Files Guide</a> |
-      <a href="black-and-white.html">Black & White Guide</a> |
-      <a href="motion-effects.html">Motion Effects Guide</a> |
-      <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
-      <a href="svg-tools.html">SVG Tools Guide</a> |
-      <a href="metadata-explorer.html">Metadata Explorer Guide</a> |
-      <a href="image-caption-overlay.html">Caption & Overlay Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="video-tools.html">Video Tools Guide</a> |
+        <a href="upscaler.html">Upscaler Guide</a> |
+        <a href="organizer.html">Organizer Guide</a> |
+        <a href="rename-files.html">Rename Files Guide</a> |
+        <a href="black-and-white.html">Black &amp; White Guide</a> |
+        <a href="motion-effects.html">Motion Effects Guide</a> |
+        <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
+        <a href="svg-tools.html">SVG Tools Guide</a> |
+        <a href="metadata-explorer.html">Metadata Explorer Guide</a> |
+        <a href="image-caption-overlay.html">Caption &amp; Overlay Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
