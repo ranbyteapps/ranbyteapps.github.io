@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,462 +16,504 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="metadata-csv.html">Metadata CSV Guide</a>
-    <a href="image-caption-overlay.html">Caption & Overlay Guide</a>
+    <a href="image-caption-overlay.html">Caption &amp; Overlay Guide</a>
     <a href="organizer.html">Organizer Guide</a>
     <a href="rename-files.html">Rename Files Guide</a>
     <a href="duplicate-images.html">Duplicate Images Guide</a>
     <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <h1>Digitize and organize old family photos</h1>
-  <p class="tagline">Use Grafiq to split scanned photo sheets, clean up file names, add captions, find duplicates, and turn old photos into organized archives or slideshow videos.</p>
-
-  <div class="card">
-    <p class="lead">
-      Old family photos often start as boxes, albums, scanner PDFs, or large scanned sheets with several printed photos on one page.
-      Grafiq gives you a practical local workflow for turning those scans into individual, organized, captioned image files.
-    </p>
-
-
-<p>
-  Use Photo Splitter, Rename Files, Organizer, Metadata tools, Duplicate Finder, Caption & Overlay, and Cinematic Slideshow together to build a cleaner family photo archive.
-</p>
-
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-
-  </div>
-
-  <h2>The basic family photo workflow</h2>
-
-  <p>
-    A good archive workflow does not need to be complicated. The main idea is to scan, split, name, organize, describe, and back up your photos.
-  </p>
-
-  <ol class="steps">
-    <li><strong>Scan the photos.</strong> Use your scanner or phone scanning workflow to create image files or scanned pages.</li>
-    <li><strong>Split scanned sheets.</strong> Use Photo Splitter when one scan contains multiple printed photos.</li>
-    <li><strong>Rename files clearly.</strong> Use Rename Files to create stable, readable filenames.</li>
-    <li><strong>Organize into folders.</strong> Use Organizer to copy or move files by type, date, or project folder.</li>
-    <li><strong>Find duplicates.</strong> Use Duplicate Finder before your archive gets too messy.</li>
-    <li><strong>Add descriptions or captions.</strong> Use metadata tools, CSV workflows, or visible Caption & Overlay depending on your goal.</li>
-    <li><strong>Create a slideshow if desired.</strong> Use Cinematic Slideshow to turn selected photos into a video-style memory project.</li>
-  </ol>
-
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Family photos can be personal. Grafiq is designed for local desktop workflows, so you do not need to upload old photos or family archives to an online editing service just to split, rename, caption, or organize them.
-  </div>
-
-  <h2>Step 1: Scan your photos</h2>
-
-  <p>
-    Start with the best scans you can reasonably make. Better source files make every later step easier.
-  </p>
-
-  <ul class="features">
-    <li>Clean the scanner glass before scanning.</li>
-    <li>Leave a little space between printed photos when scanning multiple photos on one page.</li>
-    <li>Use a plain background when possible.</li>
-    <li>Save a high-quality original scan before making edited copies.</li>
-    <li>Keep raw scans in a separate folder so you can return to them later.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Keep one folder for original scans and another folder for edited or split photos. Do not treat edited copies as your only archive.
-  </div>
-
-  <h2>Step 2: Split scanned photo sheets</h2>
-
-  <p>
-    If one scan contains several printed photos, use Grafiq Photo Splitter to turn the page into separate image files.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Photo Splitter.</strong><br>
-      In Grafiq, open <strong>More → Photo Splitter</strong>.
-    </li>
-
-
-<li>
-  <strong>Open the scanned page.</strong><br>
-  Load the scan that contains multiple photos.
-</li>
-
-<li>
-  <strong>Use Auto-Detect.</strong><br>
-  Try automatic detection first. Use plain-background mode for scanner-bed style images, or album/textured mode for more difficult backgrounds.
-</li>
-
-<li>
-  <strong>Adjust crop boxes manually.</strong><br>
-  Move, resize, add, or delete boxes until each photo has the correct crop.
-</li>
-
-<li>
-  <strong>Export separate photos.</strong><br>
-  Save each detected photo as its own JPG or PNG file.
-</li>
-
-
-  </ol>
-
-  <p class="small">
-    Mac note: Photo Splitter can open scanned PDFs directly on Mac. On Windows, convert scanned PDF pages to JPG first using Grafiq Converter, then open the JPG in Photo Splitter.
-  </p>
-
-  <h2>Step 3: Rename files into a stable sequence</h2>
-
-  <p>
-    Scanners often create names like <code>Scan001</code>, <code>IMG_4521</code>, or <code>Untitled</code>. Renaming files early makes the archive easier to manage.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Rename Files.</strong><br>
-      Use <strong>More → Rename Files</strong>.
-    </li>
-
-
-<li>
-  <strong>Select the split photo files.</strong><br>
-  Choose the files from your exported photo folder.
-</li>
-
-<li>
-  <strong>Use sequential naming.</strong><br>
-  Choose a base name such as <code>family-archive</code>, <code>mom-album</code>, <code>grandparents</code>, or <code>summer-1984</code>.
-</li>
-
-<li>
-  <strong>Use padding.</strong><br>
-  Use numbering like <code>001</code>, <code>002</code>, and <code>003</code> so files sort correctly.
-</li>
-
-<li>
-  <strong>Review before large batches.</strong><br>
-  Test on a few files first if you are not sure.
-</li>
-
-
-  </ol>
-
-  <div class="note">
-    <strong>Good naming example:</strong>
-    <code>family-archive-001.jpg</code>, <code>family-archive-002.jpg</code>, <code>family-archive-003.jpg</code>
-  </div>
-
-  <h2>Step 4: Organize photos into folders</h2>
-
-  <p>
-    Once the photos are split and named, use Organizer to copy or move them into cleaner folders.
-  </p>
-
-  <ul class="features">
-    <li>Organize by project, album, person, decade, year, or event.</li>
-    <li>Use Copy first when testing a new organization plan.</li>
-    <li>Use Move only when you are sure the preview is correct.</li>
-    <li>Create destination folders such as <code>Family Archive</code>, <code>Scanned Photos</code>, <code>Mom Album</code>, or <code>Vacation 1984</code>.</li>
-    <li>Keep original scans separate from finished photo exports.</li>
-  </ul>
-
-  <h2>Step 5: Find duplicate images</h2>
-
-  <p>
-    Duplicate photos happen quickly during scanning, exporting, editing, and backing up. Grafiq Duplicate Finder can help you find exact or visually similar images.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Find Image Duplicates.</strong><br>
-      Choose the folder you want to inspect.
-    </li>
-
-
-<li>
-  <strong>Choose a detection method.</strong><br>
-  Use hash matching for exact duplicates, or pixel similarity for visually similar images.
-</li>
-
-<li>
-  <strong>Review duplicate groups.</strong><br>
-  Preview before deleting or moving anything.
-</li>
-
-<li>
-  <strong>Move duplicates before deleting.</strong><br>
-  For safety, move suspected duplicates into a review folder first.
-</li>
-
-
-  </ol>
-
-  <div class="note">
-    <strong>Archive safety tip:</strong>
-    Do not delete old family photos too quickly. Move duplicates to a review folder first, then decide later after checking quality and context.
-  </div>
-
-  <h2>Step 6: Add captions and descriptions</h2>
-
-  <p>
-    Family photos become much more valuable when names, dates, places, and notes are attached to them.
-    Grafiq gives you more than one way to do that.
-  </p>
-
-  <ul class="features">
-    <li><strong>Metadata captions:</strong> Store descriptions inside supported image files without changing how the image looks.</li>
-    <li><strong>CSV metadata workflow:</strong> Review and prepare captions in a spreadsheet-style file, then import descriptions where supported.</li>
-    <li><strong>Visible Caption & Overlay:</strong> Draw names, dates, or notes directly onto exported image copies.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Use metadata captions for archive information. Use visible captions when you want the text to appear directly on the image.
-  </div>
-
-  <h2>Suggested caption fields for family photos</h2>
-
-  <ul class="features">
-    <li>Who is in the photo?</li>
-    <li>Where was it taken?</li>
-    <li>When was it taken?</li>
-    <li>What event was happening?</li>
-    <li>Who provided or identified the photo?</li>
-    <li>Was it scanned from an album, loose print, slide, or document?</li>
-  </ul>
-
-  <h2>Step 7: Create a slideshow video</h2>
-
-  <p>
-    After organizing and captioning a set of photos, you may want to turn them into something easier to watch and share.
-    Grafiq Cinematic Slideshow can turn selected images into a video-style slideshow.
-  </p>
-
-  <ul class="features">
-    <li>Create a slideshow from a folder of family photos.</li>
-    <li>Arrange photos in story order.</li>
-    <li>Add simple timing and motion.</li>
-    <li>Use captions or title cards where supported.</li>
-    <li>Export a video copy while keeping the original photos unchanged.</li>
-  </ul>
-
-  <h2>Good folder structure for a family photo archive</h2>
-
-  <p>
-    There is no single perfect folder structure, but simple is better than clever.
-  </p>
-
-  <ul class="features">
-    <li><code>Original Scans</code> — untouched scanner output.</li>
-    <li><code>Split Photos</code> — individual photos exported from scanned sheets.</li>
-    <li><code>Edited Copies</code> — cropped, captioned, cleaned, or adjusted versions.</li>
-    <li><code>Duplicates Review</code> — possible duplicates to check before deleting.</li>
-    <li><code>Slideshow Projects</code> — finished slideshow videos or project files.</li>
-  </ul>
-
-  <h2>Good uses for this workflow</h2>
-
-  <ul class="features">
-    <li>Scanning old family albums.</li>
-    <li>Splitting multiple printed photos from one scan.</li>
-    <li>Cleaning up inherited photo folders.</li>
-    <li>Adding names and dates to old pictures.</li>
-    <li>Preparing family photos for relatives.</li>
-    <li>Creating memorial, anniversary, reunion, or birthday slideshows.</li>
-    <li>Building a long-term personal archive without uploading everything to a website.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Keep original scans before editing or splitting.</li>
-    <li>Do not delete duplicates until you check resolution, cropping, and image quality.</li>
-    <li>Visible captions become part of the exported image.</li>
-    <li>Metadata captions may not be visible in every app.</li>
-    <li>CSV imports depend on filenames or paths matching correctly.</li>
-    <li>Back up important photo folders before doing large rename, move, or cleanup jobs.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      For old family photos, it can help with splitting scans, organizing folders, renaming files, finding duplicates, adding captions, reviewing metadata, and creating slideshow videos.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+  </nav>
+
+  <main id="main-content">
+    <h1>Digitize and organize old family photos</h1>
+    <p class="tagline">Use Grafiq to split scanned photo sheets, clean up file names, add captions, find duplicates, and turn old photos into organized archives or slideshow videos.</p>
+
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Family photo archive workflow overview</h2>
+      <p class="lead">
+        Old family photos often start as boxes, albums, scanner PDFs, or large scanned sheets with several printed photos on one page.
+        Grafiq gives you a practical local workflow for turning those scans into individual, organized, captioned image files.
+      </p>
+
+      <p>
+        Use Photo Splitter, Rename Files, Organizer, Metadata tools, Duplicate Finder, Caption &amp; Overlay, and Cinematic Slideshow together to build a cleaner family photo archive.
+      </p>
+
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
+
+    <section aria-labelledby="basic-workflow-heading">
+      <h2 id="basic-workflow-heading">The basic family photo workflow</h2>
+
+      <p>
+        A good archive workflow does not need to be complicated. The main idea is to scan, split, name, organize, describe, and back up your photos.
+      </p>
+
+      <ol class="steps">
+        <li><strong>Scan the photos.</strong> Use your scanner or phone scanning workflow to create image files or scanned pages.</li>
+        <li><strong>Split scanned sheets.</strong> Use Photo Splitter when one scan contains multiple printed photos.</li>
+        <li><strong>Rename files clearly.</strong> Use Rename Files to create stable, readable filenames.</li>
+        <li><strong>Organize into folders.</strong> Use Organizer to copy or move files by type, date, or project folder.</li>
+        <li><strong>Find duplicates.</strong> Use Duplicate Finder before your archive gets too messy.</li>
+        <li><strong>Add descriptions or captions.</strong> Use metadata tools, CSV workflows, or visible Caption &amp; Overlay depending on your goal.</li>
+        <li><strong>Create a slideshow if desired.</strong> Use Cinematic Slideshow to turn selected photos into a video-style memory project.</li>
+      </ol>
+
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Family photos can be personal. Grafiq is designed for local desktop workflows, so you do not need to upload old photos or family archives to an online editing service just to split, rename, caption, or organize them.
+      </div>
+    </section>
+
+    <section aria-labelledby="scan-heading">
+      <h2 id="scan-heading">Step 1: Scan your photos</h2>
+
+      <p>
+        Start with the best scans you can reasonably make. Better source files make every later step easier.
+      </p>
+
+      <ul class="features">
+        <li>Clean the scanner glass before scanning.</li>
+        <li>Leave a little space between printed photos when scanning multiple photos on one page.</li>
+        <li>Use a plain background when possible.</li>
+        <li>Save a high-quality original scan before making edited copies.</li>
+        <li>Keep raw scans in a separate folder so you can return to them later.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Keep one folder for original scans and another folder for edited or split photos. Do not treat edited copies as your only archive.
+      </div>
+    </section>
+
+    <section aria-labelledby="split-heading">
+      <h2 id="split-heading">Step 2: Split scanned photo sheets</h2>
+
+      <p>
+        If one scan contains several printed photos, use Grafiq Photo Splitter to turn the page into separate image files.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Photo Splitter.</strong><br>
+          In Grafiq, open <strong>More → Photo Splitter</strong>.
+        </li>
+
+        <li>
+          <strong>Open the scanned page.</strong><br>
+          Load the scan that contains multiple photos.
+        </li>
+
+        <li>
+          <strong>Use Auto-Detect.</strong><br>
+          Try automatic detection first. Use plain-background mode for scanner-bed style images, or album/textured mode for more difficult backgrounds.
+        </li>
+
+        <li>
+          <strong>Adjust crop boxes manually.</strong><br>
+          Move, resize, add, or delete boxes until each photo has the correct crop.
+        </li>
+
+        <li>
+          <strong>Export separate photos.</strong><br>
+          Save each detected photo as its own JPG or PNG file.
+        </li>
+      </ol>
+
+      <p class="small">
+        Mac note: Photo Splitter can open scanned PDFs directly on Mac. On Windows, convert scanned PDF pages to JPG first using Grafiq Converter, then open the JPG in Photo Splitter.
+      </p>
+    </section>
+
+    <section aria-labelledby="rename-heading">
+      <h2 id="rename-heading">Step 3: Rename files into a stable sequence</h2>
+
+      <p>
+        Scanners often create names like <code>Scan001</code>, <code>IMG_4521</code>, or <code>Untitled</code>. Renaming files early makes the archive easier to manage.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Rename Files.</strong><br>
+          Use <strong>More → Rename Files</strong>.
+        </li>
+
+        <li>
+          <strong>Select the split photo files.</strong><br>
+          Choose the files from your exported photo folder.
+        </li>
+
+        <li>
+          <strong>Use sequential naming.</strong><br>
+          Choose a base name such as <code>family-archive</code>, <code>mom-album</code>, <code>grandparents</code>, or <code>summer-1984</code>.
+        </li>
+
+        <li>
+          <strong>Use padding.</strong><br>
+          Use numbering like <code>001</code>, <code>002</code>, and <code>003</code> so files sort correctly.
+        </li>
+
+        <li>
+          <strong>Review before large batches.</strong><br>
+          Test on a few files first if you are not sure.
+        </li>
+      </ol>
+
+      <div class="note">
+        <strong>Good naming example:</strong>
+        <code>family-archive-001.jpg</code>, <code>family-archive-002.jpg</code>, <code>family-archive-003.jpg</code>
+      </div>
+    </section>
+
+    <section aria-labelledby="organize-heading">
+      <h2 id="organize-heading">Step 4: Organize photos into folders</h2>
+
+      <p>
+        Once the photos are split and named, use Organizer to copy or move them into cleaner folders.
+      </p>
+
+      <ul class="features">
+        <li>Organize by project, album, person, decade, year, or event.</li>
+        <li>Use Copy first when testing a new organization plan.</li>
+        <li>Use Move only when you are sure the preview is correct.</li>
+        <li>Create destination folders such as <code>Family Archive</code>, <code>Scanned Photos</code>, <code>Mom Album</code>, or <code>Vacation 1984</code>.</li>
+        <li>Keep original scans separate from finished photo exports.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="duplicates-heading">
+      <h2 id="duplicates-heading">Step 5: Find duplicate images</h2>
+
+      <p>
+        Duplicate photos happen quickly during scanning, exporting, editing, and backing up. Grafiq Duplicate Finder can help you find exact or visually similar images.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Find Image Duplicates.</strong><br>
+          Choose the folder you want to inspect.
+        </li>
+
+        <li>
+          <strong>Choose a detection method.</strong><br>
+          Use hash matching for exact duplicates, or pixel similarity for visually similar images.
+        </li>
+
+        <li>
+          <strong>Review duplicate groups.</strong><br>
+          Preview before deleting or moving anything.
+        </li>
+
+        <li>
+          <strong>Move duplicates before deleting.</strong><br>
+          For safety, move suspected duplicates into a review folder first.
+        </li>
+      </ol>
+
+      <div class="note">
+        <strong>Archive safety tip:</strong>
+        Do not delete old family photos too quickly. Move duplicates to a review folder first, then decide later after checking quality and context.
+      </div>
+    </section>
+
+    <section aria-labelledby="captions-heading">
+      <h2 id="captions-heading">Step 6: Add captions and descriptions</h2>
+
+      <p>
+        Family photos become much more valuable when names, dates, places, and notes are attached to them.
+        Grafiq gives you more than one way to do that.
+      </p>
+
+      <ul class="features">
+        <li><strong>Metadata captions:</strong> Store descriptions inside supported image files without changing how the image looks.</li>
+        <li><strong>CSV metadata workflow:</strong> Review and prepare captions in a spreadsheet-style file, then import descriptions where supported.</li>
+        <li><strong>Visible Caption &amp; Overlay:</strong> Draw names, dates, or notes directly onto exported image copies.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Use metadata captions for archive information. Use visible captions when you want the text to appear directly on the image.
+      </div>
+    </section>
+
+    <section aria-labelledby="caption-fields-heading">
+      <h2 id="caption-fields-heading">Suggested caption fields for family photos</h2>
+
+      <ul class="features">
+        <li>Who is in the photo?</li>
+        <li>Where was it taken?</li>
+        <li>When was it taken?</li>
+        <li>What event was happening?</li>
+        <li>Who provided or identified the photo?</li>
+        <li>Was it scanned from an album, loose print, slide, or document?</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="slideshow-heading">
+      <h2 id="slideshow-heading">Step 7: Create a slideshow video</h2>
+
+      <p>
+        After organizing and captioning a set of photos, you may want to turn them into something easier to watch and share.
+        Grafiq Cinematic Slideshow can turn selected images into a video-style slideshow.
+      </p>
+
+      <ul class="features">
+        <li>Create a slideshow from a folder of family photos.</li>
+        <li>Arrange photos in story order.</li>
+        <li>Add simple timing and motion.</li>
+        <li>Use captions or title cards where supported.</li>
+        <li>Export a video copy while keeping the original photos unchanged.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="folder-structure-heading">
+      <h2 id="folder-structure-heading">Good folder structure for a family photo archive</h2>
+
+      <p>
+        There is no single perfect folder structure, but simple is better than clever.
+      </p>
+
+      <ul class="features">
+        <li><code>Original Scans</code> — untouched scanner output.</li>
+        <li><code>Split Photos</code> — individual photos exported from scanned sheets.</li>
+        <li><code>Edited Copies</code> — cropped, captioned, cleaned, or adjusted versions.</li>
+        <li><code>Duplicates Review</code> — possible duplicates to check before deleting.</li>
+        <li><code>Slideshow Projects</code> — finished slideshow videos or project files.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for this workflow</h2>
+
+      <ul class="features">
+        <li>Scanning old family albums.</li>
+        <li>Splitting multiple printed photos from one scan.</li>
+        <li>Cleaning up inherited photo folders.</li>
+        <li>Adding names and dates to old pictures.</li>
+        <li>Preparing family photos for relatives.</li>
+        <li>Creating memorial, anniversary, reunion, or birthday slideshows.</li>
+        <li>Building a long-term personal archive without uploading everything to a website.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
+
+      <ul class="features">
+        <li>Keep original scans before editing or splitting.</li>
+        <li>Do not delete duplicates until you check resolution, cropping, and image quality.</li>
+        <li>Visible captions become part of the exported image.</li>
+        <li>Metadata captions may not be visible in every app.</li>
+        <li>CSV imports depend on filenames or paths matching correctly.</li>
+        <li>Back up important photo folders before doing large rename, move, or cleanup jobs.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        For old family photos, it can help with splitting scans, organizing folders, renaming files, finding duplicates, adding captions, reviewing metadata, and creating slideshow videos.
+      </p>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="metadata-csv.html">Metadata CSV Guide</a> |
-      <a href="image-caption-overlay.html">Caption & Overlay Guide</a> |
-      <a href="organizer.html">Organizer Guide</a> |
-      <a href="rename-files.html">Rename Files Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="metadata-csv.html">Metadata CSV Guide</a> |
+        <a href="image-caption-overlay.html">Caption &amp; Overlay Guide</a> |
+        <a href="organizer.html">Organizer Guide</a> |
+        <a href="rename-files.html">Rename Files Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
