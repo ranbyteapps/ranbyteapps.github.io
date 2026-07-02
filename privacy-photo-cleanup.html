@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="redaction.html">Redaction Guide</a>
     <a href="metadata.html">Metadata Guide</a>
@@ -160,310 +187,324 @@ footer {
     <a href="converter.html">Converter Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <h1>Clean up photos before sharing them online</h1>
-  <p class="tagline">Use Grafiq to redact private details, strip metadata, crop, resize, convert, and prepare safer photo copies locally before sharing.</p>
-
-  <div class="card">
-    <p class="lead">
-      Photos and screenshots can reveal more than you intended: names, addresses, account numbers, faces, license plates, documents, GPS metadata, device details, or background clutter.
-      Grafiq gives you a local desktop workflow for preparing cleaner copies before you email, upload, post, or share them.
-    </p>
-
-
-<p>
-  Use Redactor, Metadata Explorer, Strip EXIF, Crop Studio, Downscaler, Background Remover, and Converter together to make share-ready copies while keeping your originals.
-</p>
-
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-
-  </div>
-
-  <h2>The basic privacy cleanup workflow</h2>
-
-  <p>
-    A good sharing workflow is simple: make a copy, remove what should not be visible, remove private metadata when needed, crop or resize the result, then check the exported file before sharing.
-  </p>
-
-  <ol class="steps">
-    <li><strong>Start with a copy.</strong> Keep your original photo or screenshot unchanged.</li>
-    <li><strong>Redact visible private details.</strong> Use Redactor to cover names, addresses, account numbers, faces, license plates, or other private areas.</li>
-    <li><strong>Strip metadata if needed.</strong> Use Strip EXIF or metadata tools when you do not want embedded metadata included.</li>
-    <li><strong>Crop unnecessary areas.</strong> Use Crop Studio to remove background clutter or irrelevant parts of the image.</li>
-    <li><strong>Resize or downscale.</strong> Use Downscaler to make a smaller sharing copy.</li>
-    <li><strong>Convert format if needed.</strong> Use Converter to create a more compatible JPG, PNG, WEBP, or other supported output.</li>
-    <li><strong>Review the final file.</strong> Open the exported copy and inspect it before posting or sending.</li>
-  </ol>
-
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Grafiq does not send your files to Ranbyte Apps. The only exception is if you choose to email or share files with us for support.
-  </div>
-
-  <h2>Step 1: Make a share-ready copy</h2>
-
-  <p>
-    Do not work directly on your only copy of an important image. Keep an original folder and create a separate folder for cleaned exports.
-  </p>
-
-  <ul class="features">
-    <li>Keep the original image unchanged.</li>
-    <li>Create an edited copy for sharing.</li>
-    <li>Use a folder name like <code>Cleaned for Sharing</code> or <code>Share Copies</code>.</li>
-    <li>Check the exported copy before deleting anything.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Originals are for keeping. Cleaned exports are for sharing.
-  </div>
-
-  <h2>Step 2: Redact visible private information</h2>
-
-  <p>
-    Metadata removal does not hide anything that is visibly shown inside the image. If private information appears in the pixels, use Redactor.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Redactor.</strong><br>
-      In Grafiq, open <strong>More → Redactor</strong>.
-    </li>
-
-
-<li>
-  <strong>Open the image or screenshot.</strong><br>
-  Choose the file you want to clean up.
-</li>
-
-<li>
-  <strong>Use strong redaction for sensitive details.</strong><br>
-  Use <strong>Black Box</strong>, <strong>Rect Pixel</strong>, or <strong>Brush Pixel</strong> for private information.
-  Pixelation or solid boxes are usually stronger than blur.
-</li>
-
-<li>
-  <strong>Cover the full sensitive area.</strong><br>
-  Make sure the redaction fully covers the private detail, including nearby edges or shadows.
-</li>
-
-<li>
-  <strong>Save as a new file.</strong><br>
-  Export a cleaned copy rather than replacing your original.
-</li>
-
-
-  </ol>
-
-  <h2>Visible things you may want to redact</h2>
-
-  <ul class="features">
-    <li>Addresses, phone numbers, email addresses, usernames, or account names.</li>
-    <li>Account numbers, order numbers, invoices, tickets, labels, or barcodes.</li>
-    <li>Faces of people who did not agree to be shown.</li>
-    <li>Children, school names, badges, IDs, or workplace details.</li>
-    <li>License plates, street signs, house numbers, or neighborhood clues.</li>
-    <li>Browser tabs, bookmarks, notifications, file paths, or desktop names in screenshots.</li>
-    <li>Background documents, mail, photos, or private items.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Important:</strong>
-    Blur can sometimes leave shapes or text partly guessable. For sensitive information, use pixelation or a solid box instead of a light blur.
-  </div>
-
-  <h2>Step 3: Check and remove metadata</h2>
-
-  <p>
-    Image files can contain embedded metadata. Depending on the file and source, metadata may include camera information, software names, dates, author fields, captions, GPS fields, or other details.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Use Metadata Explorer.</strong><br>
-      Search or inspect metadata in the folder before sharing.
-    </li>
-
-
-<li>
-  <strong>Look for sensitive fields.</strong><br>
-  Check for GPS, latitude, longitude, author, device, software, comments, captions, or other fields you care about.
-</li>
-
-<li>
-  <strong>Use Strip EXIF when needed.</strong><br>
-  In Redactor or metadata cleanup workflows, use Strip EXIF when you want a cleaner exported copy.
-</li>
-
-<li>
-  <strong>Check the exported copy.</strong><br>
-  Inspect the final shared version, not just the original.
-</li>
-
-
-  </ol>
-
-  <div class="note">
-    <strong>Metadata vs. redaction:</strong>
-    Removing metadata does not hide visible information in the image. Redaction hides visible information. Use both when needed.
-  </div>
-
-  <h2>Step 4: Crop out unnecessary context</h2>
-
-  <p>
-    Cropping can remove extra background, unrelated people, clutter, documents, location clues, or parts of a screenshot that do not need to be shared.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Crop Studio.</strong><br>
-      Use <strong>More → Crop Studio</strong>.
-    </li>
-
-
-<li>
-  <strong>Add the image, GIF, or video.</strong><br>
-  Choose the file you want to crop.
-</li>
-
-<li>
-  <strong>Draw a crop box.</strong><br>
-  Keep the important subject and remove unnecessary edges.
-</li>
-
-<li>
-  <strong>Export the cropped copy.</strong><br>
-  Save a new file and inspect the result.
-</li>
-
-
-  </ol>
-
-  <h2>Step 5: Resize or downscale for sharing</h2>
-
-  <p>
-    Many photos and screenshots are larger than necessary for email, support requests, websites, or social sharing.
-    Downscaling can reduce file size and make the image easier to send.
-  </p>
-
-  <ul class="features">
-    <li>Use Downscaler to make smaller image or video copies.</li>
-    <li>Preview one file before processing a batch.</li>
-    <li>Use moderate reduction first, then increase if the file is still too large.</li>
-    <li>Check text readability after downscaling screenshots.</li>
-    <li>Keep the original full-size file in your private archive.</li>
-  </ul>
-
-  <h2>Step 6: Remove or replace the background if useful</h2>
-
-  <p>
-    Sometimes the background is the private part: a room, house, street, office, people, paperwork, or location clues.
-    Background Remover can help create a cleaner subject cutout where supported.
-  </p>
-
-  <ul class="features">
-    <li>Use Transparent PNG when you want a cutout.</li>
-    <li>Use White or Solid Color when you want a simple filled background.</li>
-    <li>Use Subject Selection if you only want one person or one object.</li>
-    <li>Use Protect or Refine Regions when the automatic result needs adjustment.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Results may vary:</strong>
-    Background removal depends on the image. Some photos work well immediately, while others need experimentation with settings or manual refinement.
-  </div>
-
-  <h2>Step 7: Convert the final copy if needed</h2>
-
-  <p>
-    After cleanup, you may need a different output format for compatibility.
-  </p>
-
-  <ul class="features">
-    <li>Use JPG for normal photos when transparency is not needed.</li>
-    <li>Use PNG when you need transparency or crisp screenshot edges.</li>
-    <li>Use WEBP for web-friendly image output where supported.</li>
-    <li>Use MP4 for video sharing workflows.</li>
-  </ul>
-
-  <h2>Good uses for this workflow</h2>
-
-  <ul class="features">
-    <li>Clean screenshots before sending them to support.</li>
-    <li>Redact addresses, names, or account details before posting an image.</li>
-    <li>Remove GPS or device metadata from photos before sharing.</li>
-    <li>Crop out background clutter or private surroundings.</li>
-    <li>Resize large images before emailing them.</li>
-    <li>Prepare product photos, listing photos, or profile images.</li>
-    <li>Create safer copies of images while preserving originals privately.</li>
-  </ul>
-
-  <h2>Quick checklist before sharing</h2>
-
-  <ul class="features">
-    <li>Did you save a new copy instead of overwriting the original?</li>
-    <li>Did you redact visible private details?</li>
-    <li>Did you check the edges of redacted areas?</li>
-    <li>Did you remove or review metadata if privacy matters?</li>
-    <li>Did you crop out unnecessary background details?</li>
-    <li>Did you resize or convert the file only after cleanup?</li>
-    <li>Did you open the final exported file and inspect it before sharing?</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Metadata removal does not hide visible information inside the image.</li>
-    <li>Light blur may not be strong enough for sensitive information.</li>
-    <li>Small text can remain partly readable if redaction does not fully cover it.</li>
-    <li>Downscaling can make text harder to read, so check screenshots after resizing.</li>
-    <li>JPG does not preserve transparency.</li>
-    <li>Background removal results vary by image.</li>
-    <li>Always check the final exported copy, not only the preview.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      For safer sharing, it can help redact visible details, strip metadata, crop, downscale, remove backgrounds, convert formats, and export cleaner copies.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+  </nav>
+
+  <main id="main-content">
+    <h1>Clean up photos before sharing them online</h1>
+    <p class="tagline">Use Grafiq to redact private details, strip metadata, crop, resize, convert, and prepare safer photo copies locally before sharing.</p>
+
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Privacy photo cleanup overview</h2>
+      <p class="lead">
+        Photos and screenshots can reveal more than you intended: names, addresses, account numbers, faces, license plates, documents, GPS metadata, device details, or background clutter.
+        Grafiq gives you a local desktop workflow for preparing cleaner copies before you email, upload, post, or share them.
+      </p>
+
+      <p>
+        Use Redactor, Metadata Explorer, Strip EXIF, Crop Studio, Downscaler, Background Remover, and Converter together to make share-ready copies while keeping your originals.
+      </p>
+
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
+
+    <section aria-labelledby="basic-workflow-heading">
+      <h2 id="basic-workflow-heading">The basic privacy cleanup workflow</h2>
+
+      <p>
+        A good sharing workflow is simple: make a copy, remove what should not be visible, remove private metadata when needed, crop or resize the result, then check the exported file before sharing.
+      </p>
+
+      <ol class="steps">
+        <li><strong>Start with a copy.</strong> Keep your original photo or screenshot unchanged.</li>
+        <li><strong>Redact visible private details.</strong> Use Redactor to cover names, addresses, account numbers, faces, license plates, or other private areas.</li>
+        <li><strong>Strip metadata if needed.</strong> Use Strip EXIF or metadata tools when you do not want embedded metadata included.</li>
+        <li><strong>Crop unnecessary areas.</strong> Use Crop Studio to remove background clutter or irrelevant parts of the image.</li>
+        <li><strong>Resize or downscale.</strong> Use Downscaler to make a smaller sharing copy.</li>
+        <li><strong>Convert format if needed.</strong> Use Converter to create a more compatible JPG, PNG, WEBP, or other supported output.</li>
+        <li><strong>Review the final file.</strong> Open the exported copy and inspect it before posting or sending.</li>
+      </ol>
+
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Grafiq does not send your files to Ranbyte Apps. The only exception is if you choose to email or share files with us for support.
+      </div>
+    </section>
+
+    <section aria-labelledby="copy-heading">
+      <h2 id="copy-heading">Step 1: Make a share-ready copy</h2>
+
+      <p>
+        Do not work directly on your only copy of an important image. Keep an original folder and create a separate folder for cleaned exports.
+      </p>
+
+      <ul class="features">
+        <li>Keep the original image unchanged.</li>
+        <li>Create an edited copy for sharing.</li>
+        <li>Use a folder name like <code>Cleaned for Sharing</code> or <code>Share Copies</code>.</li>
+        <li>Check the exported copy before deleting anything.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Originals are for keeping. Cleaned exports are for sharing.
+      </div>
+    </section>
+
+    <section aria-labelledby="redact-heading">
+      <h2 id="redact-heading">Step 2: Redact visible private information</h2>
+
+      <p>
+        Metadata removal does not hide anything that is visibly shown inside the image. If private information appears in the pixels, use Redactor.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Redactor.</strong><br>
+          In Grafiq, open <strong>More → Redactor</strong>.
+        </li>
+
+        <li>
+          <strong>Open the image or screenshot.</strong><br>
+          Choose the file you want to clean up.
+        </li>
+
+        <li>
+          <strong>Use strong redaction for sensitive details.</strong><br>
+          Use <strong>Black Box</strong>, <strong>Rect Pixel</strong>, or <strong>Brush Pixel</strong> for private information.
+          Pixelation or solid boxes are usually stronger than blur.
+        </li>
+
+        <li>
+          <strong>Cover the full sensitive area.</strong><br>
+          Make sure the redaction fully covers the private detail, including nearby edges or shadows.
+        </li>
+
+        <li>
+          <strong>Save as a new file.</strong><br>
+          Export a cleaned copy rather than replacing your original.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="visible-redaction-heading">
+      <h2 id="visible-redaction-heading">Visible things you may want to redact</h2>
+
+      <ul class="features">
+        <li>Addresses, phone numbers, email addresses, usernames, or account names.</li>
+        <li>Account numbers, order numbers, invoices, tickets, labels, or barcodes.</li>
+        <li>Faces of people who did not agree to be shown.</li>
+        <li>Children, school names, badges, IDs, or workplace details.</li>
+        <li>License plates, street signs, house numbers, or neighborhood clues.</li>
+        <li>Browser tabs, bookmarks, notifications, file paths, or desktop names in screenshots.</li>
+        <li>Background documents, mail, photos, or private items.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Important:</strong>
+        Blur can sometimes leave shapes or text partly guessable. For sensitive information, use pixelation or a solid box instead of a light blur.
+      </div>
+    </section>
+
+    <section aria-labelledby="metadata-heading">
+      <h2 id="metadata-heading">Step 3: Check and remove metadata</h2>
+
+      <p>
+        Image files can contain embedded metadata. Depending on the file and source, metadata may include camera information, software names, dates, author fields, captions, GPS fields, or other details.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Use Metadata Explorer.</strong><br>
+          Search or inspect metadata in the folder before sharing.
+        </li>
+
+        <li>
+          <strong>Look for sensitive fields.</strong><br>
+          Check for GPS, latitude, longitude, author, device, software, comments, captions, or other fields you care about.
+        </li>
+
+        <li>
+          <strong>Use Strip EXIF when needed.</strong><br>
+          In Redactor or metadata cleanup workflows, use Strip EXIF when you want a cleaner exported copy.
+        </li>
+
+        <li>
+          <strong>Check the exported copy.</strong><br>
+          Inspect the final shared version, not just the original.
+        </li>
+      </ol>
+
+      <div class="note">
+        <strong>Metadata vs. redaction:</strong>
+        Removing metadata does not hide visible information in the image. Redaction hides visible information. Use both when needed.
+      </div>
+    </section>
+
+    <section aria-labelledby="crop-heading">
+      <h2 id="crop-heading">Step 4: Crop out unnecessary context</h2>
+
+      <p>
+        Cropping can remove extra background, unrelated people, clutter, documents, location clues, or parts of a screenshot that do not need to be shared.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Crop Studio.</strong><br>
+          Use <strong>More → Crop Studio</strong>.
+        </li>
+
+        <li>
+          <strong>Add the image, GIF, or video.</strong><br>
+          Choose the file you want to crop.
+        </li>
+
+        <li>
+          <strong>Draw a crop box.</strong><br>
+          Keep the important subject and remove unnecessary edges.
+        </li>
+
+        <li>
+          <strong>Export the cropped copy.</strong><br>
+          Save a new file and inspect the result.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="resize-heading">
+      <h2 id="resize-heading">Step 5: Resize or downscale for sharing</h2>
+
+      <p>
+        Many photos and screenshots are larger than necessary for email, support requests, websites, or social sharing.
+        Downscaling can reduce file size and make the image easier to send.
+      </p>
+
+      <ul class="features">
+        <li>Use Downscaler to make smaller image or video copies.</li>
+        <li>Preview one file before processing a batch.</li>
+        <li>Use moderate reduction first, then increase if the file is still too large.</li>
+        <li>Check text readability after downscaling screenshots.</li>
+        <li>Keep the original full-size file in your private archive.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="background-heading">
+      <h2 id="background-heading">Step 6: Remove or replace the background if useful</h2>
+
+      <p>
+        Sometimes the background is the private part: a room, house, street, office, people, paperwork, or location clues.
+        Background Remover can help create a cleaner subject cutout where supported.
+      </p>
+
+      <ul class="features">
+        <li>Use Transparent PNG when you want a cutout.</li>
+        <li>Use White or Solid Color when you want a simple filled background.</li>
+        <li>Use Subject Selection if you only want one person or one object.</li>
+        <li>Use Protect or Refine Regions when the automatic result needs adjustment.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Results may vary:</strong>
+        Background removal depends on the image. Some photos work well immediately, while others need experimentation with settings or manual refinement.
+      </div>
+    </section>
+
+    <section aria-labelledby="convert-heading">
+      <h2 id="convert-heading">Step 7: Convert the final copy if needed</h2>
+
+      <p>
+        After cleanup, you may need a different output format for compatibility.
+      </p>
+
+      <ul class="features">
+        <li>Use JPG for normal photos when transparency is not needed.</li>
+        <li>Use PNG when you need transparency or crisp screenshot edges.</li>
+        <li>Use WEBP for web-friendly image output where supported.</li>
+        <li>Use MP4 for video sharing workflows.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for this workflow</h2>
+
+      <ul class="features">
+        <li>Clean screenshots before sending them to support.</li>
+        <li>Redact addresses, names, or account details before posting an image.</li>
+        <li>Remove GPS or device metadata from photos before sharing.</li>
+        <li>Crop out background clutter or private surroundings.</li>
+        <li>Resize large images before emailing them.</li>
+        <li>Prepare product photos, listing photos, or profile images.</li>
+        <li>Create safer copies of images while preserving originals privately.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="checklist-heading">
+      <h2 id="checklist-heading">Quick checklist before sharing</h2>
+
+      <ul class="features">
+        <li>Did you save a new copy instead of overwriting the original?</li>
+        <li>Did you redact visible private details?</li>
+        <li>Did you check the edges of redacted areas?</li>
+        <li>Did you remove or review metadata if privacy matters?</li>
+        <li>Did you crop out unnecessary background details?</li>
+        <li>Did you resize or convert the file only after cleanup?</li>
+        <li>Did you open the final exported file and inspect it before sharing?</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
+
+      <ul class="features">
+        <li>Metadata removal does not hide visible information inside the image.</li>
+        <li>Light blur may not be strong enough for sensitive information.</li>
+        <li>Small text can remain partly readable if redaction does not fully cover it.</li>
+        <li>Downscaling can make text harder to read, so check screenshots after resizing.</li>
+        <li>JPG does not preserve transparency.</li>
+        <li>Background removal results vary by image.</li>
+        <li>Always check the final exported copy, not only the preview.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        For safer sharing, it can help redact visible details, strip metadata, crop, downscale, remove backgrounds, convert formats, and export cleaner copies.
+      </p>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="metadata-explorer.html">Metadata Explorer Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="metadata-explorer.html">Metadata Explorer Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
