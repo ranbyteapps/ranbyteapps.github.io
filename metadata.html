@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,366 +16,400 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Edit or remove photo metadata without uploading your files</h1>
-  <p class="tagline">Use Grafiq to view, edit, search, import, export, or clean up supported metadata locally on your own computer.</p>
+  <main id="main-content">
+    <h1>Edit or remove photo metadata without uploading your files</h1>
+    <p class="tagline">Use Grafiq to view, edit, search, import, export, or clean up supported metadata locally on your own computer.</p>
 
-  <div class="card">
-    <p class="lead">
-      Photos and image files can contain hidden or embedded information such as captions, descriptions, author fields,
-      copyright fields, keywords, software tags, camera details, and GPS-related metadata.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Metadata tools overview</h2>
+      <p class="lead">
+        Photos and image files can contain hidden or embedded information such as captions, descriptions, author fields,
+        copyright fields, keywords, software tags, camera details, and GPS-related metadata.
+      </p>
 
+      <p>
+        Grafiq includes local metadata tools so you can review and edit supported metadata without relying on an online upload tool.
+      </p>
 
-<p>
-  Grafiq includes local metadata tools so you can review and edit supported metadata without relying on an online upload tool.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-metadata-heading">
+      <h2 id="what-metadata-heading">What metadata is</h2>
+      <p>
+        Metadata is information stored about a file. For photos, this may include details such as a description,
+        caption, author, copyright, keywords, software, timestamps, camera information, and GPS-related fields.
+      </p>
 
+      <p>
+        Metadata can be useful for organization and search, but it can also reveal information you may not want to share publicly.
+      </p>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Privacy tip:</strong>
+        Before posting or sending images publicly, it is worth checking whether the file contains author, location, description,
+        copyright, or other embedded metadata you do not want to include.
+      </div>
+    </section>
 
-  <h2>What metadata is</h2>
-  <p>
-    Metadata is information stored about a file. For photos, this may include details such as a description,
-    caption, author, copyright, keywords, software, timestamps, camera information, and GPS-related fields.
-  </p>
+    <section aria-labelledby="metadata-features-heading">
+      <h2 id="metadata-features-heading">What Grafiq can do with metadata</h2>
+      <ul class="features">
+        <li>View and edit captions and descriptions for supported image files.</li>
+        <li>Edit common JPEG metadata fields such as title/description, author, copyright, software, keywords, and GPS latitude/longitude.</li>
+        <li>Search supported metadata across folders with Metadata Explorer.</li>
+        <li>Import descriptions from CSV for batch metadata workflows.</li>
+        <li>Export metadata to CSV for review in a spreadsheet.</li>
+        <li>Edit supported document metadata for formats such as PDF, DOCX, EPUB, and XLSX.</li>
+        <li>Use Redactor separately when you want to save a copy with EXIF stripped during privacy-focused image markup.</li>
+      </ul>
+    </section>
 
-  <p>
-    Metadata can be useful for organization and search, but it can also reveal information you may not want to share publicly.
-  </p>
+    <section aria-labelledby="edit-jpeg-heading">
+      <h2 id="edit-jpeg-heading">How to edit full image metadata on a JPEG</h2>
 
-  <div class="privacy-note">
-    <strong>Privacy tip:</strong>
-    Before posting or sending images publicly, it is worth checking whether the file contains author, location, description,
-    copyright, or other embedded metadata you do not want to include.
-  </div>
+      <ol class="steps">
+        <li>
+          <strong>Open Edit Full Image Metadata.</strong><br>
+          In Grafiq, choose <strong>File → Edit Full Image Metadata</strong>.
+        </li>
 
-  <h2>What Grafiq can do with metadata</h2>
-  <ul class="features">
-    <li>View and edit captions and descriptions for supported image files.</li>
-    <li>Edit common JPEG metadata fields such as title/description, author, copyright, software, keywords, and GPS latitude/longitude.</li>
-    <li>Search supported metadata across folders with Metadata Explorer.</li>
-    <li>Import descriptions from CSV for batch metadata workflows.</li>
-    <li>Export metadata to CSV for review in a spreadsheet.</li>
-    <li>Edit supported document metadata for formats such as PDF, DOCX, EPUB, and XLSX.</li>
-    <li>Use Redactor separately when you want to save a copy with EXIF stripped during privacy-focused image markup.</li>
-  </ul>
+        <li>
+          <strong>Select a JPEG file.</strong><br>
+          Choose a <strong>.jpg</strong> or <strong>.jpeg</strong> image.
+        </li>
 
-  <h2>How to edit full image metadata on a JPEG</h2>
+        <li>
+          <strong>Review the available fields.</strong><br>
+          Common fields may include <strong>Title / Description</strong>, <strong>Author</strong>, <strong>Copyright</strong>,
+          <strong>Software</strong>, <strong>Keywords</strong>, and <strong>GPS Latitude / GPS Longitude</strong>.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Edit Full Image Metadata.</strong><br>
-      In Grafiq, choose <strong>File → Edit Full Image Metadata</strong>.
-    </li>
+        <li>
+          <strong>Edit or clear the fields you want to change.</strong><br>
+          Update the metadata you want to keep, or remove fields you do not want included.
+        </li>
 
+        <li>
+          <strong>Save the metadata.</strong><br>
+          Click <strong>Save Metadata</strong>.
+        </li>
+      </ol>
 
-<li>
-  <strong>Select a JPEG file.</strong><br>
-  Choose a <strong>.jpg</strong> or <strong>.jpeg</strong> image.
-</li>
+      <div class="note">
+        <strong>Safer workflow:</strong>
+        When you are learning the tool, enable backups or write-to-copy behavior in Grafiq Preferences so you can preserve your original files.
+      </div>
+    </section>
 
-<li>
-  <strong>Review the available fields.</strong><br>
-  Common fields may include <strong>Title / Description</strong>, <strong>Author</strong>, <strong>Copyright</strong>,
-  <strong>Software</strong>, <strong>Keywords</strong>, and <strong>GPS Latitude / GPS Longitude</strong>.
-</li>
+    <section aria-labelledby="caption-heading">
+      <h2 id="caption-heading">How to add or edit a photo caption</h2>
 
-<li>
-  <strong>Edit or clear the fields you want to change.</strong><br>
-  Update the metadata you want to keep, or remove fields you do not want included.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Open Image Caption &amp; Overlay.</strong><br>
+          Use <strong>File → Image Caption &amp; Overlay</strong>, or use the keyboard shortcut if configured in your build.
+        </li>
 
-<li>
-  <strong>Save the metadata.</strong><br>
-  Click <strong>Save Metadata</strong>.
-</li>
+        <li>
+          <strong>Choose the image or images.</strong><br>
+          Use the single-image or multiple-image workflow depending on whether you are editing one file or a batch.
+        </li>
 
+        <li>
+          <strong>Enter the caption or description.</strong><br>
+          Grafiq can write the caption into the image description/caption metadata field when supported.
+        </li>
 
-  </ol>
+        <li>
+          <strong>Optionally write a visible overlay copy.</strong><br>
+          If you want the caption burned into the image pixels, use the overlay option or related Preferences.
+        </li>
 
-  <div class="note">
-    <strong>Safer workflow:</strong>
-    When you are learning the tool, enable backups or write-to-copy behavior in Grafiq Preferences so you can preserve your original files.
-  </div>
+        <li>
+          <strong>Save or export the result.</strong><br>
+          Check the output folder and Dashboard log for saved results.
+        </li>
+      </ol>
+    </section>
 
-  <h2>How to add or edit a photo caption</h2>
+    <section aria-labelledby="search-heading">
+      <h2 id="search-heading">How to search metadata across a folder</h2>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Image Caption &amp; Overlay.</strong><br>
-      Use <strong>File → Image Caption &amp; Overlay</strong>, or use the keyboard shortcut if configured in your build.
-    </li>
+      <ol class="steps">
+        <li>
+          <strong>Open Metadata Explorer.</strong><br>
+          Choose <strong>File → Metadata Explorer</strong> or the Metadata Explorer shortcut in Grafiq.
+        </li>
 
+        <li>
+          <strong>Choose a folder to search.</strong><br>
+          Select the folder containing the files you want to inspect.
+        </li>
 
-<li>
-  <strong>Choose the image or images.</strong><br>
-  Use the single-image or multiple-image workflow depending on whether you are editing one file or a batch.
-</li>
+        <li>
+          <strong>Enter a search term.</strong><br>
+          Search for a word, phrase, author, caption, description, tag, or other supported metadata value.
+        </li>
 
-<li>
-  <strong>Enter the caption or description.</strong><br>
-  Grafiq can write the caption into the image description/caption metadata field when supported.
-</li>
+        <li>
+          <strong>Include subfolders if needed.</strong><br>
+          Turn on <strong>Include subfolders</strong> when your media is stored in nested folders.
+        </li>
 
-<li>
-  <strong>Optionally write a visible overlay copy.</strong><br>
-  If you want the caption burned into the image pixels, use the overlay option or related Preferences.
-</li>
+        <li>
+          <strong>Start the search.</strong><br>
+          Grafiq lists matching files. If clickable paths are enabled, you can open or reveal results from the log.
+        </li>
 
-<li>
-  <strong>Save or export the result.</strong><br>
-  Check the output folder and Dashboard log for saved results.
-</li>
+        <li>
+          <strong>Export or act on results.</strong><br>
+          Use CSV/TXT export or copy/move selected files if you are organizing a collection.
+        </li>
+      </ol>
+    </section>
 
+    <section aria-labelledby="csv-heading">
+      <h2 id="csv-heading">CSV metadata workflows</h2>
+      <p>
+        CSV workflows are useful when you want to review or edit metadata in a spreadsheet.
+      </p>
 
-  </ol>
+      <ul class="features">
+        <li><strong>Export Metadata to CSV:</strong> Save filenames and editable metadata fields to a spreadsheet-friendly file.</li>
+        <li><strong>Import Metadata from CSV:</strong> Apply descriptions and optional renames from a CSV file.</li>
+        <li><strong>Suggested CSV columns:</strong> <code>filename</code>, <code>description</code>, and optional <code>new_filename</code>.</li>
+        <li><strong>Best practice:</strong> Test on a small group first and keep backups enabled while learning.</li>
+      </ul>
+    </section>
 
-  <h2>How to search metadata across a folder</h2>
+    <section aria-labelledby="metadata-vs-redaction-heading">
+      <h2 id="metadata-vs-redaction-heading">Metadata cleanup vs. redaction</h2>
+      <p>
+        Editing metadata and redacting image pixels are different jobs.
+      </p>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Metadata Explorer.</strong><br>
-      Choose <strong>File → Metadata Explorer</strong> or the Metadata Explorer shortcut in Grafiq.
-    </li>
+      <ul class="features">
+        <li><strong>Use metadata tools</strong> when you want to edit hidden file information such as captions, author, keywords, copyright, or GPS-related fields.</li>
+        <li><strong>Use Redactor</strong> when you want to hide visible information inside the image, such as names, addresses, account numbers, faces, or license plates.</li>
+        <li><strong>Use Strip EXIF in Redactor</strong> when saving a privacy-focused image copy and you want embedded metadata omitted from that exported file.</li>
+      </ul>
+    </section>
 
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
+      <ul class="features">
+        <li>Different file formats support different metadata fields.</li>
+        <li>Some workflows are JPEG-specific, especially full image metadata editing.</li>
+        <li>Clearing GPS-related fields does not remove visible location clues inside the image itself.</li>
+        <li>If you remove metadata, keep an original copy if you may need that information later.</li>
+        <li>When sharing publicly, check both visible image content and embedded metadata.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Choose a folder to search.</strong><br>
-  Select the folder containing the files you want to inspect.
-</li>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Metadata tools are included alongside redaction, conversion, photo splitting, duplicate finding, organizing, and more.
+      </p>
 
-<li>
-  <strong>Enter a search term.</strong><br>
-  Search for a word, phrase, author, caption, description, tag, or other supported metadata value.
-</li>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-<li>
-  <strong>Include subfolders if needed.</strong><br>
-  Turn on <strong>Include subfolders</strong> when your media is stored in nested folders.
-</li>
-
-<li>
-  <strong>Start the search.</strong><br>
-  Grafiq lists matching files. If clickable paths are enabled, you can open or reveal results from the log.
-</li>
-
-<li>
-  <strong>Export or act on results.</strong><br>
-  Use CSV/TXT export or copy/move selected files if you are organizing a collection.
-</li>
-
-
-  </ol>
-
-  <h2>CSV metadata workflows</h2>
-  <p>
-    CSV workflows are useful when you want to review or edit metadata in a spreadsheet.
-  </p>
-
-  <ul class="features">
-    <li><strong>Export Metadata to CSV:</strong> Save filenames and editable metadata fields to a spreadsheet-friendly file.</li>
-    <li><strong>Import Metadata from CSV:</strong> Apply descriptions and optional renames from a CSV file.</li>
-    <li><strong>Suggested CSV columns:</strong> <code>filename</code>, <code>description</code>, and optional <code>new_filename</code>.</li>
-    <li><strong>Best practice:</strong> Test on a small group first and keep backups enabled while learning.</li>
-  </ul>
-
-  <h2>Metadata cleanup vs. redaction</h2>
-  <p>
-    Editing metadata and redacting image pixels are different jobs.
-  </p>
-
-  <ul class="features">
-    <li><strong>Use metadata tools</strong> when you want to edit hidden file information such as captions, author, keywords, copyright, or GPS-related fields.</li>
-    <li><strong>Use Redactor</strong> when you want to hide visible information inside the image, such as names, addresses, account numbers, faces, or license plates.</li>
-    <li><strong>Use Strip EXIF in Redactor</strong> when saving a privacy-focused image copy and you want embedded metadata omitted from that exported file.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-  <ul class="features">
-    <li>Different file formats support different metadata fields.</li>
-    <li>Some workflows are JPEG-specific, especially full image metadata editing.</li>
-    <li>Clearing GPS-related fields does not remove visible location clues inside the image itself.</li>
-    <li>If you remove metadata, keep an original copy if you may need that information later.</li>
-    <li>When sharing publicly, check both visible image content and embedded metadata.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Metadata tools are included alongside redaction, conversion, photo splitting, duplicate finding, organizing, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
