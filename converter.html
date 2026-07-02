@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -158,234 +185,238 @@ footer {
     <a href="gif-tools.html">GIF Tools Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Convert images and videos without uploading your files</h1>
-  <p class="tagline">Use Grafiq Converter to convert supported image files and videos locally on your Windows or Mac desktop.</p>
+  <main id="main-content">
+    <h1>Convert images and videos without uploading your files</h1>
+    <p class="tagline">Use Grafiq Converter to convert supported image files and videos locally on your Windows or Mac desktop.</p>
 
-  <div class="card">
-    <p class="lead">
-      Online converters can be convenient, but they often require you to upload your files to a website.
-      Grafiq Converter gives you a local desktop workflow for common image and video conversions.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Converter overview</h2>
+      <p class="lead">
+        Online converters can be convenient, but they often require you to upload your files to a website.
+        Grafiq Converter gives you a local desktop workflow for common image and video conversions.
+      </p>
 
+      <p>
+        Convert supported images to formats like JPEG, PNG, WEBP, BMP, or TIFF.
+        Convert supported videos to MP4.
+      </p>
 
-<p>
-  Convert supported images to formats like JPEG, PNG, WEBP, BMP, or TIFF.
-  Convert supported videos to MP4.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Converter is for</h2>
+      <p>
+        Converter is useful when you need a file in a different format for sharing, editing, uploading, archiving, or compatibility.
+        Instead of using several separate tools, Grafiq gives you a simple built-in conversion workflow.
+      </p>
 
+      <ul class="features">
+        <li>Convert supported image files to JPEG, PNG, WEBP, BMP, or TIFF.</li>
+        <li>Convert supported video files to MP4.</li>
+        <li>Save converted files to a default <strong>Converted</strong> folder or choose a custom output folder.</li>
+        <li>Use progress feedback during conversion.</li>
+        <li>Cancel video conversions during processing if needed.</li>
+        <li>Keep your original files unchanged.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Grafiq is designed to process files locally by default. Optional internet or AI features are user-initiated, but normal file conversion does not require uploading your files to Ranbyte Apps.
+      </div>
+    </section>
 
-  <h2>What Converter is for</h2>
-  <p>
-    Converter is useful when you need a file in a different format for sharing, editing, uploading, archiving, or compatibility.
-    Instead of using several separate tools, Grafiq gives you a simple built-in conversion workflow.
-  </p>
+    <section aria-labelledby="images-heading">
+      <h2 id="images-heading">How to convert images in Grafiq</h2>
 
-  <ul class="features">
-    <li>Convert supported image files to JPEG, PNG, WEBP, BMP, or TIFF.</li>
-    <li>Convert supported video files to MP4.</li>
-    <li>Save converted files to a default <strong>Converted</strong> folder or choose a custom output folder.</li>
-    <li>Use progress feedback during conversion.</li>
-    <li>Cancel video conversions during processing if needed.</li>
-    <li>Keep your original files unchanged.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Converter.</strong><br>
+          In Grafiq, open <strong>Converter</strong> from the sidebar or choose <strong>File → Converter</strong>.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Grafiq is designed to process files locally by default. Optional internet or AI features are user-initiated, but normal file conversion does not require uploading your files to Ranbyte Apps.
-  </div>
+        <li>
+          <strong>Select image files.</strong><br>
+          Choose the image files you want to convert. For the simplest workflow, select only image files in one run.
+        </li>
 
-  <h2>How to convert images in Grafiq</h2>
+        <li>
+          <strong>Choose an output format.</strong><br>
+          Pick the format you want, such as <strong>JPEG</strong>, <strong>PNG</strong>, <strong>WEBP</strong>, <strong>BMP</strong>, or <strong>TIFF</strong>.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Converter.</strong><br>
-      In Grafiq, open <strong>Converter</strong> from the sidebar or choose <strong>File → Converter</strong>.
-    </li>
+        <li>
+          <strong>Choose an output folder.</strong><br>
+          Use the default <strong>Converted</strong> folder or choose a custom destination.
+        </li>
 
+        <li>
+          <strong>Start conversion.</strong><br>
+          Run the conversion and wait for Grafiq to write the converted files.
+        </li>
 
-<li>
-  <strong>Select image files.</strong><br>
-  Choose the image files you want to convert. For the simplest workflow, select only image files in one run.
-</li>
+        <li>
+          <strong>Check the results.</strong><br>
+          Open the output folder and confirm the converted files look right.
+        </li>
+      </ol>
+    </section>
 
-<li>
-  <strong>Choose an output format.</strong><br>
-  Pick the format you want, such as <strong>JPEG</strong>, <strong>PNG</strong>, <strong>WEBP</strong>, <strong>BMP</strong>, or <strong>TIFF</strong>.
-</li>
+    <section aria-labelledby="videos-heading">
+      <h2 id="videos-heading">How to convert videos to MP4</h2>
 
-<li>
-  <strong>Choose an output folder.</strong><br>
-  Use the default <strong>Converted</strong> folder or choose a custom destination.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Open Converter.</strong><br>
+          Open <strong>Converter</strong> from Grafiq.
+        </li>
 
-<li>
-  <strong>Start conversion.</strong><br>
-  Run the conversion and wait for Grafiq to write the converted files.
-</li>
+        <li>
+          <strong>Select video files.</strong><br>
+          Choose the supported video files you want to convert. For the simplest workflow, select only video files in one run.
+        </li>
 
-<li>
-  <strong>Check the results.</strong><br>
-  Open the output folder and confirm the converted files look right.
-</li>
+        <li>
+          <strong>Choose MP4 output.</strong><br>
+          Grafiq converts supported videos to <strong>MP4</strong>.
+        </li>
 
+        <li>
+          <strong>Choose the output folder.</strong><br>
+          Use the default <strong>Converted</strong> folder or select a custom destination.
+        </li>
 
-  </ol>
+        <li>
+          <strong>Start conversion.</strong><br>
+          Grafiq shows progress while the video conversion runs.
+        </li>
 
-  <h2>How to convert videos to MP4</h2>
+        <li>
+          <strong>Cancel if needed.</strong><br>
+          If a video conversion is taking too long or you picked the wrong file, use the cancel option during processing when available.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Converter.</strong><br>
-      Open <strong>Converter</strong> from Grafiq.
-    </li>
+        <li>
+          <strong>Review the exported MP4.</strong><br>
+          Open the converted MP4 to confirm video and audio playback.
+        </li>
+      </ol>
+    </section>
 
+    <section aria-labelledby="windows-pdf-heading">
+      <h2 id="windows-pdf-heading">Windows PDF-to-JPG workaround for Photo Splitter</h2>
 
-<li>
-  <strong>Select video files.</strong><br>
-  Choose the supported video files you want to convert. For the simplest workflow, select only video files in one run.
-</li>
+      <p>
+        On Mac, Grafiq Photo Splitter can open scanned PDFs directly. On Windows, Photo Splitter works from image files,
+        so Converter can be used as a workaround when your scanner saved photo sheets as PDFs.
+      </p>
 
-<li>
-  <strong>Choose MP4 output.</strong><br>
-  Grafiq converts supported videos to <strong>MP4</strong>.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Open Converter.</strong><br>
+          Choose the scanned PDF you want to prepare.
+        </li>
 
-<li>
-  <strong>Choose the output folder.</strong><br>
-  Use the default <strong>Converted</strong> folder or select a custom destination.
-</li>
+        <li>
+          <strong>Convert the PDF page to JPG.</strong><br>
+          Export the scanned page as a JPG image.
+        </li>
 
-<li>
-  <strong>Start conversion.</strong><br>
-  Grafiq shows progress while the video conversion runs.
-</li>
+        <li>
+          <strong>Open Photo Splitter.</strong><br>
+          Load the exported JPG into <strong>Photo Splitter</strong>.
+        </li>
 
-<li>
-  <strong>Cancel if needed.</strong><br>
-  If a video conversion is taking too long or you picked the wrong file, use the cancel option during processing when available.
-</li>
+        <li>
+          <strong>Split the photos.</strong><br>
+          Run <strong>Auto-Detect</strong>, adjust crop boxes if needed, and export separate JPG or PNG files.
+        </li>
+      </ol>
 
-<li>
-  <strong>Review the exported MP4.</strong><br>
-  Open the converted MP4 to confirm video and audio playback.
-</li>
+      <div class="note">
+        <strong>Why this matters:</strong>
+        This gives Windows users a practical path for scanned photo sheets saved as PDFs: convert the PDF page to an image first, then split the photos from that image.
+      </div>
+    </section>
 
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for Converter</h2>
 
-  </ol>
+      <ul class="features">
+        <li>Convert PNG, WEBP, HEIC, HEIF, AVIF, BMP, TIFF, or other supported image files into a more compatible format.</li>
+        <li>Convert videos to MP4 for easier sharing or playback.</li>
+        <li>Prepare image files for websites, documents, uploads, or archives.</li>
+        <li>Make image files easier to use in older apps that do not support newer formats.</li>
+        <li>Create JPG versions of scanned pages for Photo Splitter workflows.</li>
+        <li>Batch-convert files into a single output folder.</li>
+      </ul>
+    </section>
 
-  <h2>Windows PDF-to-JPG workaround for Photo Splitter</h2>
+    <section aria-labelledby="tips-heading">
+      <h2 id="tips-heading">Tips for better conversion results</h2>
 
-  <p>
-    On Mac, Grafiq Photo Splitter can open scanned PDFs directly. On Windows, Photo Splitter works from image files,
-    so Converter can be used as a workaround when your scanner saved photo sheets as PDFs.
-  </p>
+      <ul class="features">
+        <li>Use JPEG for normal photos when you want broad compatibility and smaller file sizes.</li>
+        <li>Use PNG when you want lossless output or need transparency support.</li>
+        <li>Use WEBP when you want modern web-friendly compression.</li>
+        <li>Use TIFF when you want an archival or editing-friendly image format.</li>
+        <li>Use MP4 for widely compatible video output.</li>
+        <li>Keep your original files until you confirm the converted results are correct.</li>
+      </ul>
+    </section>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Converter.</strong><br>
-      Choose the scanned PDF you want to prepare.
-    </li>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
+      <ul class="features">
+        <li>Not every format supports the same metadata, transparency, color, or compression behavior.</li>
+        <li>JPEG does not preserve transparency.</li>
+        <li>Video conversion re-encodes the file, so quality and file size may change.</li>
+        <li>Large video files can take time to convert.</li>
+        <li>For the simplest workflow, convert image files and video files in separate runs.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Convert the PDF page to JPG.</strong><br>
-  Export the scanned page as a JPG image.
-</li>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Converter is included alongside GIF tools, redaction, metadata tools, photo splitting, duplicate finding, organizing, and more.
+      </p>
 
-<li>
-  <strong>Open Photo Splitter.</strong><br>
-  Load the exported JPG into <strong>Photo Splitter</strong>.
-</li>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-<li>
-  <strong>Split the photos.</strong><br>
-  Run <strong>Auto-Detect</strong>, adjust crop boxes if needed, and export separate JPG or PNG files.
-</li>
-
-
-  </ol>
-
-  <div class="note">
-    <strong>Why this matters:</strong>
-    This gives Windows users a practical path for scanned photo sheets saved as PDFs: convert the PDF page to an image first, then split the photos from that image.
-  </div>
-
-  <h2>Good uses for Converter</h2>
-
-  <ul class="features">
-    <li>Convert PNG, WEBP, HEIC, HEIF, AVIF, BMP, TIFF, or other supported image files into a more compatible format.</li>
-    <li>Convert videos to MP4 for easier sharing or playback.</li>
-    <li>Prepare image files for websites, documents, uploads, or archives.</li>
-    <li>Make image files easier to use in older apps that do not support newer formats.</li>
-    <li>Create JPG versions of scanned pages for Photo Splitter workflows.</li>
-    <li>Batch-convert files into a single output folder.</li>
-  </ul>
-
-  <h2>Tips for better conversion results</h2>
-
-  <ul class="features">
-    <li>Use JPEG for normal photos when you want broad compatibility and smaller file sizes.</li>
-    <li>Use PNG when you want lossless output or need transparency support.</li>
-    <li>Use WEBP when you want modern web-friendly compression.</li>
-    <li>Use TIFF when you want an archival or editing-friendly image format.</li>
-    <li>Use MP4 for widely compatible video output.</li>
-    <li>Keep your original files until you confirm the converted results are correct.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Not every format supports the same metadata, transparency, color, or compression behavior.</li>
-    <li>JPEG does not preserve transparency.</li>
-    <li>Video conversion re-encodes the file, so quality and file size may change.</li>
-    <li>Large video files can take time to convert.</li>
-    <li>For the simplest workflow, convert image files and video files in separate runs.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Converter is included alongside GIF tools, redaction, metadata tools, photo splitting, duplicate finding, organizing, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
