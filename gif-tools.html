@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -157,301 +184,300 @@ footer {
     <a href="duplicate-images.html">Duplicate Images Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <h1>Convert GIFs to MP4 and build GIF or MP4 projects</h1>
-  <p class="tagline">Use Grafiq GIF Tools to preview, extract, caption, convert, rebuild, or create animated GIFs and simple MP4 image projects.</p>
-
-  <div class="card">
-    <p class="lead">
-      Animated GIFs are useful, but they can be large, hard to edit, or awkward to share in some places.
-      Grafiq GIF Tools gives you a local desktop workflow for previewing GIFs, extracting frames, converting GIFs to MP4,
-      adding captions, building GIFs from images or video, and creating MP4 slideshows from still images.
-    </p>
-
-
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-
-  </div>
-
-  <h2>What GIF Tools is for</h2>
-  <p>
-    GIF Tools is useful when you want to inspect, convert, rebuild, caption, or repurpose animated GIFs and image sequences.
-    It is also useful when you want to make a simple MP4 from still images without opening a large video editor.
-  </p>
-
-  <ul class="features">
-    <li>Preview animated GIFs before making changes.</li>
-    <li>Extract the first frame from a GIF as a still image.</li>
-    <li>Export all GIF frames as separate image files.</li>
-    <li>View GIF metadata.</li>
-    <li>Build GIFs from image frames or standalone images.</li>
-    <li>Build GIFs from video clips.</li>
-    <li>Convert animated GIFs to MP4.</li>
-    <li>Add or edit captions on GIF frames.</li>
-    <li>Build MP4 videos from selected images with timing, pan/zoom, transitions, preview, and project save/load.</li>
-  </ul>
-
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Use GIF for short looping animations. Use MP4 when the animation is longer, larger, more detailed, or needs easier playback on websites and devices.
-  </div>
-
-  <h2>How to convert a GIF to MP4 in Grafiq</h2>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools.</strong><br>
-      In Grafiq, open <strong>GIF Tools</strong> from the sidebar or choose <strong>File → GIF Tools</strong>.
-    </li>
-
-
-<li>
-  <strong>Choose the GIF.</strong><br>
-  Under <strong>Choose a GIF to work with</strong>, click <strong>Browse</strong> and select your animated GIF.
-</li>
-
-<li>
-  <strong>Preview the GIF.</strong><br>
-  Click <strong>Preview GIF</strong> to make sure you selected the right file.
-  Adjust <strong>Preview Speed (%)</strong> if you want to inspect it more slowly or quickly.
-</li>
-
-<li>
-  <strong>Convert to MP4.</strong><br>
-  Click <strong>Convert to MP4</strong>.
-</li>
-
-<li>
-  <strong>Choose where to save.</strong><br>
-  Pick the output location when prompted.
-</li>
-
-<li>
-  <strong>Check the result.</strong><br>
-  Open the exported MP4 and confirm that timing and playback look right.
-</li>
-
-
-  </ol>
-
-  <h2>How to extract frames from a GIF</h2>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools.</strong><br>
-      Open <strong>GIF Tools</strong> and browse to your GIF.
-    </li>
-
-
-<li>
-  <strong>Preview the GIF.</strong><br>
-  Use <strong>Preview GIF</strong> to confirm you have the correct file.
-</li>
-
-<li>
-  <strong>Choose a frame export option.</strong><br>
-  Use <strong>Extract First Frame</strong> if you only want the opening frame as a still image.
-  Use <strong>Export All Frames</strong> if you want every frame saved out as separate image files.
-</li>
-
-<li>
-  <strong>Review the exported files.</strong><br>
-  Check the output folder and confirm that the frames exported as expected.
-</li>
-
-
-  </ol>
-
-  <h2>How to build a GIF from images</h2>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools.</strong><br>
-      Open <strong>GIF Tools</strong> from the sidebar or File menu.
-    </li>
-
-
-<li>
-  <strong>Choose the correct build option.</strong><br>
-  Use <strong>Build GIF from Images</strong> when you have standalone image files.
-  Use <strong>Build GIF from Frames</strong> when you already have a numbered image sequence.
-</li>
-
-<li>
-  <strong>Select your images.</strong><br>
-  Add the images or frames you want to include.
-</li>
-
-<li>
-  <strong>Reorder frames if needed.</strong><br>
-  Put the images in the order you want before exporting.
-</li>
-
-<li>
-  <strong>Export the GIF.</strong><br>
-  Save the new animated GIF and preview it to make sure the sequence looks right.
-</li>
-
-
-  </ol>
-
-  <h2>How to build a GIF from a video clip</h2>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools.</strong><br>
-      Open <strong>GIF Tools</strong>.
-    </li>
-
-
-<li>
-  <strong>Choose Build GIF from Video.</strong><br>
-  Select the video file you want to turn into a GIF.
-</li>
-
-<li>
-  <strong>Choose the clip section.</strong><br>
-  Set the start time, end time, and FPS for the GIF.
-</li>
-
-<li>
-  <strong>Export and preview.</strong><br>
-  Save the GIF and preview the result.
-</li>
-
-
-  </ol>
-
-  <h2>How to add captions to a GIF</h2>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools and choose a GIF.</strong><br>
-      Browse to the animated GIF you want to caption.
-    </li>
-
-
-<li>
-  <strong>Open Caption Editor.</strong><br>
-  Click <strong>Caption Editor</strong>.
-</li>
-
-<li>
-  <strong>Add or edit captions.</strong><br>
-  Enter the caption text you want to appear on the GIF frames.
-</li>
-
-<li>
-  <strong>Export the captioned GIF.</strong><br>
-  Save the result and preview it before sharing.
-</li>
-
-
-  </ol>
-
-  <h2>How to build an MP4 from images</h2>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools.</strong><br>
-      Open <strong>GIF Tools</strong> and choose <strong>Build MP4 from Images</strong>.
-    </li>
-
-
-<li>
-  <strong>Add images.</strong><br>
-  Select the images you want to use as slides.
-</li>
-
-<li>
-  <strong>Put the slides in order.</strong><br>
-  Move slides up or down and remove anything you do not want in the final video.
-</li>
-
-<li>
-  <strong>Set timing and motion.</strong><br>
-  Adjust per-slide duration, transition settings, pan/zoom mode, transition duration, pan/zoom duration, and zoom amount.
-</li>
-
-<li>
-  <strong>Preview the project.</strong><br>
-  Use <strong>Preview</strong> to check the timing and motion before building the final MP4.
-</li>
-
-<li>
-  <strong>Save the project if needed.</strong><br>
-  Use <strong>Save Project…</strong> if you want to come back and edit the slideshow later.
-</li>
-
-<li>
-  <strong>Build the MP4.</strong><br>
-  Click <strong>Build MP4</strong> and choose where to save the video.
-</li>
-
-
-  </ol>
-
-  <h2>Good uses for GIF Tools</h2>
-
-  <ul class="features">
-    <li>Turn a GIF into an MP4 for easier sharing.</li>
-    <li>Extract GIF frames for review, editing, or reuse.</li>
-    <li>Create short GIFs from a few images.</li>
-    <li>Turn a short video clip into a GIF.</li>
-    <li>Add captions to simple GIF tutorials.</li>
-    <li>Create a quick MP4 slideshow from still images.</li>
-    <li>Preview GIF timing before exporting changes.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>GIFs use a limited color palette, so large or detailed animations may look banded.</li>
-    <li>Long GIFs can become very large files. MP4 is usually better for longer animations.</li>
-    <li>Very large GIFs or very large source images may take longer to process.</li>
-    <li>Always preview timing before exporting a final GIF or MP4 project.</li>
-    <li>Reorder frames or slides before exporting if sequence matters.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      GIF Tools are included alongside conversion, redaction, metadata tools, photo splitting, duplicate finding, organizing, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+  </nav>
+
+  <main id="main-content">
+    <h1>Convert GIFs to MP4 and build GIF or MP4 projects</h1>
+    <p class="tagline">Use Grafiq GIF Tools to preview, extract, caption, convert, rebuild, or create animated GIFs and simple MP4 image projects.</p>
+
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">GIF Tools overview</h2>
+      <p class="lead">
+        Animated GIFs are useful, but they can be large, hard to edit, or awkward to share in some places.
+        Grafiq GIF Tools gives you a local desktop workflow for previewing GIFs, extracting frames, converting GIFs to MP4,
+        adding captions, building GIFs from images or video, and creating MP4 slideshows from still images.
+      </p>
+
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
+
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What GIF Tools is for</h2>
+      <p>
+        GIF Tools is useful when you want to inspect, convert, rebuild, caption, or repurpose animated GIFs and image sequences.
+        It is also useful when you want to make a simple MP4 from still images without opening a large video editor.
+      </p>
+
+      <ul class="features">
+        <li>Preview animated GIFs before making changes.</li>
+        <li>Extract the first frame from a GIF as a still image.</li>
+        <li>Export all GIF frames as separate image files.</li>
+        <li>View GIF metadata.</li>
+        <li>Build GIFs from image frames or standalone images.</li>
+        <li>Build GIFs from video clips.</li>
+        <li>Convert animated GIFs to MP4.</li>
+        <li>Add or edit captions on GIF frames.</li>
+        <li>Build MP4 videos from selected images with timing, pan/zoom, transitions, preview, and project save/load.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Use GIF for short looping animations. Use MP4 when the animation is longer, larger, more detailed, or needs easier playback on websites and devices.
+      </div>
+    </section>
+
+    <section aria-labelledby="convert-heading">
+      <h2 id="convert-heading">How to convert a GIF to MP4 in Grafiq</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools.</strong><br>
+          In Grafiq, open <strong>GIF Tools</strong> from the sidebar or choose <strong>File → GIF Tools</strong>.
+        </li>
+
+        <li>
+          <strong>Choose the GIF.</strong><br>
+          Under <strong>Choose a GIF to work with</strong>, click <strong>Browse</strong> and select your animated GIF.
+        </li>
+
+        <li>
+          <strong>Preview the GIF.</strong><br>
+          Click <strong>Preview GIF</strong> to make sure you selected the right file.
+          Adjust <strong>Preview Speed (%)</strong> if you want to inspect it more slowly or quickly.
+        </li>
+
+        <li>
+          <strong>Convert to MP4.</strong><br>
+          Click <strong>Convert to MP4</strong>.
+        </li>
+
+        <li>
+          <strong>Choose where to save.</strong><br>
+          Pick the output location when prompted.
+        </li>
+
+        <li>
+          <strong>Check the result.</strong><br>
+          Open the exported MP4 and confirm that timing and playback look right.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="extract-heading">
+      <h2 id="extract-heading">How to extract frames from a GIF</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools.</strong><br>
+          Open <strong>GIF Tools</strong> and browse to your GIF.
+        </li>
+
+        <li>
+          <strong>Preview the GIF.</strong><br>
+          Use <strong>Preview GIF</strong> to confirm you have the correct file.
+        </li>
+
+        <li>
+          <strong>Choose a frame export option.</strong><br>
+          Use <strong>Extract First Frame</strong> if you only want the opening frame as a still image.
+          Use <strong>Export All Frames</strong> if you want every frame saved out as separate image files.
+        </li>
+
+        <li>
+          <strong>Review the exported files.</strong><br>
+          Check the output folder and confirm that the frames exported as expected.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="build-gif-images-heading">
+      <h2 id="build-gif-images-heading">How to build a GIF from images</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools.</strong><br>
+          Open <strong>GIF Tools</strong> from the sidebar or File menu.
+        </li>
+
+        <li>
+          <strong>Choose the correct build option.</strong><br>
+          Use <strong>Build GIF from Images</strong> when you have standalone image files.
+          Use <strong>Build GIF from Frames</strong> when you already have a numbered image sequence.
+        </li>
+
+        <li>
+          <strong>Select your images.</strong><br>
+          Add the images or frames you want to include.
+        </li>
+
+        <li>
+          <strong>Reorder frames if needed.</strong><br>
+          Put the images in the order you want before exporting.
+        </li>
+
+        <li>
+          <strong>Export the GIF.</strong><br>
+          Save the new animated GIF and preview it to make sure the sequence looks right.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="build-gif-video-heading">
+      <h2 id="build-gif-video-heading">How to build a GIF from a video clip</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools.</strong><br>
+          Open <strong>GIF Tools</strong>.
+        </li>
+
+        <li>
+          <strong>Choose Build GIF from Video.</strong><br>
+          Select the video file you want to turn into a GIF.
+        </li>
+
+        <li>
+          <strong>Choose the clip section.</strong><br>
+          Set the start time, end time, and FPS for the GIF.
+        </li>
+
+        <li>
+          <strong>Export and preview.</strong><br>
+          Save the GIF and preview the result.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="caption-heading">
+      <h2 id="caption-heading">How to add captions to a GIF</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools and choose a GIF.</strong><br>
+          Browse to the animated GIF you want to caption.
+        </li>
+
+        <li>
+          <strong>Open Caption Editor.</strong><br>
+          Click <strong>Caption Editor</strong>.
+        </li>
+
+        <li>
+          <strong>Add or edit captions.</strong><br>
+          Enter the caption text you want to appear on the GIF frames.
+        </li>
+
+        <li>
+          <strong>Export the captioned GIF.</strong><br>
+          Save the result and preview it before sharing.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="build-mp4-heading">
+      <h2 id="build-mp4-heading">How to build an MP4 from images</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools.</strong><br>
+          Open <strong>GIF Tools</strong> and choose <strong>Build MP4 from Images</strong>.
+        </li>
+
+        <li>
+          <strong>Add images.</strong><br>
+          Select the images you want to use as slides.
+        </li>
+
+        <li>
+          <strong>Put the slides in order.</strong><br>
+          Move slides up or down and remove anything you do not want in the final video.
+        </li>
+
+        <li>
+          <strong>Set timing and motion.</strong><br>
+          Adjust per-slide duration, transition settings, pan/zoom mode, transition duration, pan/zoom duration, and zoom amount.
+        </li>
+
+        <li>
+          <strong>Preview the project.</strong><br>
+          Use <strong>Preview</strong> to check the timing and motion before building the final MP4.
+        </li>
+
+        <li>
+          <strong>Save the project if needed.</strong><br>
+          Use <strong>Save Project…</strong> if you want to come back and edit the slideshow later.
+        </li>
+
+        <li>
+          <strong>Build the MP4.</strong><br>
+          Click <strong>Build MP4</strong> and choose where to save the video.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for GIF Tools</h2>
+
+      <ul class="features">
+        <li>Turn a GIF into an MP4 for easier sharing.</li>
+        <li>Extract GIF frames for review, editing, or reuse.</li>
+        <li>Create short GIFs from a few images.</li>
+        <li>Turn a short video clip into a GIF.</li>
+        <li>Add captions to simple GIF tutorials.</li>
+        <li>Create a quick MP4 slideshow from still images.</li>
+        <li>Preview GIF timing before exporting changes.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
+
+      <ul class="features">
+        <li>GIFs use a limited color palette, so large or detailed animations may look banded.</li>
+        <li>Long GIFs can become very large files. MP4 is usually better for longer animations.</li>
+        <li>Very large GIFs or very large source images may take longer to process.</li>
+        <li>Always preview timing before exporting a final GIF or MP4 project.</li>
+        <li>Reorder frames or slides before exporting if sequence matters.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        GIF Tools are included alongside conversion, redaction, metadata tools, photo splitting, duplicate finding, organizing, and more.
+      </p>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
