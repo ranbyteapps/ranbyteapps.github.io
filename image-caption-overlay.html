@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -164,231 +191,243 @@ footer {
     <a href="upscaler.html">Upscaler Guide</a>
     <a href="organizer.html">Organizer Guide</a>
     <a href="rename-files.html">Rename Files Guide</a>
-    <a href="black-and-white.html">Black & White Guide</a>
+    <a href="black-and-white.html">Black &amp; White Guide</a>
     <a href="motion-effects.html">Motion Effects Guide</a>
     <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a>
     <a href="svg-tools.html">SVG Tools Guide</a>
     <a href="metadata-explorer.html">Metadata Explorer Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Add captions and text overlays to photos</h1>
-  <p class="tagline">Use Grafiq Image Caption & Overlay to add labels, captions, titles, notes, and simple callouts to images locally on your desktop.</p>
+  <main id="main-content">
+    <h1>Add captions and text overlays to photos</h1>
+    <p class="tagline">Use Grafiq Image Caption &amp; Overlay to add labels, captions, titles, notes, and simple callouts to images locally on your desktop.</p>
 
-  <div class="card">
-    <p class="lead">
-      Sometimes an image needs a little explanation: a date, a name, a label, a title, a note, or a simple callout.
-      Grafiq Image Caption & Overlay gives you a local desktop workflow for adding text to photos and images without using a full design app.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Image Caption &amp; Overlay overview</h2>
+      <p class="lead">
+        Sometimes an image needs a little explanation: a date, a name, a label, a title, a note, or a simple callout.
+        Grafiq Image Caption &amp; Overlay gives you a local desktop workflow for adding text to photos and images without using a full design app.
+      </p>
 
+      <p>
+        Use it for family photos, screenshots, tutorial images, product photos, archive scans, project notes, and quick labeled graphics.
+      </p>
 
-<p>
-  Use it for family photos, screenshots, tutorial images, product photos, archive scans, project notes, and quick labeled graphics.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Image Caption &amp; Overlay is for</h2>
+      <p>
+        Image Caption &amp; Overlay is useful when you want to add visible text to an image.
+        This is different from metadata captions, which are stored inside the file. Overlay text becomes part of the exported image itself.
+      </p>
 
+      <ul class="features">
+        <li>Add visible captions to images.</li>
+        <li>Add labels, notes, dates, names, or titles.</li>
+        <li>Create simple tutorial or instruction images.</li>
+        <li>Add text overlays to screenshots.</li>
+        <li>Prepare labeled family archive images.</li>
+        <li>Create quick graphics without opening a large design app.</li>
+        <li>Save a new edited copy while keeping the original image unchanged.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Image Caption &amp; Overlay works on your computer. You do not need to upload private photos or screenshots to an online captioning tool.
+      </div>
+    </section>
 
-  <h2>What Image Caption & Overlay is for</h2>
-  <p>
-    Image Caption & Overlay is useful when you want to add visible text to an image.
-    This is different from metadata captions, which are stored inside the file. Overlay text becomes part of the exported image itself.
-  </p>
+    <section aria-labelledby="how-to-heading">
+      <h2 id="how-to-heading">How to add a caption to an image in Grafiq</h2>
 
-  <ul class="features">
-    <li>Add visible captions to images.</li>
-    <li>Add labels, notes, dates, names, or titles.</li>
-    <li>Create simple tutorial or instruction images.</li>
-    <li>Add text overlays to screenshots.</li>
-    <li>Prepare labeled family archive images.</li>
-    <li>Create quick graphics without opening a large design app.</li>
-    <li>Save a new edited copy while keeping the original image unchanged.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Image Caption &amp; Overlay.</strong><br>
+          In Grafiq, open <strong>Image Caption &amp; Overlay</strong> from the main tool area.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Image Caption & Overlay works on your computer. You do not need to upload private photos or screenshots to an online captioning tool.
-  </div>
+        <li>
+          <strong>Choose an image.</strong><br>
+          Open the photo, screenshot, scan, or graphic you want to caption.
+        </li>
 
-  <h2>How to add a caption to an image in Grafiq</h2>
+        <li>
+          <strong>Enter your caption text.</strong><br>
+          Type the text you want to place on the image.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Image Caption & Overlay.</strong><br>
-      In Grafiq, open <strong>Image Caption & Overlay</strong> from the main tool area.
-    </li>
+        <li>
+          <strong>Choose text placement.</strong><br>
+          Pick where the caption should appear, such as top, bottom, center, or another available placement.
+        </li>
 
+        <li>
+          <strong>Adjust text style.</strong><br>
+          Choose the font size, color, outline, background, or other available text options.
+        </li>
 
-<li>
-  <strong>Choose an image.</strong><br>
-  Open the photo, screenshot, scan, or graphic you want to caption.
-</li>
+        <li>
+          <strong>Preview the result.</strong><br>
+          Check that the text is readable and does not cover important parts of the image.
+        </li>
 
-<li>
-  <strong>Enter your caption text.</strong><br>
-  Type the text you want to place on the image.
-</li>
+        <li>
+          <strong>Export the captioned image.</strong><br>
+          Save the result as a new file.
+        </li>
 
-<li>
-  <strong>Choose text placement.</strong><br>
-  Pick where the caption should appear, such as top, bottom, center, or another available placement.
-</li>
+        <li>
+          <strong>Review the exported copy.</strong><br>
+          Open the exported image and confirm that the caption looks right.
+        </li>
+      </ol>
 
-<li>
-  <strong>Adjust text style.</strong><br>
-  Choose the font size, color, outline, background, or other available text options.
-</li>
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Keep captions short. A short caption is easier to read and less likely to cover the important part of the image.
+      </div>
+    </section>
 
-<li>
-  <strong>Preview the result.</strong><br>
-  Check that the text is readable and does not cover important parts of the image.
-</li>
+    <section aria-labelledby="visible-metadata-heading">
+      <h2 id="visible-metadata-heading">Visible captions vs. metadata captions</h2>
 
-<li>
-  <strong>Export the captioned image.</strong><br>
-  Save the result as a new file.
-</li>
+      <p>
+        Grafiq can help with both visible captions and metadata, but they are not the same thing.
+      </p>
 
-<li>
-  <strong>Review the exported copy.</strong><br>
-  Open the exported image and confirm that the caption looks right.
-</li>
+      <ul class="features">
+        <li><strong>Visible caption:</strong> Text is drawn directly on the image and will be seen by anyone who opens the exported copy.</li>
+        <li><strong>Metadata caption:</strong> Text is stored inside the file metadata and may not be visible unless an app reads that metadata.</li>
+      </ul>
 
+      <div class="note">
+        <strong>Good workflow:</strong>
+        Use visible captions when the viewer needs to see the text immediately.
+        Use metadata captions when you want searchable or embedded descriptions without changing how the image looks.
+      </div>
+    </section>
 
-  </ol>
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for image captions</h2>
 
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Keep captions short. A short caption is easier to read and less likely to cover the important part of the image.
-  </div>
+      <ul class="features">
+        <li>Add names and dates to old family photos.</li>
+        <li>Add labels to scanned archive images.</li>
+        <li>Add instructions to screenshots.</li>
+        <li>Create simple before-and-after images.</li>
+        <li>Add a title to a photo for a slideshow.</li>
+        <li>Add product labels or quick notes.</li>
+        <li>Create lightweight tutorial graphics.</li>
+        <li>Make images easier to understand when shared outside the original folder context.</li>
+      </ul>
+    </section>
 
-  <h2>Visible captions vs. metadata captions</h2>
+    <section aria-labelledby="readability-heading">
+      <h2 id="readability-heading">Tips for readable captions</h2>
 
-  <p>
-    Grafiq can help with both visible captions and metadata, but they are not the same thing.
-  </p>
+      <ul class="features">
+        <li>Use short text whenever possible.</li>
+        <li>Place captions in an area with simple background.</li>
+        <li>Use high contrast between text and the image.</li>
+        <li>Use an outline or background behind text if the image is busy.</li>
+        <li>Avoid covering faces, important details, or document text.</li>
+        <li>Preview at the size where the image will actually be viewed.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li><strong>Visible caption:</strong> Text is drawn directly on the image and will be seen by anyone who opens the exported copy.</li>
-    <li><strong>Metadata caption:</strong> Text is stored inside the file metadata and may not be visible unless an app reads that metadata.</li>
-  </ul>
+    <section aria-labelledby="caption-ideas-heading">
+      <h2 id="caption-ideas-heading">Caption ideas</h2>
 
-  <div class="note">
-    <strong>Good workflow:</strong>
-    Use visible captions when the viewer needs to see the text immediately.
-    Use metadata captions when you want searchable or embedded descriptions without changing how the image looks.
-  </div>
+      <ul class="features">
+        <li>Names: <code>Mom and Dad, 1978</code></li>
+        <li>Dates: <code>Summer 1984</code></li>
+        <li>Places: <code>Grand Canyon Trip</code></li>
+        <li>Instructions: <code>Click Export after choosing the folder</code></li>
+        <li>Project labels: <code>Before</code>, <code>After</code>, or <code>Step 3</code></li>
+        <li>Archive notes: <code>Scanned from family album</code></li>
+      </ul>
+    </section>
 
-  <h2>Good uses for image captions</h2>
+    <section aria-labelledby="workflow-heading">
+      <h2 id="workflow-heading">How to use captions with other Grafiq tools</h2>
 
-  <ul class="features">
-    <li>Add names and dates to old family photos.</li>
-    <li>Add labels to scanned archive images.</li>
-    <li>Add instructions to screenshots.</li>
-    <li>Create simple before-and-after images.</li>
-    <li>Add a title to a photo for a slideshow.</li>
-    <li>Add product labels or quick notes.</li>
-    <li>Create lightweight tutorial graphics.</li>
-    <li>Make images easier to understand when shared outside the original folder context.</li>
-  </ul>
+      <ul class="features">
+        <li>Use <strong>Photo Splitter</strong> first, then caption each separated photo.</li>
+        <li>Use <strong>Metadata Explorer</strong> to find images, then add visible captions to selected copies.</li>
+        <li>Use <strong>Redactor</strong> before captioning if private details need to be hidden.</li>
+        <li>Use <strong>Crop Studio</strong> before captioning if the image needs better framing.</li>
+        <li>Use <strong>Cinematic Slideshow</strong> after captioning if you want labeled images in a video sequence.</li>
+      </ul>
+    </section>
 
-  <h2>Tips for readable captions</h2>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-  <ul class="features">
-    <li>Use short text whenever possible.</li>
-    <li>Place captions in an area with simple background.</li>
-    <li>Use high contrast between text and the image.</li>
-    <li>Use an outline or background behind text if the image is busy.</li>
-    <li>Avoid covering faces, important details, or document text.</li>
-    <li>Preview at the size where the image will actually be viewed.</li>
-  </ul>
+      <ul class="features">
+        <li>Visible captions become part of the exported image.</li>
+        <li>Text can cover important image details if placed poorly.</li>
+        <li>Small text may be hard to read after resizing or sharing.</li>
+        <li>Busy backgrounds can make text hard to read without a text background or outline.</li>
+        <li>Use metadata editing instead if you want a hidden searchable caption rather than visible text.</li>
+        <li>Keep the original image unchanged until you confirm the captioned export looks right.</li>
+      </ul>
+    </section>
 
-  <h2>Caption ideas</h2>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Image Caption &amp; Overlay is included alongside Metadata Explorer, SVG Tools, Cinematic Slideshow, Motion Effects, Black &amp; White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, photo splitting, duplicate finding, and more.
+      </p>
 
-  <ul class="features">
-    <li>Names: <code>Mom and Dad, 1978</code></li>
-    <li>Dates: <code>Summer 1984</code></li>
-    <li>Places: <code>Grand Canyon Trip</code></li>
-    <li>Instructions: <code>Click Export after choosing the folder</code></li>
-    <li>Project labels: <code>Before</code>, <code>After</code>, or <code>Step 3</code></li>
-    <li>Archive notes: <code>Scanned from family album</code></li>
-  </ul>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-  <h2>How to use captions with other Grafiq tools</h2>
-
-  <ul class="features">
-    <li>Use <strong>Photo Splitter</strong> first, then caption each separated photo.</li>
-    <li>Use <strong>Metadata Explorer</strong> to find images, then add visible captions to selected copies.</li>
-    <li>Use <strong>Redactor</strong> before captioning if private details need to be hidden.</li>
-    <li>Use <strong>Crop Studio</strong> before captioning if the image needs better framing.</li>
-    <li>Use <strong>Cinematic Slideshow</strong> after captioning if you want labeled images in a video sequence.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Visible captions become part of the exported image.</li>
-    <li>Text can cover important image details if placed poorly.</li>
-    <li>Small text may be hard to read after resizing or sharing.</li>
-    <li>Busy backgrounds can make text hard to read without a text background or outline.</li>
-    <li>Use metadata editing instead if you want a hidden searchable caption rather than visible text.</li>
-    <li>Keep the original image unchanged until you confirm the captioned export looks right.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Image Caption & Overlay is included alongside Metadata Explorer, SVG Tools, Cinematic Slideshow, Motion Effects, Black & White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, photo splitting, duplicate finding, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="video-tools.html">Video Tools Guide</a> |
-      <a href="upscaler.html">Upscaler Guide</a> |
-      <a href="organizer.html">Organizer Guide</a> |
-      <a href="rename-files.html">Rename Files Guide</a> |
-      <a href="black-and-white.html">Black & White Guide</a> |
-      <a href="motion-effects.html">Motion Effects Guide</a> |
-      <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
-      <a href="svg-tools.html">SVG Tools Guide</a> |
-      <a href="metadata-explorer.html">Metadata Explorer Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="video-tools.html">Video Tools Guide</a> |
+        <a href="upscaler.html">Upscaler Guide</a> |
+        <a href="organizer.html">Organizer Guide</a> |
+        <a href="rename-files.html">Rename Files Guide</a> |
+        <a href="black-and-white.html">Black &amp; White Guide</a> |
+        <a href="motion-effects.html">Motion Effects Guide</a> |
+        <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
+        <a href="svg-tools.html">SVG Tools Guide</a> |
+        <a href="metadata-explorer.html">Metadata Explorer Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
