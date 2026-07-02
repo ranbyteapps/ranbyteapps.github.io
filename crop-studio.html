@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
-```
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
+
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -161,236 +188,245 @@ footer {
     <a href="background-remover.html">Background Remover Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Crop images, GIFs, and videos in one desktop app</h1>
-  <p class="tagline">Use Grafiq Crop Studio to crop photos, screenshots, animated GIFs, and videos locally with live preview and aspect presets.</p>
+  <main id="main-content">
+    <h1>Crop images, GIFs, and videos in one desktop app</h1>
+    <p class="tagline">Use Grafiq Crop Studio to crop photos, screenshots, animated GIFs, and videos locally with live preview and aspect presets.</p>
 
-  <div class="card">
-    <p class="lead">
-      Sometimes you just need to reframe a photo, remove black bars, crop a GIF, or prepare a video for a specific shape.
-      Grafiq Crop Studio gives you one local workflow for cropping images, animated GIFs, and videos.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Crop Studio overview</h2>
+      <p class="lead">
+        Sometimes you just need to reframe a photo, remove black bars, crop a GIF, or prepare a video for a specific shape.
+        Grafiq Crop Studio gives you one local workflow for cropping images, animated GIFs, and videos.
+      </p>
 
+      <p>
+        Draw a crop box, choose an aspect ratio, reuse a crop across files, preview GIF motion, and export clean cropped copies without overwriting your originals.
+      </p>
 
-<p>
-  Draw a crop box, choose an aspect ratio, reuse a crop across files, preview GIF motion, and export clean cropped copies without overwriting your originals.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Crop Studio is for</h2>
+      <p>
+        Crop Studio is useful when you want to remove unwanted edges, reframe media for sharing, standardize a batch of files,
+        crop out black bars, or prepare images, GIFs, and videos for different layouts.
+      </p>
 
+      <ul class="features">
+        <li>Crop images with a live preview crop box.</li>
+        <li>Crop animated GIFs and preview GIF motion while the crop box stays visible.</li>
+        <li>Crop videos such as MP4/MOV/M4V where supported.</li>
+        <li>Use aspect presets such as Free, Original, 1:1, 4:3, 16:9, 9:16, and 2.39:1.</li>
+        <li>Enter precise crop values with X, Y, W, and H fields.</li>
+        <li>Use Auto Crop Borders to help remove solid borders or letterboxing.</li>
+        <li>Copy and paste crop boxes between files.</li>
+        <li>Apply the same crop to multiple files.</li>
+        <li>Export cropped copies without overwriting originals.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Crop Studio works on your computer. You do not need to upload private photos, GIFs, or videos to an online crop tool.
+      </div>
+    </section>
 
-  <h2>What Crop Studio is for</h2>
-  <p>
-    Crop Studio is useful when you want to remove unwanted edges, reframe media for sharing, standardize a batch of files,
-    crop out black bars, or prepare images, GIFs, and videos for different layouts.
-  </p>
+    <section aria-labelledby="how-to-heading">
+      <h2 id="how-to-heading">How to crop an image, GIF, or video in Grafiq</h2>
 
-  <ul class="features">
-    <li>Crop images with a live preview crop box.</li>
-    <li>Crop animated GIFs and preview GIF motion while the crop box stays visible.</li>
-    <li>Crop videos such as MP4/MOV/M4V where supported.</li>
-    <li>Use aspect presets such as Free, Original, 1:1, 4:3, 16:9, 9:16, and 2.39:1.</li>
-    <li>Enter precise crop values with X, Y, W, and H fields.</li>
-    <li>Use Auto Crop Borders to help remove solid borders or letterboxing.</li>
-    <li>Copy and paste crop boxes between files.</li>
-    <li>Apply the same crop to multiple files.</li>
-    <li>Export cropped copies without overwriting originals.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Crop Studio.</strong><br>
+          In Grafiq, open <strong>More → Crop Studio</strong>, or open Crop Studio from the Tools menu if available in your build.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Crop Studio works on your computer. You do not need to upload private photos, GIFs, or videos to an online crop tool.
-  </div>
+        <li>
+          <strong>Add files.</strong><br>
+          Click <strong>+ Add Files…</strong> and choose the images, GIFs, or videos you want to crop.
+        </li>
 
-  <h2>How to crop an image, GIF, or video in Grafiq</h2>
+        <li>
+          <strong>Select a file.</strong><br>
+          Click a file in the left list to show it in the preview area.
+          For GIFs and videos, the preview starts from a representative frame.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Crop Studio.</strong><br>
-      In Grafiq, open <strong>More → Crop Studio</strong>, or open Crop Studio from the Tools menu if available in your build.
-    </li>
+        <li>
+          <strong>Draw a crop box.</strong><br>
+          Click and drag on the preview to draw the crop area.
+        </li>
 
+        <li>
+          <strong>Fine-tune the crop.</strong><br>
+          Drag the crop box, resize it, or enter exact <strong>X / Y / W / H</strong> values.
+        </li>
 
-<li>
-  <strong>Add files.</strong><br>
-  Click <strong>+ Add Files…</strong> and choose the images, GIFs, or videos you want to crop.
-</li>
+        <li>
+          <strong>Choose an aspect ratio if needed.</strong><br>
+          Use <strong>Aspect</strong> to choose Free, Original, 1:1, 4:3, 16:9, 9:16, or 2.39:1.
+        </li>
 
-<li>
-  <strong>Select a file.</strong><br>
-  Click a file in the left list to show it in the preview area.
-  For GIFs and videos, the preview starts from a representative frame.
-</li>
+        <li>
+          <strong>Choose an output folder.</strong><br>
+          Select where the cropped files should be saved.
+        </li>
 
-<li>
-  <strong>Draw a crop box.</strong><br>
-  Click and drag on the preview to draw the crop area.
-</li>
+        <li>
+          <strong>Export the crop.</strong><br>
+          Click <strong>Export Selected</strong> for one file, or <strong>Export All</strong> for every file in the list.
+        </li>
+      </ol>
+    </section>
 
-<li>
-  <strong>Fine-tune the crop.</strong><br>
-  Drag the crop box, resize it, or enter exact <strong>X / Y / W / H</strong> values.
-</li>
+    <section aria-labelledby="batch-heading">
+      <h2 id="batch-heading">How to crop multiple files the same way</h2>
 
-<li>
-  <strong>Choose an aspect ratio if needed.</strong><br>
-  Use <strong>Aspect</strong> to choose Free, Original, 1:1, 4:3, 16:9, 9:16, or 2.39:1.
-</li>
+      <p>
+        Crop Studio is especially useful when you need consistent framing across a group of files.
+      </p>
 
-<li>
-  <strong>Choose an output folder.</strong><br>
-  Select where the cropped files should be saved.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Set the crop on one file.</strong><br>
+          Draw and adjust the crop box on a representative image, GIF, or video.
+        </li>
 
-<li>
-  <strong>Export the crop.</strong><br>
-  Click <strong>Export Selected</strong> for one file, or <strong>Export All</strong> for every file in the list.
-</li>
+        <li>
+          <strong>Use an aspect preset.</strong><br>
+          Choose an aspect ratio such as <strong>16:9</strong>, <strong>9:16</strong>, or <strong>1:1</strong> if the batch should all use the same shape.
+        </li>
 
+        <li>
+          <strong>Enable Keep crop centered if useful.</strong><br>
+          This helps keep the crop anchored while you adjust size.
+        </li>
 
-  </ol>
+        <li>
+          <strong>Apply the crop to all.</strong><br>
+          Use <strong>Apply crop to all</strong> to apply the same crop box to every file in the list.
+        </li>
 
-  <h2>How to crop multiple files the same way</h2>
+        <li>
+          <strong>Export all files.</strong><br>
+          Click <strong>Export All</strong> to save cropped copies for the whole batch.
+        </li>
+      </ol>
 
-  <p>
-    Crop Studio is especially useful when you need consistent framing across a group of files.
-  </p>
+      <div class="note">
+        <strong>Simple rule:</strong>
+        For consistent social/video crops, choose an aspect ratio first, enable <strong>Keep crop centered</strong>, then batch export.
+      </div>
+    </section>
 
-  <ol class="steps">
-    <li>
-      <strong>Set the crop on one file.</strong><br>
-      Draw and adjust the crop box on a representative image, GIF, or video.
-    </li>
+    <section aria-labelledby="presets-heading">
+      <h2 id="presets-heading">Useful crop presets and options</h2>
 
+      <ul class="features">
+        <li><strong>Free:</strong> Crop to any shape.</li>
+        <li><strong>Original:</strong> Keep the original aspect ratio.</li>
+        <li><strong>1:1:</strong> Square crop for icons, thumbnails, profile images, or marketplaces.</li>
+        <li><strong>4:3:</strong> Traditional photo or presentation-style framing.</li>
+        <li><strong>16:9:</strong> Widescreen crop for YouTube, slides, and landscape video.</li>
+        <li><strong>9:16:</strong> Vertical crop for stories, reels, shorts, or phone-style video.</li>
+        <li><strong>2.39:1:</strong> Cinematic widescreen-style crop.</li>
+        <li><strong>Center Square:</strong> Quickly centers a square crop.</li>
+        <li><strong>Center 16:9:</strong> Quickly centers a widescreen crop.</li>
+        <li><strong>Auto Crop Borders:</strong> Attempts to remove solid borders, letterboxing, black bars, or white margins from the preview frame.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Use an aspect preset.</strong><br>
-  Choose an aspect ratio such as <strong>16:9</strong>, <strong>9:16</strong>, or <strong>1:1</strong> if the batch should all use the same shape.
-</li>
+    <section aria-labelledby="gif-video-heading">
+      <h2 id="gif-video-heading">GIF and video cropping notes</h2>
 
-<li>
-  <strong>Enable Keep crop centered if useful.</strong><br>
-  This helps keep the crop anchored while you adjust size.
-</li>
+      <ul class="features">
+        <li>For GIFs, use <strong>Play GIF</strong> to preview motion while keeping the crop overlay visible.</li>
+        <li>For videos, enable <strong>Force even dimensions</strong> when available to improve MP4 export reliability.</li>
+        <li>GIF and video previews may use the first frame or a representative frame for crop setup.</li>
+        <li>Always preview or inspect the exported result, especially for moving subjects.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Apply the crop to all.</strong><br>
-  Use <strong>Apply crop to all</strong> to apply the same crop box to every file in the list.
-</li>
+    <section aria-labelledby="keyboard-heading">
+      <h2 id="keyboard-heading">Keyboard shortcuts</h2>
 
-<li>
-  <strong>Export all files.</strong><br>
-  Click <strong>Export All</strong> to save cropped copies for the whole batch.
-</li>
+      <ul class="features">
+        <li><strong>Arrow keys:</strong> Nudge the crop position by 1 pixel.</li>
+        <li><strong>Shift + Arrow keys:</strong> Nudge by 10 pixels.</li>
+        <li><strong>Option/Alt + Arrow keys:</strong> Resize the crop box by 1 pixel.</li>
+        <li><strong>Option/Alt + Shift + Arrow keys:</strong> Resize by 10 pixels.</li>
+      </ul>
+    </section>
 
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for Crop Studio</h2>
 
-  </ol>
+      <ul class="features">
+        <li>Crop photos before sharing or uploading.</li>
+        <li>Remove black bars or letterboxing from videos.</li>
+        <li>Make square images for profile pictures, thumbnails, or listings.</li>
+        <li>Crop vertical videos for phone-style layouts.</li>
+        <li>Crop GIFs while checking animation motion.</li>
+        <li>Apply the same crop to a batch of screenshots, photos, or clips.</li>
+        <li>Prepare media for websites, documents, slides, or social posts.</li>
+      </ul>
+    </section>
 
-  <div class="note">
-    <strong>Simple rule:</strong>
-    For consistent social/video crops, choose an aspect ratio first, enable <strong>Keep crop centered</strong>, then batch export.
-  </div>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-  <h2>Useful crop presets and options</h2>
+      <ul class="features">
+        <li>Cropping changes framing; it does not improve quality or add detail.</li>
+        <li>Very tight crops can make an image or video look lower resolution.</li>
+        <li>Auto Crop Borders is a helper, not a guarantee. Complex backgrounds may need manual adjustment.</li>
+        <li>GIF and video crops should be checked after export because motion may reveal framing issues.</li>
+        <li>For videos, odd crop dimensions can cause codec problems, so use Force even dimensions when available.</li>
+        <li>Exports are new cropped files, usually with a cropped filename suffix, so originals stay unchanged.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li><strong>Free:</strong> Crop to any shape.</li>
-    <li><strong>Original:</strong> Keep the original aspect ratio.</li>
-    <li><strong>1:1:</strong> Square crop for icons, thumbnails, profile images, or marketplaces.</li>
-    <li><strong>4:3:</strong> Traditional photo or presentation-style framing.</li>
-    <li><strong>16:9:</strong> Widescreen crop for YouTube, slides, and landscape video.</li>
-    <li><strong>9:16:</strong> Vertical crop for stories, reels, shorts, or phone-style video.</li>
-    <li><strong>2.39:1:</strong> Cinematic widescreen-style crop.</li>
-    <li><strong>Center Square:</strong> Quickly centers a square crop.</li>
-    <li><strong>Center 16:9:</strong> Quickly centers a widescreen crop.</li>
-    <li><strong>Auto Crop Borders:</strong> Attempts to remove solid borders, letterboxing, black bars, or white margins from the preview frame.</li>
-  </ul>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Crop Studio is included alongside background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, organizing, and more.
+      </p>
 
-  <h2>GIF and video cropping notes</h2>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-  <ul class="features">
-    <li>For GIFs, use <strong>Play GIF</strong> to preview motion while keeping the crop overlay visible.</li>
-    <li>For videos, enable <strong>Force even dimensions</strong> when available to improve MP4 export reliability.</li>
-    <li>GIF and video previews may use the first frame or a representative frame for crop setup.</li>
-    <li>Always preview or inspect the exported result, especially for moving subjects.</li>
-  </ul>
-
-  <h2>Keyboard shortcuts</h2>
-
-  <ul class="features">
-    <li><strong>Arrow keys:</strong> Nudge the crop position by 1 pixel.</li>
-    <li><strong>Shift + Arrow keys:</strong> Nudge by 10 pixels.</li>
-    <li><strong>Option/Alt + Arrow keys:</strong> Resize the crop box by 1 pixel.</li>
-    <li><strong>Option/Alt + Shift + Arrow keys:</strong> Resize by 10 pixels.</li>
-  </ul>
-
-  <h2>Good uses for Crop Studio</h2>
-
-  <ul class="features">
-    <li>Crop photos before sharing or uploading.</li>
-    <li>Remove black bars or letterboxing from videos.</li>
-    <li>Make square images for profile pictures, thumbnails, or listings.</li>
-    <li>Crop vertical videos for phone-style layouts.</li>
-    <li>Crop GIFs while checking animation motion.</li>
-    <li>Apply the same crop to a batch of screenshots, photos, or clips.</li>
-    <li>Prepare media for websites, documents, slides, or social posts.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Cropping changes framing; it does not improve quality or add detail.</li>
-    <li>Very tight crops can make an image or video look lower resolution.</li>
-    <li>Auto Crop Borders is a helper, not a guarantee. Complex backgrounds may need manual adjustment.</li>
-    <li>GIF and video crops should be checked after export because motion may reveal framing issues.</li>
-    <li>For videos, odd crop dimensions can cause codec problems, so use Force even dimensions when available.</li>
-    <li>Exports are new cropped files, usually with a cropped filename suffix, so originals stay unchanged.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Crop Studio is included alongside background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, organizing, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
