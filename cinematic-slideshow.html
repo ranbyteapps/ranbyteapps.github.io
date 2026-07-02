@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -164,234 +191,246 @@ footer {
     <a href="upscaler.html">Upscaler Guide</a>
     <a href="organizer.html">Organizer Guide</a>
     <a href="rename-files.html">Rename Files Guide</a>
-    <a href="black-and-white.html">Black & White Guide</a>
+    <a href="black-and-white.html">Black &amp; White Guide</a>
     <a href="motion-effects.html">Motion Effects Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Turn photos into a cinematic slideshow video</h1>
-  <p class="tagline">Use Grafiq Cinematic Slideshow to turn still images into a polished video-style slideshow with timing, motion, transitions, and captions.</p>
+  <main id="main-content">
+    <h1>Turn photos into a cinematic slideshow video</h1>
+    <p class="tagline">Use Grafiq Cinematic Slideshow to turn still images into a polished video-style slideshow with timing, motion, transitions, and captions.</p>
 
-  <div class="card">
-    <p class="lead">
-      A folder of photos can become more interesting when the images move, fade, and tell a simple story.
-      Grafiq Cinematic Slideshow gives you a local desktop workflow for turning photos into a finished slideshow video.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Cinematic Slideshow overview</h2>
+      <p class="lead">
+        A folder of photos can become more interesting when the images move, fade, and tell a simple story.
+        Grafiq Cinematic Slideshow gives you a local desktop workflow for turning photos into a finished slideshow video.
+      </p>
 
+      <p>
+        Use it for family memories, scanned photo archives, trips, memorials, celebrations, before-and-after projects, product images, or simple presentation videos.
+      </p>
 
-<p>
-  Use it for family memories, scanned photo archives, trips, memorials, celebrations, before-and-after projects, product images, or simple presentation videos.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Cinematic Slideshow is for</h2>
+      <p>
+        Cinematic Slideshow is useful when you want to turn multiple still images into a video instead of sharing a folder of separate photos.
+        It can help you build a simple story from images by adding motion, timing, transitions, and optional text.
+      </p>
 
+      <ul class="features">
+        <li>Turn a group of photos into a slideshow-style video.</li>
+        <li>Arrange images in the order you want.</li>
+        <li>Set timing so each image stays on screen long enough.</li>
+        <li>Add motion such as gentle zoom or pan effects where available.</li>
+        <li>Use transitions between images.</li>
+        <li>Add captions or text where supported.</li>
+        <li>Preview before exporting when available.</li>
+        <li>Export a finished video file without changing the original images.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Cinematic Slideshow works on your computer. You do not need to upload private family photos or project images to an online slideshow maker.
+      </div>
+    </section>
 
-  <h2>What Cinematic Slideshow is for</h2>
-  <p>
-    Cinematic Slideshow is useful when you want to turn multiple still images into a video instead of sharing a folder of separate photos.
-    It can help you build a simple story from images by adding motion, timing, transitions, and optional text.
-  </p>
+    <section aria-labelledby="how-to-heading">
+      <h2 id="how-to-heading">How to create a slideshow video in Grafiq</h2>
 
-  <ul class="features">
-    <li>Turn a group of photos into a slideshow-style video.</li>
-    <li>Arrange images in the order you want.</li>
-    <li>Set timing so each image stays on screen long enough.</li>
-    <li>Add motion such as gentle zoom or pan effects where available.</li>
-    <li>Use transitions between images.</li>
-    <li>Add captions or text where supported.</li>
-    <li>Preview before exporting when available.</li>
-    <li>Export a finished video file without changing the original images.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Cinematic Slideshow.</strong><br>
+          In Grafiq, open <strong>More → Cinematic Slideshow</strong>.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Cinematic Slideshow works on your computer. You do not need to upload private family photos or project images to an online slideshow maker.
-  </div>
+        <li>
+          <strong>Add images.</strong><br>
+          Add the photos, scans, screenshots, or graphics you want to include in the slideshow.
+        </li>
 
-  <h2>How to create a slideshow video in Grafiq</h2>
+        <li>
+          <strong>Put images in order.</strong><br>
+          Arrange the images in the sequence you want viewers to see them.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Cinematic Slideshow.</strong><br>
-      In Grafiq, open <strong>More → Cinematic Slideshow</strong>.
-    </li>
+        <li>
+          <strong>Set slide timing.</strong><br>
+          Choose how long each image should stay on screen.
+        </li>
 
+        <li>
+          <strong>Choose motion settings.</strong><br>
+          Use subtle zoom, pan, or cinematic movement settings where available.
+        </li>
 
-<li>
-  <strong>Add images.</strong><br>
-  Add the photos, scans, screenshots, or graphics you want to include in the slideshow.
-</li>
+        <li>
+          <strong>Choose transitions.</strong><br>
+          Pick transition behavior between slides, such as simple fades or other available transition options.
+        </li>
 
-<li>
-  <strong>Put images in order.</strong><br>
-  Arrange the images in the sequence you want viewers to see them.
-</li>
+        <li>
+          <strong>Add captions if needed.</strong><br>
+          Add text for dates, places, names, project notes, or short story captions where supported.
+        </li>
 
-<li>
-  <strong>Set slide timing.</strong><br>
-  Choose how long each image should stay on screen.
-</li>
+        <li>
+          <strong>Preview the slideshow.</strong><br>
+          Check pacing, order, motion, and text before exporting.
+        </li>
 
-<li>
-  <strong>Choose motion settings.</strong><br>
-  Use subtle zoom, pan, or cinematic movement settings where available.
-</li>
+        <li>
+          <strong>Export the video.</strong><br>
+          Save the finished slideshow as a new video file.
+        </li>
+      </ol>
 
-<li>
-  <strong>Choose transitions.</strong><br>
-  Pick transition behavior between slides, such as simple fades or other available transition options.
-</li>
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Keep motion subtle and give each photo enough time on screen. A calm slideshow usually feels more polished than one with fast movement on every image.
+      </div>
+    </section>
 
-<li>
-  <strong>Add captions if needed.</strong><br>
-  Add text for dates, places, names, project notes, or short story captions where supported.
-</li>
+    <section aria-labelledby="good-photos-heading">
+      <h2 id="good-photos-heading">Good photos for a slideshow</h2>
 
-<li>
-  <strong>Preview the slideshow.</strong><br>
-  Check pacing, order, motion, and text before exporting.
-</li>
+      <ul class="features">
+        <li>Family photos from an event, trip, or holiday.</li>
+        <li>Scanned old photos from an archive project.</li>
+        <li>Product images that need a simple video presentation.</li>
+        <li>Before-and-after project photos.</li>
+        <li>Graduation, birthday, wedding, memorial, or celebration images.</li>
+        <li>Landscape or travel photos that look good with slow pan or zoom.</li>
+        <li>Images that are large enough to handle motion without becoming too soft.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Export the video.</strong><br>
-  Save the finished slideshow as a new video file.
-</li>
+    <section aria-labelledby="better-slideshow-heading">
+      <h2 id="better-slideshow-heading">How to make the slideshow feel better</h2>
 
+      <ul class="features">
+        <li><strong>Start strong:</strong> Put one of the best images near the beginning.</li>
+        <li><strong>Group related photos:</strong> Keep similar scenes, people, or events together.</li>
+        <li><strong>Use simple timing:</strong> Longer timing works better for emotional or detail-heavy photos.</li>
+        <li><strong>Use subtle motion:</strong> Slow zooms and pans often look cleaner than extreme movement.</li>
+        <li><strong>Use captions sparingly:</strong> Short captions are easier to read than long blocks of text.</li>
+        <li><strong>Preview the whole thing:</strong> A slideshow can feel different when watched from beginning to end.</li>
+      </ul>
+    </section>
 
-  </ol>
+    <section aria-labelledby="captions-heading">
+      <h2 id="captions-heading">Caption ideas</h2>
 
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Keep motion subtle and give each photo enough time on screen. A calm slideshow usually feels more polished than one with fast movement on every image.
-  </div>
+      <p>
+        Captions can help viewers understand the story without turning the slideshow into a document.
+        Short text usually works best.
+      </p>
 
-  <h2>Good photos for a slideshow</h2>
+      <ul class="features">
+        <li>Names of people in older family photos.</li>
+        <li>Dates or approximate years.</li>
+        <li>Locations, trips, or events.</li>
+        <li>Short phrases such as “Summer 1984” or “First house.”</li>
+        <li>Project stages such as “Before,” “During,” and “After.”</li>
+        <li>Product names or simple callouts.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li>Family photos from an event, trip, or holiday.</li>
-    <li>Scanned old photos from an archive project.</li>
-    <li>Product images that need a simple video presentation.</li>
-    <li>Before-and-after project photos.</li>
-    <li>Graduation, birthday, wedding, memorial, or celebration images.</li>
-    <li>Landscape or travel photos that look good with slow pan or zoom.</li>
-    <li>Images that are large enough to handle motion without becoming too soft.</li>
-  </ul>
+    <section aria-labelledby="comparison-heading">
+      <h2 id="comparison-heading">Cinematic Slideshow vs. Motion Effects</h2>
 
-  <h2>How to make the slideshow feel better</h2>
+      <ul class="features">
+        <li><strong>Cinematic Slideshow:</strong> Best when you want to turn multiple images into a finished sequence or story.</li>
+        <li><strong>Motion Effects:</strong> Best when you want to create a motion clip from one still image.</li>
+      </ul>
 
-  <ul class="features">
-    <li><strong>Start strong:</strong> Put one of the best images near the beginning.</li>
-    <li><strong>Group related photos:</strong> Keep similar scenes, people, or events together.</li>
-    <li><strong>Use simple timing:</strong> Longer timing works better for emotional or detail-heavy photos.</li>
-    <li><strong>Use subtle motion:</strong> Slow zooms and pans often look cleaner than extreme movement.</li>
-    <li><strong>Use captions sparingly:</strong> Short captions are easier to read than long blocks of text.</li>
-    <li><strong>Preview the whole thing:</strong> A slideshow can feel different when watched from beginning to end.</li>
-  </ul>
+      <div class="note">
+        <strong>Good workflow:</strong>
+        Use Motion Effects for one image when you want a single animated clip.
+        Use Cinematic Slideshow when you want a full photo sequence exported as a video.
+      </div>
+    </section>
 
-  <h2>Caption ideas</h2>
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for Cinematic Slideshow</h2>
 
-  <p>
-    Captions can help viewers understand the story without turning the slideshow into a document.
-    Short text usually works best.
-  </p>
+      <ul class="features">
+        <li>Create a family photo video.</li>
+        <li>Turn scanned photos into an archive slideshow.</li>
+        <li>Make a simple memorial or celebration video.</li>
+        <li>Create a before-and-after project video.</li>
+        <li>Make a product image slideshow.</li>
+        <li>Create simple video inserts for other editing projects.</li>
+        <li>Turn a folder of photos into something easier to watch and share.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li>Names of people in older family photos.</li>
-    <li>Dates or approximate years.</li>
-    <li>Locations, trips, or events.</li>
-    <li>Short phrases such as “Summer 1984” or “First house.”</li>
-    <li>Project stages such as “Before,” “During,” and “After.”</li>
-    <li>Product names or simple callouts.</li>
-  </ul>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-  <h2>Cinematic Slideshow vs. Motion Effects</h2>
+      <ul class="features">
+        <li>Low-resolution images may look soft if zoomed too far.</li>
+        <li>Too many fast transitions can make the slideshow feel busy.</li>
+        <li>Long captions can be hard to read before the next slide appears.</li>
+        <li>Portrait and landscape images may need different framing choices.</li>
+        <li>Video export can take time for large projects.</li>
+        <li>Always review the exported video before sharing it.</li>
+        <li>Keep your original images unchanged until you confirm the final video looks right.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li><strong>Cinematic Slideshow:</strong> Best when you want to turn multiple images into a finished sequence or story.</li>
-    <li><strong>Motion Effects:</strong> Best when you want to create a motion clip from one still image.</li>
-  </ul>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Cinematic Slideshow is included alongside Motion Effects, Black &amp; White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, and more.
+      </p>
 
-  <div class="note">
-    <strong>Good workflow:</strong>
-    Use Motion Effects for one image when you want a single animated clip.
-    Use Cinematic Slideshow when you want a full photo sequence exported as a video.
-  </div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-  <h2>Good uses for Cinematic Slideshow</h2>
-
-  <ul class="features">
-    <li>Create a family photo video.</li>
-    <li>Turn scanned photos into an archive slideshow.</li>
-    <li>Make a simple memorial or celebration video.</li>
-    <li>Create a before-and-after project video.</li>
-    <li>Make a product image slideshow.</li>
-    <li>Create simple video inserts for other editing projects.</li>
-    <li>Turn a folder of photos into something easier to watch and share.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Low-resolution images may look soft if zoomed too far.</li>
-    <li>Too many fast transitions can make the slideshow feel busy.</li>
-    <li>Long captions can be hard to read before the next slide appears.</li>
-    <li>Portrait and landscape images may need different framing choices.</li>
-    <li>Video export can take time for large projects.</li>
-    <li>Always review the exported video before sharing it.</li>
-    <li>Keep your original images unchanged until you confirm the final video looks right.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Cinematic Slideshow is included alongside Motion Effects, Black & White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="video-tools.html">Video Tools Guide</a> |
-      <a href="upscaler.html">Upscaler Guide</a> |
-      <a href="organizer.html">Organizer Guide</a> |
-      <a href="rename-files.html">Rename Files Guide</a> |
-      <a href="black-and-white.html">Black & White Guide</a> |
-      <a href="motion-effects.html">Motion Effects Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="video-tools.html">Video Tools Guide</a> |
+        <a href="upscaler.html">Upscaler Guide</a> |
+        <a href="organizer.html">Organizer Guide</a> |
+        <a href="rename-files.html">Rename Files Guide</a> |
+        <a href="black-and-white.html">Black &amp; White Guide</a> |
+        <a href="motion-effects.html">Motion Effects Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
