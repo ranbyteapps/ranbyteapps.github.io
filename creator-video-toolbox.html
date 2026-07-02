@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,147 +16,175 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.platform-note {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .platform-note {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="video-tools.html">Video Tools Guide</a>
     <a href="gif-tools.html">GIF Tools Guide</a>
@@ -166,370 +193,381 @@ footer {
     <a href="downscaler.html">Downscaler Guide</a>
     <a href="motion-effects.html">Motion Effects Guide</a>
     <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a>
-    <a href="black-and-white.html">Black & White Guide</a>
+    <a href="black-and-white.html">Black &amp; White Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <h1>Simple video tools for creators without a subscription</h1>
-  <p class="tagline">Use Grafiq as a lightweight local toolbox for picture-in-picture clips, GIF conversion, cropping, resizing, motion effects, slideshow videos, and quick MP4 exports.</p>
-
-  <div class="card">
-    <p class="lead">
-      Not every video task needs a full video editor or a monthly subscription.
-      Grafiq gives creators a practical set of local desktop tools for common image, GIF, and video jobs.
-    </p>
-
-
-<p>
-  Use Video Tools, GIF Tools, Converter, Crop Studio, Downscaler, Motion Effects, Black & White Tools, and Cinematic Slideshow together to create simple media assets and MP4 files.
-</p>
-
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-
-  </div>
-
-  <div class="platform-note">
-    <strong>Intel Mac overlay note:</strong>
-    On Intel Macs, Video Tools overlay support is limited to opaque rectangle overlays only.
-    Circle/bubble overlays and transparent or opacity-based overlay effects are not supported on Intel Mac builds.
-  </div>
-
-  <h2>What this workflow is for</h2>
-
-  <p>
-    This workflow is for small creator tasks that come up all the time:
-    trimming clips, making picture-in-picture videos, converting GIFs, cropping videos, shrinking file sizes, making quick slideshows, and preparing clips for sharing.
-  </p>
-
-  <ul class="features">
-    <li>Create simple picture-in-picture videos.</li>
-    <li>Convert animated GIFs to MP4.</li>
-    <li>Build MP4 clips from images.</li>
-    <li>Crop images, GIFs, and videos.</li>
-    <li>Downscale videos before sharing or uploading.</li>
-    <li>Convert supported videos to MP4.</li>
-    <li>Create motion clips from still images.</li>
-    <li>Turn photos into slideshow videos.</li>
-    <li>Make black and white video or GIF versions.</li>
-    <li>Work locally without uploading files to a web editor.</li>
-  </ul>
-
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Grafiq works as a desktop media toolbox. You do not need to upload private videos, screenshots, images, or project files to an online editor for these everyday tasks.
-  </div>
-
-  <h2>Workflow 1: Make a picture-in-picture video</h2>
-
-  <p>
-    Picture-in-picture is useful for reaction-style videos, tutorials, demonstrations, face-cam overlays, screen recordings, and showing one clip on top of another.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Video Tools.</strong><br>
-      In Grafiq, open <strong>More → Video Tools</strong>.
-    </li>
-
-
-<li>
-  <strong>Add the main video.</strong><br>
-  Import the primary clip into the timeline.
-</li>
-
-<li>
-  <strong>Choose an overlay video.</strong><br>
-  Use the overlay video controls to choose the smaller video that should appear on top.
-</li>
-
-<li>
-  <strong>Set overlay timing.</strong><br>
-  Choose when the overlay starts and which part of the overlay video should be used.
-</li>
-
-<li>
-  <strong>Choose size and position.</strong><br>
-  Place the overlay in a corner or other available position.
-</li>
-
-<li>
-  <strong>Preview the edit.</strong><br>
-  Use Quick Preview to check timing, placement, and audio.
-</li>
-
-<li>
-  <strong>Export the MP4.</strong><br>
-  Save the finished video as a new MP4 file.
-</li>
-
-
-  </ol>
-
-  <div class="note">
-    <strong>Intel Mac reminder:</strong>
-    On Intel Macs, use a full-opacity rectangle overlay. Circle/bubble overlays and transparency effects are not supported there.
-  </div>
-
-  <h2>Workflow 2: Convert GIFs to MP4</h2>
-
-  <p>
-    Animated GIFs can be large and awkward to use in some video workflows.
-    Grafiq GIF Tools can convert GIFs to MP4 and help you reuse animated content more easily.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open GIF Tools.</strong><br>
-      Open <strong>GIF Tools</strong> from Grafiq.
-    </li>
-
-
-<li>
-  <strong>Choose the GIF.</strong><br>
-  Browse to the animated GIF you want to convert.
-</li>
-
-<li>
-  <strong>Preview the GIF.</strong><br>
-  Confirm the animation is the one you want.
-</li>
-
-<li>
-  <strong>Convert to MP4.</strong><br>
-  Use the <strong>Convert to MP4</strong> option and choose where to save the video.
-</li>
-
-<li>
-  <strong>Review the result.</strong><br>
-  Open the exported MP4 and confirm playback.
-</li>
-
-
-  </ol>
-
-  <h2>Workflow 3: Crop a video, GIF, or image for a platform</h2>
-
-  <p>
-    Different platforms and projects need different shapes.
-    Crop Studio can help you crop media into square, widescreen, vertical, or custom framing.
-  </p>
-
-  <ul class="features">
-    <li><strong>1:1:</strong> Square framing for icons, thumbnails, product images, or profile-style media.</li>
-    <li><strong>16:9:</strong> Widescreen video framing.</li>
-    <li><strong>9:16:</strong> Vertical phone-style framing.</li>
-    <li><strong>Free:</strong> Custom crop when you do not need a preset shape.</li>
-  </ul>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Crop Studio.</strong><br>
-      Add the image, GIF, or video you want to crop.
-    </li>
-
-
-<li>
-  <strong>Choose an aspect ratio.</strong><br>
-  Pick a preset such as 1:1, 16:9, or 9:16.
-</li>
-
-<li>
-  <strong>Draw or adjust the crop box.</strong><br>
-  Make sure the important part of the image or video stays inside the crop.
-</li>
-
-<li>
-  <strong>Export the cropped copy.</strong><br>
-  Save the cropped media as a new file.
-</li>
-
-
-  </ol>
-
-  <h2>Workflow 4: Make video files smaller</h2>
-
-  <p>
-    Large videos are harder to send, archive, upload, or test.
-    Downscaler can create smaller copies for sharing or review.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Open Downscaler.</strong><br>
-      Choose the video or batch of videos you want to reduce.
-    </li>
-
-
-<li>
-  <strong>Adjust the reduction amount.</strong><br>
-  Start with a moderate reduction.
-</li>
-
-<li>
-  <strong>Preview when available.</strong><br>
-  Check a short sample before exporting a long video.
-</li>
-
-<li>
-  <strong>Export a smaller copy.</strong><br>
-  Save the reduced version and compare it with the original.
-</li>
-
-
-  </ol>
-
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Keep the original full-size file. Use downscaled versions for sharing, testing, or quick uploads.
-  </div>
-
-  <h2>Workflow 5: Create motion from still images</h2>
-
-  <p>
-    Still images can become useful creator assets when they move.
-    Motion Effects can turn one image into a short zoom, pan, or parallax-style clip.
-  </p>
-
-  <ul class="features">
-    <li>Create a slow zoom-in clip from a photo.</li>
-    <li>Create a pan across a wide image.</li>
-    <li>Create depth or parallax-style motion where supported.</li>
-    <li>Use the result as an intro, background, insert, or slideshow element.</li>
-  </ul>
-
-  <h2>Workflow 6: Turn photos into a slideshow video</h2>
-
-  <p>
-    Cinematic Slideshow is useful when you want a finished video made from multiple still images.
-  </p>
-
-  <ol class="steps">
-    <li>
-      <strong>Add photos.</strong><br>
-      Choose the images you want in the slideshow.
-    </li>
-
-
-<li>
-  <strong>Arrange the order.</strong><br>
-  Put the images in the sequence you want.
-</li>
-
-<li>
-  <strong>Set timing and motion.</strong><br>
-  Use simple pacing, motion, and transitions.
-</li>
-
-<li>
-  <strong>Preview the slideshow.</strong><br>
-  Check the full flow before exporting.
-</li>
-
-<li>
-  <strong>Export the video.</strong><br>
-  Save the finished slideshow as a video file.
-</li>
-
-
-  </ol>
-
-  <h2>Workflow 7: Convert formats for compatibility</h2>
-
-  <p>
-    Sometimes the problem is not editing — it is compatibility.
-    Converter can help turn supported videos into MP4 or convert image files into more useful formats.
-  </p>
-
-  <ul class="features">
-    <li>Convert supported videos to MP4.</li>
-    <li>Convert images to JPEG, PNG, WEBP, BMP, or TIFF where supported.</li>
-    <li>Prepare files for other Grafiq tools.</li>
-    <li>Create more compatible copies for sharing or uploading.</li>
-  </ul>
-
-  <h2>Good uses for this creator workflow</h2>
-
-  <ul class="features">
-    <li>Make a simple reaction-style video.</li>
-    <li>Create a small face-cam or picture-in-picture overlay where supported.</li>
-    <li>Turn GIFs into MP4 clips.</li>
-    <li>Crop media for square, vertical, or widescreen layouts.</li>
-    <li>Make video files smaller before sharing.</li>
-    <li>Create short motion clips from still images.</li>
-    <li>Make quick slideshow videos from photos.</li>
-    <li>Create black and white versions of video, GIF, or image assets.</li>
-    <li>Convert media into formats that are easier to use.</li>
-  </ul>
-
-  <h2>What Grafiq is not trying to replace</h2>
-
-  <p>
-    Grafiq is not meant to replace a professional video editor for complex timelines, color grading, advanced effects, multicam projects, or large productions.
-    It is meant to be a small utility toolbox for common jobs that creators often need between larger tools.
-  </p>
-
-  <div class="note">
-    <strong>Best use:</strong>
-    Use Grafiq for quick media prep, simple edits, cleanup, conversion, cropping, resizing, and lightweight creator tasks.
-    Use a full video editor when you need advanced production features.
-  </div>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Video export re-encodes files, so quality, file size, and processing time can change.</li>
-    <li>Large videos can take time to preview or export.</li>
-    <li>Always preview before doing a long export.</li>
-    <li>On Intel Macs, Video Tools overlays are opaque rectangle only.</li>
-    <li>GIFs can be large and color-limited; MP4 is often better for longer motion.</li>
-    <li>Downscaling makes files smaller but can also soften detail.</li>
-    <li>Keep original media files until you confirm the exported copies look right.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      For creators, it can help with picture-in-picture clips, GIF conversion, video cropping, downscaling, slideshows, motion effects, black and white media, and quick MP4 exports.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+  </nav>
+
+  <main id="main-content">
+    <h1>Simple video tools for creators without a subscription</h1>
+    <p class="tagline">Use Grafiq as a lightweight local toolbox for picture-in-picture clips, GIF conversion, cropping, resizing, motion effects, slideshow videos, and quick MP4 exports.</p>
+
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Creator video toolbox overview</h2>
+      <p class="lead">
+        Not every video task needs a full video editor or a monthly subscription.
+        Grafiq gives creators a practical set of local desktop tools for common image, GIF, and video jobs.
+      </p>
+
+      <p>
+        Use Video Tools, GIF Tools, Converter, Crop Studio, Downscaler, Motion Effects, Black &amp; White Tools, and Cinematic Slideshow together to create simple media assets and MP4 files.
+      </p>
+
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
+
+    <section aria-labelledby="platform-heading">
+      <h2 id="platform-heading">Platform note</h2>
+
+      <div class="platform-note">
+        <strong>Intel Mac overlay note:</strong>
+        On Intel Macs, Video Tools overlay support is limited to opaque rectangle overlays only.
+        Circle/bubble overlays and transparent or opacity-based overlay effects are not supported on Intel Mac builds.
+      </div>
+    </section>
+
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What this workflow is for</h2>
+
+      <p>
+        This workflow is for small creator tasks that come up all the time:
+        trimming clips, making picture-in-picture videos, converting GIFs, cropping videos, shrinking file sizes, making quick slideshows, and preparing clips for sharing.
+      </p>
+
+      <ul class="features">
+        <li>Create simple picture-in-picture videos.</li>
+        <li>Convert animated GIFs to MP4.</li>
+        <li>Build MP4 clips from images.</li>
+        <li>Crop images, GIFs, and videos.</li>
+        <li>Downscale videos before sharing or uploading.</li>
+        <li>Convert supported videos to MP4.</li>
+        <li>Create motion clips from still images.</li>
+        <li>Turn photos into slideshow videos.</li>
+        <li>Make black and white video or GIF versions.</li>
+        <li>Work locally without uploading files to a web editor.</li>
+      </ul>
+
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Grafiq works as a desktop media toolbox. You do not need to upload private videos, screenshots, images, or project files to an online editor for these everyday tasks.
+      </div>
+    </section>
+
+    <section aria-labelledby="pip-heading">
+      <h2 id="pip-heading">Workflow 1: Make a picture-in-picture video</h2>
+
+      <p>
+        Picture-in-picture is useful for reaction-style videos, tutorials, demonstrations, face-cam overlays, screen recordings, and showing one clip on top of another.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Video Tools.</strong><br>
+          In Grafiq, open <strong>More → Video Tools</strong>.
+        </li>
+
+        <li>
+          <strong>Add the main video.</strong><br>
+          Import the primary clip into the timeline.
+        </li>
+
+        <li>
+          <strong>Choose an overlay video.</strong><br>
+          Use the overlay video controls to choose the smaller video that should appear on top.
+        </li>
+
+        <li>
+          <strong>Set overlay timing.</strong><br>
+          Choose when the overlay starts and which part of the overlay video should be used.
+        </li>
+
+        <li>
+          <strong>Choose size and position.</strong><br>
+          Place the overlay in a corner or other available position.
+        </li>
+
+        <li>
+          <strong>Preview the edit.</strong><br>
+          Use Quick Preview to check timing, placement, and audio.
+        </li>
+
+        <li>
+          <strong>Export the MP4.</strong><br>
+          Save the finished video as a new MP4 file.
+        </li>
+      </ol>
+
+      <div class="note">
+        <strong>Intel Mac reminder:</strong>
+        On Intel Macs, use a full-opacity rectangle overlay. Circle/bubble overlays and transparency effects are not supported there.
+      </div>
+    </section>
+
+    <section aria-labelledby="gif-heading">
+      <h2 id="gif-heading">Workflow 2: Convert GIFs to MP4</h2>
+
+      <p>
+        Animated GIFs can be large and awkward to use in some video workflows.
+        Grafiq GIF Tools can convert GIFs to MP4 and help you reuse animated content more easily.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open GIF Tools.</strong><br>
+          Open <strong>GIF Tools</strong> from Grafiq.
+        </li>
+
+        <li>
+          <strong>Choose the GIF.</strong><br>
+          Browse to the animated GIF you want to convert.
+        </li>
+
+        <li>
+          <strong>Preview the GIF.</strong><br>
+          Confirm the animation is the one you want.
+        </li>
+
+        <li>
+          <strong>Convert to MP4.</strong><br>
+          Use the <strong>Convert to MP4</strong> option and choose where to save the video.
+        </li>
+
+        <li>
+          <strong>Review the result.</strong><br>
+          Open the exported MP4 and confirm playback.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="crop-heading">
+      <h2 id="crop-heading">Workflow 3: Crop a video, GIF, or image for a platform</h2>
+
+      <p>
+        Different platforms and projects need different shapes.
+        Crop Studio can help you crop media into square, widescreen, vertical, or custom framing.
+      </p>
+
+      <ul class="features">
+        <li><strong>1:1:</strong> Square framing for icons, thumbnails, product images, or profile-style media.</li>
+        <li><strong>16:9:</strong> Widescreen video framing.</li>
+        <li><strong>9:16:</strong> Vertical phone-style framing.</li>
+        <li><strong>Free:</strong> Custom crop when you do not need a preset shape.</li>
+      </ul>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Crop Studio.</strong><br>
+          Add the image, GIF, or video you want to crop.
+        </li>
+
+        <li>
+          <strong>Choose an aspect ratio.</strong><br>
+          Pick a preset such as 1:1, 16:9, or 9:16.
+        </li>
+
+        <li>
+          <strong>Draw or adjust the crop box.</strong><br>
+          Make sure the important part of the image or video stays inside the crop.
+        </li>
+
+        <li>
+          <strong>Export the cropped copy.</strong><br>
+          Save the cropped media as a new file.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="downscale-heading">
+      <h2 id="downscale-heading">Workflow 4: Make video files smaller</h2>
+
+      <p>
+        Large videos are harder to send, archive, upload, or test.
+        Downscaler can create smaller copies for sharing or review.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Open Downscaler.</strong><br>
+          Choose the video or batch of videos you want to reduce.
+        </li>
+
+        <li>
+          <strong>Adjust the reduction amount.</strong><br>
+          Start with a moderate reduction.
+        </li>
+
+        <li>
+          <strong>Preview when available.</strong><br>
+          Check a short sample before exporting a long video.
+        </li>
+
+        <li>
+          <strong>Export a smaller copy.</strong><br>
+          Save the reduced version and compare it with the original.
+        </li>
+      </ol>
+
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Keep the original full-size file. Use downscaled versions for sharing, testing, or quick uploads.
+      </div>
+    </section>
+
+    <section aria-labelledby="motion-heading">
+      <h2 id="motion-heading">Workflow 5: Create motion from still images</h2>
+
+      <p>
+        Still images can become useful creator assets when they move.
+        Motion Effects can turn one image into a short zoom, pan, or parallax-style clip.
+      </p>
+
+      <ul class="features">
+        <li>Create a slow zoom-in clip from a photo.</li>
+        <li>Create a pan across a wide image.</li>
+        <li>Create depth or parallax-style motion where supported.</li>
+        <li>Use the result as an intro, background, insert, or slideshow element.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="slideshow-heading">
+      <h2 id="slideshow-heading">Workflow 6: Turn photos into a slideshow video</h2>
+
+      <p>
+        Cinematic Slideshow is useful when you want a finished video made from multiple still images.
+      </p>
+
+      <ol class="steps">
+        <li>
+          <strong>Add photos.</strong><br>
+          Choose the images you want in the slideshow.
+        </li>
+
+        <li>
+          <strong>Arrange the order.</strong><br>
+          Put the images in the sequence you want.
+        </li>
+
+        <li>
+          <strong>Set timing and motion.</strong><br>
+          Use simple pacing, motion, and transitions.
+        </li>
+
+        <li>
+          <strong>Preview the slideshow.</strong><br>
+          Check the full flow before exporting.
+        </li>
+
+        <li>
+          <strong>Export the video.</strong><br>
+          Save the finished slideshow as a video file.
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="convert-heading">
+      <h2 id="convert-heading">Workflow 7: Convert formats for compatibility</h2>
+
+      <p>
+        Sometimes the problem is not editing — it is compatibility.
+        Converter can help turn supported videos into MP4 or convert image files into more useful formats.
+      </p>
+
+      <ul class="features">
+        <li>Convert supported videos to MP4.</li>
+        <li>Convert images to JPEG, PNG, WEBP, BMP, or TIFF where supported.</li>
+        <li>Prepare files for other Grafiq tools.</li>
+        <li>Create more compatible copies for sharing or uploading.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for this creator workflow</h2>
+
+      <ul class="features">
+        <li>Make a simple reaction-style video.</li>
+        <li>Create a small face-cam or picture-in-picture overlay where supported.</li>
+        <li>Turn GIFs into MP4 clips.</li>
+        <li>Crop media for square, vertical, or widescreen layouts.</li>
+        <li>Make video files smaller before sharing.</li>
+        <li>Create short motion clips from still images.</li>
+        <li>Make quick slideshow videos from photos.</li>
+        <li>Create black and white versions of video, GIF, or image assets.</li>
+        <li>Convert media into formats that are easier to use.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="not-replace-heading">
+      <h2 id="not-replace-heading">What Grafiq is not trying to replace</h2>
+
+      <p>
+        Grafiq is not meant to replace a professional video editor for complex timelines, color grading, advanced effects, multicam projects, or large productions.
+        It is meant to be a small utility toolbox for common jobs that creators often need between larger tools.
+      </p>
+
+      <div class="note">
+        <strong>Best use:</strong>
+        Use Grafiq for quick media prep, simple edits, cleanup, conversion, cropping, resizing, and lightweight creator tasks.
+        Use a full video editor when you need advanced production features.
+      </div>
+    </section>
+
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
+
+      <ul class="features">
+        <li>Video export re-encodes files, so quality, file size, and processing time can change.</li>
+        <li>Large videos can take time to preview or export.</li>
+        <li>Always preview before doing a long export.</li>
+        <li>On Intel Macs, Video Tools overlays are opaque rectangle only.</li>
+        <li>GIFs can be large and color-limited; MP4 is often better for longer motion.</li>
+        <li>Downscaling makes files smaller but can also soften detail.</li>
+        <li>Keep original media files until you confirm the exported copies look right.</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        For creators, it can help with picture-in-picture clips, GIF conversion, video cropping, downscaling, slideshows, motion effects, black and white media, and quick MP4 exports.
+      </p>
+
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="video-tools.html">Video Tools Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="motion-effects.html">Motion Effects Guide</a> |
-      <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
-      <a href="black-and-white.html">Black & White Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="video-tools.html">Video Tools Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="motion-effects.html">Motion Effects Guide</a> |
+        <a href="cinematic-slideshow.html">Cinematic Slideshow Guide</a> |
+        <a href="black-and-white.html">Black &amp; White Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
 </html>
+         
