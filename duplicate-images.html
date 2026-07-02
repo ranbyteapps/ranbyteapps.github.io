@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,314 +16,351 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
     <a href="metadata.html">Metadata Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Find duplicate images on your computer</h1>
-  <p class="tagline">Use Grafiq to scan photo folders, find exact or visually similar images, preview matches, and clean up selected duplicates.</p>
+  <main id="main-content">
+    <h1>Find duplicate images on your computer</h1>
+    <p class="tagline">Use Grafiq to scan photo folders, find exact or visually similar images, preview matches, and clean up selected duplicates.</p>
 
-  <div class="card">
-    <p class="lead">
-      Photo folders can collect duplicates over time: phone imports, downloads, edited copies, resized versions, screenshots,
-      backups, and old project folders. Grafiq’s duplicate image finder helps you find likely matches and review them before taking action.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Duplicate image finder overview</h2>
+      <p class="lead">
+        Photo folders can collect duplicates over time: phone imports, downloads, edited copies, resized versions, screenshots,
+        backups, and old project folders. Grafiq’s duplicate image finder helps you find likely matches and review them before taking action.
+      </p>
 
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Find Image Duplicates is for</h2>
+      <p>
+        Find Image Duplicates is useful when you want to clean up image folders, reduce clutter, or review copied photo libraries.
+        It groups likely duplicate or similar images so you can preview them and decide what to copy, move, or delete.
+      </p>
 
+      <ul class="features">
+        <li>Find exact or near-exact duplicate images.</li>
+        <li>Find visually similar images using pixel similarity.</li>
+        <li>Scan a folder, with optional subfolder support.</li>
+        <li>Preview duplicate groups before acting.</li>
+        <li>Select files manually or use helper selection tools.</li>
+        <li>Copy, move, or delete selected duplicate files.</li>
+        <li>Use the Dashboard log to review actions.</li>
+      </ul>
 
-  </div>
+      <div class="note">
+        <strong>Safety tip:</strong>
+        Use <strong>Preview Selected</strong> before deleting anything. When in doubt, use <strong>Move Selected</strong> to move duplicates into a review folder instead of deleting them immediately.
+      </div>
+    </section>
 
-  <h2>What Find Image Duplicates is for</h2>
-  <p>
-    Find Image Duplicates is useful when you want to clean up image folders, reduce clutter, or review copied photo libraries.
-    It groups likely duplicate or similar images so you can preview them and decide what to copy, move, or delete.
-  </p>
+    <section aria-labelledby="how-to-heading">
+      <h2 id="how-to-heading">How to find duplicate images in Grafiq</h2>
 
-  <ul class="features">
-    <li>Find exact or near-exact duplicate images.</li>
-    <li>Find visually similar images using pixel similarity.</li>
-    <li>Scan a folder, with optional subfolder support.</li>
-    <li>Preview duplicate groups before acting.</li>
-    <li>Select files manually or use helper selection tools.</li>
-    <li>Copy, move, or delete selected duplicate files.</li>
-    <li>Use the Dashboard log to review actions.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Find Image Duplicates.</strong><br>
+          In Grafiq, open <strong>Find Image Duplicates</strong> from the sidebar or menu.
+        </li>
 
-  <div class="note">
-    <strong>Safety tip:</strong>
-    Use <strong>Preview Selected</strong> before deleting anything. When in doubt, use <strong>Move Selected</strong> to move duplicates into a review folder instead of deleting them immediately.
-  </div>
+        <li>
+          <strong>Choose a detection method.</strong><br>
+          Start with the faster hash-based method for exact or near-exact duplicates.
+          Use pixel similarity when you want to catch images that may have been resized, slightly edited, or visually similar.
+        </li>
 
-  <h2>How to find duplicate images in Grafiq</h2>
+        <li>
+          <strong>Choose the folder to scan.</strong><br>
+          Click <strong>Browse</strong> and select the folder where your images are stored.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Find Image Duplicates.</strong><br>
-      In Grafiq, open <strong>Find Image Duplicates</strong> from the sidebar or menu.
-    </li>
+        <li>
+          <strong>Include subfolders if needed.</strong><br>
+          Enable <strong>Include subfolders</strong> if your photos are stored inside nested folders.
+        </li>
 
+        <li>
+          <strong>Start the scan.</strong><br>
+          Click <strong>Find Duplicates</strong>. Grafiq scans the selected folder and groups likely matches.
+        </li>
 
-<li>
-  <strong>Choose a detection method.</strong><br>
-  Start with the faster hash-based method for exact or near-exact duplicates.
-  Use pixel similarity when you want to catch images that may have been resized, slightly edited, or visually similar.
-</li>
+        <li>
+          <strong>Review the groups.</strong><br>
+          Look through the duplicate groups before selecting anything for cleanup.
+        </li>
 
-<li>
-  <strong>Choose the folder to scan.</strong><br>
-  Click <strong>Browse</strong> and select the folder where your images are stored.
-</li>
+        <li>
+          <strong>Preview selected files.</strong><br>
+          Use <strong>Preview Selected</strong> to visually confirm that selected files are truly duplicates or close enough to remove.
+        </li>
 
-<li>
-  <strong>Include subfolders if needed.</strong><br>
-  Enable <strong>Include subfolders</strong> if your photos are stored inside nested folders.
-</li>
+        <li>
+          <strong>Choose what to do.</strong><br>
+          Use <strong>Copy Selected</strong>, <strong>Move Selected</strong>, or <strong>Delete Selected</strong> depending on how cautious you want to be.
+        </li>
+      </ol>
+    </section>
 
-<li>
-  <strong>Start the scan.</strong><br>
-  Click <strong>Find Duplicates</strong>. Grafiq scans the selected folder and groups likely matches.
-</li>
+    <section aria-labelledby="hash-vs-pixel-heading">
+      <h2 id="hash-vs-pixel-heading">Hash match vs. pixel similarity</h2>
 
-<li>
-  <strong>Review the groups.</strong><br>
-  Look through the duplicate groups before selecting anything for cleanup.
-</li>
+      <ul class="features">
+        <li><strong>Hash Match:</strong> Fastest option. Best for exact or nearly exact duplicates.</li>
+        <li><strong>Pixel Similarity:</strong> Slower, but better for catching visually similar images that may have been resized, edited, or slightly changed.</li>
+      </ul>
 
-<li>
-  <strong>Preview selected files.</strong><br>
-  Use <strong>Preview Selected</strong> to visually confirm that selected files are truly duplicates or close enough to remove.
-</li>
+      <div class="privacy-note">
+        <strong>Simple rule:</strong>
+        Start with Hash Match for a quick cleanup pass. Use Pixel Similarity later if you suspect you have resized, edited, or near-duplicate copies.
+      </div>
+    </section>
 
-<li>
-  <strong>Choose what to do.</strong><br>
-  Use <strong>Copy Selected</strong>, <strong>Move Selected</strong>, or <strong>Delete Selected</strong> depending on how cautious you want to be.
-</li>
+    <section aria-labelledby="safe-cleanup-heading">
+      <h2 id="safe-cleanup-heading">Safer cleanup workflow</h2>
 
+      <p>
+        If you are cleaning up an important photo library, use a cautious workflow:
+      </p>
 
-  </ol>
+      <ol class="steps">
+        <li>Scan the folder.</li>
+        <li>Preview the duplicate groups.</li>
+        <li>Select only the files you are confident about.</li>
+        <li>Use <strong>Move Selected</strong> to move them to a temporary review folder.</li>
+        <li>Open the review folder and check that nothing important was moved by mistake.</li>
+        <li>Delete the review folder later only after you are sure.</li>
+      </ol>
+    </section>
 
-  <h2>Hash match vs. pixel similarity</h2>
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for duplicate finding</h2>
 
-  <ul class="features">
-    <li><strong>Hash Match:</strong> Fastest option. Best for exact or nearly exact duplicates.</li>
-    <li><strong>Pixel Similarity:</strong> Slower, but better for catching visually similar images that may have been resized, edited, or slightly changed.</li>
-  </ul>
+      <ul class="features">
+        <li>Cleaning up old phone photo imports.</li>
+        <li>Finding duplicate downloads.</li>
+        <li>Reviewing copied folders from backups or external drives.</li>
+        <li>Cleaning up scanned photo projects.</li>
+        <li>Finding extra edited/exported versions of the same image.</li>
+        <li>Organizing image folders before archiving them.</li>
+      </ul>
+    </section>
 
-  <div class="privacy-note">
-    <strong>Simple rule:</strong>
-    Start with Hash Match for a quick cleanup pass. Use Pixel Similarity later if you suspect you have resized, edited, or near-duplicate copies.
-  </div>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-  <h2>Safer cleanup workflow</h2>
+      <ul class="features">
+        <li>Visually similar images are not always true duplicates.</li>
+        <li>One image may be a higher-quality original while another is a smaller export.</li>
+        <li>Edited versions may contain changes you want to keep.</li>
+        <li>Pixel similarity can be slower on large folders.</li>
+        <li>When scanning subfolders, results may include files from many different locations.</li>
+      </ul>
+    </section>
 
-  <p>
-    If you are cleaning up an important photo library, use a cautious workflow:
-  </p>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Duplicate image finding is included alongside redaction, metadata tools, photo splitting, conversion, organizing, and more.
+      </p>
 
-  <ol class="steps">
-    <li>Scan the folder.</li>
-    <li>Preview the duplicate groups.</li>
-    <li>Select only the files you are confident about.</li>
-    <li>Use <strong>Move Selected</strong> to move them to a temporary review folder.</li>
-    <li>Open the review folder and check that nothing important was moved by mistake.</li>
-    <li>Delete the review folder later only after you are sure.</li>
-  </ol>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-  <h2>Good uses for duplicate finding</h2>
-
-  <ul class="features">
-    <li>Cleaning up old phone photo imports.</li>
-    <li>Finding duplicate downloads.</li>
-    <li>Reviewing copied folders from backups or external drives.</li>
-    <li>Cleaning up scanned photo projects.</li>
-    <li>Finding extra edited/exported versions of the same image.</li>
-    <li>Organizing image folders before archiving them.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Visually similar images are not always true duplicates.</li>
-    <li>One image may be a higher-quality original while another is a smaller export.</li>
-    <li>Edited versions may contain changes you want to keep.</li>
-    <li>Pixel similarity can be slower on large folders.</li>
-    <li>When scanning subfolders, results may include files from many different locations.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Duplicate image finding is included alongside redaction, metadata tools, photo splitting, conversion, organizing, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
