@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
-```
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
+
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -165,253 +192,267 @@ footer {
     <a href="organizer.html">Organizer Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Batch rename files with patterns, numbers, and metadata</h1>
-  <p class="tagline">Use Grafiq Rename Files to clean up filenames with prefixes, suffix removal, find/replace, sequential numbering, and metadata-based names.</p>
+  <main id="main-content">
+    <h1>Batch rename files with patterns, numbers, and metadata</h1>
+    <p class="tagline">Use Grafiq Rename Files to clean up filenames with prefixes, suffix removal, find/replace, sequential numbering, and metadata-based names.</p>
 
-  <div class="card">
-    <p class="lead">
-      Messy filenames make folders harder to search, sort, and understand.
-      Grafiq Rename Files gives you a local desktop workflow for cleaning up batches of filenames safely and consistently.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Rename Files overview</h2>
+      <p class="lead">
+        Messy filenames make folders harder to search, sort, and understand.
+        Grafiq Rename Files gives you a local desktop workflow for cleaning up batches of filenames safely and consistently.
+      </p>
 
+      <p>
+        Use it for scanned photos, screenshots, exports, downloaded files, downscaled batches, project assets, and folders that need cleaner names.
+      </p>
 
-<p>
-  Use it for scanned photos, screenshots, exports, downloaded files, downscaled batches, project assets, and folders that need cleaner names.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Rename Files is for</h2>
+      <p>
+        Rename Files is useful when you want a folder to have clearer, more consistent filenames.
+        It can add prefixes, remove known prefixes or suffixes, replace text inside filenames, number files in a sequence, or build names from metadata when available.
+      </p>
 
+      <ul class="features">
+        <li>Add a word or project name to the beginning of filenames.</li>
+        <li>Remove a prefix or suffix from filenames.</li>
+        <li>Find and replace text inside filenames.</li>
+        <li>Rename files into a numbered sequence.</li>
+        <li>Use padding such as 001, 002, 003 so files sort correctly.</li>
+        <li>Rename by metadata when supported fields are available.</li>
+        <li>Skip and log conflicts instead of silently overwriting files.</li>
+        <li>Review rename results in the Dashboard log.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Rename Files works on files you choose on your computer. You do not need to upload files to an online batch-renaming tool.
+      </div>
+    </section>
 
-  <h2>What Rename Files is for</h2>
-  <p>
-    Rename Files is useful when you want a folder to have clearer, more consistent filenames.
-    It can add prefixes, remove known prefixes or suffixes, replace text inside filenames, number files in a sequence, or build names from metadata when available.
-  </p>
+    <section aria-labelledby="how-to-heading">
+      <h2 id="how-to-heading">How to batch rename files in Grafiq</h2>
 
-  <ul class="features">
-    <li>Add a word or project name to the beginning of filenames.</li>
-    <li>Remove a prefix or suffix from filenames.</li>
-    <li>Find and replace text inside filenames.</li>
-    <li>Rename files into a numbered sequence.</li>
-    <li>Use padding such as 001, 002, 003 so files sort correctly.</li>
-    <li>Rename by metadata when supported fields are available.</li>
-    <li>Skip and log conflicts instead of silently overwriting files.</li>
-    <li>Review rename results in the Dashboard log.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Rename Files.</strong><br>
+          In Grafiq, open <strong>More → Rename Files</strong>.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Rename Files works on files you choose on your computer. You do not need to upload files to an online batch-renaming tool.
-  </div>
+        <li>
+          <strong>Select files.</strong><br>
+          Choose the files you want to rename.
+        </li>
 
-  <h2>How to batch rename files in Grafiq</h2>
+        <li>
+          <strong>Choose a rename method.</strong><br>
+          Pick the operation you want, such as <strong>Prepend Word</strong>, <strong>Remove Prefix/Suffix</strong>, <strong>Find/Replace Text</strong>, <strong>Sequential Rename</strong>, or <strong>Rename by Metadata</strong>.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Rename Files.</strong><br>
-      In Grafiq, open <strong>More → Rename Files</strong>.
-    </li>
+        <li>
+          <strong>Enter the rename settings.</strong><br>
+          Type the prefix, suffix, find/replace text, sequence base name, or metadata settings needed for the selected method.
+        </li>
 
+        <li>
+          <strong>Review before committing if prompted.</strong><br>
+          Make sure the resulting names look right before applying changes.
+        </li>
 
-<li>
-  <strong>Select files.</strong><br>
-  Choose the files you want to rename.
-</li>
+        <li>
+          <strong>Apply the rename.</strong><br>
+          Run the rename operation.
+        </li>
 
-<li>
-  <strong>Choose a rename method.</strong><br>
-  Pick the operation you want, such as <strong>Prepend Word</strong>, <strong>Remove Prefix/Suffix</strong>, <strong>Find/Replace Text</strong>, <strong>Sequential Rename</strong>, or <strong>Rename by Metadata</strong>.
-</li>
+        <li>
+          <strong>Check the Dashboard log.</strong><br>
+          Review renamed files, skipped files, conflicts, or errors.
+        </li>
+      </ol>
 
-<li>
-  <strong>Enter the rename settings.</strong><br>
-  Type the prefix, suffix, find/replace text, sequence base name, or metadata settings needed for the selected method.
-</li>
+      <div class="note">
+        <strong>Safety tip:</strong>
+        Test on a small group first. For important folders, make a copy or enable backup/versioning behavior in Grafiq Preferences before doing a large rename job.
+      </div>
+    </section>
 
-<li>
-  <strong>Review before committing if prompted.</strong><br>
-  Make sure the resulting names look right before applying changes.
-</li>
+    <section aria-labelledby="prepend-heading">
+      <h2 id="prepend-heading">Rename method: Prepend Word</h2>
 
-<li>
-  <strong>Apply the rename.</strong><br>
-  Run the rename operation.
-</li>
+      <p>
+        Prepend Word adds a word or phrase to the beginning of each filename while keeping the original extension.
+      </p>
 
-<li>
-  <strong>Check the Dashboard log.</strong><br>
-  Review renamed files, skipped files, conflicts, or errors.
-</li>
+      <ul class="features">
+        <li><code>IMG_0101.jpg</code> → <code>Vacation-IMG_0101.jpg</code></li>
+        <li><code>scan001.png</code> → <code>FamilyArchive-scan001.png</code></li>
+        <li><code>clip01.mp4</code> → <code>ProjectA-clip01.mp4</code></li>
+      </ul>
 
+      <p>
+        This is useful when you want a batch to clearly belong to a project, trip, folder, archive, or date.
+      </p>
+    </section>
 
-  </ol>
+    <section aria-labelledby="remove-heading">
+      <h2 id="remove-heading">Rename method: Remove Prefix or Suffix</h2>
 
-  <div class="note">
-    <strong>Safety tip:</strong>
-    Test on a small group first. For important folders, make a copy or enable backup/versioning behavior in Grafiq Preferences before doing a large rename job.
-  </div>
+      <p>
+        Remove Prefix/Suffix removes a known word from the beginning or end of filenames.
+        This is useful when cleaning up exported batches.
+      </p>
 
-  <h2>Rename method: Prepend Word</h2>
+      <ul class="features">
+        <li><code>temp-IMG_0101.jpg</code> → <code>IMG_0101.jpg</code></li>
+        <li><code>draft_scan001.png</code> → <code>scan001.png</code></li>
+        <li><code>help_icon_downscaled.png</code> → <code>help_icon.png</code></li>
+        <li><code>photo_cropped.jpg</code> → <code>photo.jpg</code></li>
+      </ul>
 
-  <p>
-    Prepend Word adds a word or phrase to the beginning of each filename while keeping the original extension.
-  </p>
+      <div class="note">
+        <strong>Good use:</strong>
+        Remove Prefix/Suffix is especially useful for cleaning batch suffixes such as <code>_downscaled</code>, <code>_cropped</code>, or temporary prefixes.
+      </div>
+    </section>
 
-  <ul class="features">
-    <li><code>IMG_0101.jpg</code> → <code>Vacation-IMG_0101.jpg</code></li>
-    <li><code>scan001.png</code> → <code>FamilyArchive-scan001.png</code></li>
-    <li><code>clip01.mp4</code> → <code>ProjectA-clip01.mp4</code></li>
-  </ul>
+    <section aria-labelledby="replace-heading">
+      <h2 id="replace-heading">Rename method: Find and Replace Text</h2>
 
-  <p>
-    This is useful when you want a batch to clearly belong to a project, trip, folder, archive, or date.
-  </p>
+      <p>
+        Find/Replace Text changes matching text anywhere in the filename.
+        You can also leave the replacement blank to remove text.
+      </p>
 
-  <h2>Rename method: Remove Prefix or Suffix</h2>
+      <ul class="features">
+        <li><code>photo (copy).jpg</code> → <code>photo.jpg</code></li>
+        <li><code>My File Name.png</code> → <code>My_File_Name.png</code></li>
+        <li><code>IMG_0101.jpg</code> → <code>Photo_0101.jpg</code></li>
+        <li><code>vacation-downscaled.jpg</code> → <code>vacation.jpg</code></li>
+      </ul>
 
-  <p>
-    Remove Prefix/Suffix removes a known word from the beginning or end of filenames.
-    This is useful when cleaning up exported batches.
-  </p>
+      <p>
+        This is useful for quick cleanup passes, standardizing names, removing extra words, or replacing camera filename patterns.
+      </p>
+    </section>
 
-  <ul class="features">
-    <li><code>temp-IMG_0101.jpg</code> → <code>IMG_0101.jpg</code></li>
-    <li><code>draft_scan001.png</code> → <code>scan001.png</code></li>
-    <li><code>help_icon_downscaled.png</code> → <code>help_icon.png</code></li>
-    <li><code>photo_cropped.jpg</code> → <code>photo.jpg</code></li>
-  </ul>
+    <section aria-labelledby="sequential-heading">
+      <h2 id="sequential-heading">Rename method: Sequential Rename</h2>
 
-  <div class="note">
-    <strong>Good use:</strong>
-    Remove Prefix/Suffix is especially useful for cleaning batch suffixes such as <code>_downscaled</code>, <code>_cropped</code>, or temporary prefixes.
-  </div>
+      <p>
+        Sequential Rename gives a group of files clean numbered names.
+        This is helpful for scans, screenshots, slides, exports, and ordered image sets.
+      </p>
 
-  <h2>Rename method: Find and Replace Text</h2>
+      <ul class="features">
+        <li><code>IMG_0101.jpg</code> → <code>Vacation-001.jpg</code></li>
+        <li><code>IMG_0102.jpg</code> → <code>Vacation-002.jpg</code></li>
+        <li><code>IMG_0103.jpg</code> → <code>Vacation-003.jpg</code></li>
+      </ul>
 
-  <p>
-    Find/Replace Text changes matching text anywhere in the filename.
-    You can also leave the replacement blank to remove text.
-  </p>
+      <p>
+        Use padding such as 3 or 4 digits so filenames sort correctly in Finder or File Explorer.
+      </p>
 
-  <ul class="features">
-    <li><code>photo (copy).jpg</code> → <code>photo.jpg</code></li>
-    <li><code>My File Name.png</code> → <code>My_File_Name.png</code></li>
-    <li><code>IMG_0101.jpg</code> → <code>Photo_0101.jpg</code></li>
-    <li><code>vacation-downscaled.jpg</code> → <code>vacation.jpg</code></li>
-  </ul>
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Use padding when numbering files. Names like <code>001</code>, <code>002</code>, and <code>003</code> sort better than <code>1</code>, <code>2</code>, and <code>3</code>.
+      </div>
+    </section>
 
-  <p>
-    This is useful for quick cleanup passes, standardizing names, removing extra words, or replacing camera filename patterns.
-  </p>
+    <section aria-labelledby="metadata-heading">
+      <h2 id="metadata-heading">Rename method: Rename by Metadata</h2>
 
-  <h2>Rename method: Sequential Rename</h2>
+      <p>
+        Rename by Metadata can build filenames from supported metadata fields when those fields are available.
+        This is useful for photos or files you have already captioned, tagged, or organized with metadata.
+      </p>
 
-  <p>
-    Sequential Rename gives a group of files clean numbered names.
-    This is helpful for scans, screenshots, slides, exports, and ordered image sets.
-  </p>
+      <ul class="features">
+        <li>Use date-related metadata when available.</li>
+        <li>Use title, description, author, or other supported fields when available.</li>
+        <li>Create more descriptive filenames from embedded information.</li>
+        <li>Skip or fall back safely when metadata is missing, depending on the workflow.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li><code>IMG_0101.jpg</code> → <code>Vacation-001.jpg</code></li>
-    <li><code>IMG_0102.jpg</code> → <code>Vacation-002.jpg</code></li>
-    <li><code>IMG_0103.jpg</code> → <code>Vacation-003.jpg</code></li>
-  </ul>
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for Rename Files</h2>
 
-  <p>
-    Use padding such as 3 or 4 digits so filenames sort correctly in Finder or File Explorer.
-  </p>
+      <ul class="features">
+        <li>Clean up scanned photo filenames.</li>
+        <li>Rename screenshots into a useful sequence.</li>
+        <li>Remove suffixes added by export tools, such as <code>_downscaled</code> or <code>_cropped</code>.</li>
+        <li>Add a project, trip, client, or archive name to a batch.</li>
+        <li>Standardize spaces, underscores, dashes, or camera filename patterns.</li>
+        <li>Prepare image sequences before building GIFs or MP4 projects.</li>
+        <li>Make folders easier to sort and search.</li>
+      </ul>
+    </section>
 
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Use padding when numbering files. Names like <code>001</code>, <code>002</code>, and <code>003</code> sort better than <code>1</code>, <code>2</code>, and <code>3</code>.
-  </div>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-  <h2>Rename method: Rename by Metadata</h2>
+      <ul class="features">
+        <li>Renaming changes filenames, not the contents of the files.</li>
+        <li>Make sure files are selected in the order you want before sequential renaming.</li>
+        <li>If a target filename already exists, Grafiq may skip the rename and log it instead of overwriting.</li>
+        <li>Metadata-based renaming depends on the metadata actually existing in the file.</li>
+        <li>Test on a small group before doing a large rename job.</li>
+        <li>Keep backups of important folders before major cleanup work.</li>
+      </ul>
+    </section>
 
-  <p>
-    Rename by Metadata can build filenames from supported metadata fields when those fields are available.
-    This is useful for photos or files you have already captioned, tagged, or organized with metadata.
-  </p>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Rename Files is included alongside Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, and more.
+      </p>
 
-  <ul class="features">
-    <li>Use date-related metadata when available.</li>
-    <li>Use title, description, author, or other supported fields when available.</li>
-    <li>Create more descriptive filenames from embedded information.</li>
-    <li>Skip or fall back safely when metadata is missing, depending on the workflow.</li>
-  </ul>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-  <h2>Good uses for Rename Files</h2>
-
-  <ul class="features">
-    <li>Clean up scanned photo filenames.</li>
-    <li>Rename screenshots into a useful sequence.</li>
-    <li>Remove suffixes added by export tools, such as <code>_downscaled</code> or <code>_cropped</code>.</li>
-    <li>Add a project, trip, client, or archive name to a batch.</li>
-    <li>Standardize spaces, underscores, dashes, or camera filename patterns.</li>
-    <li>Prepare image sequences before building GIFs or MP4 projects.</li>
-    <li>Make folders easier to sort and search.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Renaming changes filenames, not the contents of the files.</li>
-    <li>Make sure files are selected in the order you want before sequential renaming.</li>
-    <li>If a target filename already exists, Grafiq may skip the rename and log it instead of overwriting.</li>
-    <li>Metadata-based renaming depends on the metadata actually existing in the file.</li>
-    <li>Test on a small group before doing a large rename job.</li>
-    <li>Keep backups of important folders before major cleanup work.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Rename Files is included alongside Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="video-tools.html">Video Tools Guide</a> |
-      <a href="upscaler.html">Upscaler Guide</a> |
-      <a href="organizer.html">Organizer Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="video-tools.html">Video Tools Guide</a> |
+        <a href="upscaler.html">Upscaler Guide</a> |
+        <a href="organizer.html">Organizer Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
