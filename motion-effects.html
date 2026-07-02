@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -17,139 +16,167 @@
       background: #fafafa;
     }
 
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-h1 {
-  margin-bottom: 8px;
-}
+    h2 {
+      margin-top: 32px;
+    }
 
-h2 {
-  margin-top: 32px;
-}
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
 
-.tagline {
-  color: #555;
-  font-size: 1.1rem;
-  margin-top: 0;
-}
+    .tagline {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
 
-.card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 22px;
-  margin: 22px 0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-}
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 22px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
 
-.lead {
-  font-size: 1.08rem;
-}
+    .lead {
+      font-size: 1.08rem;
+    }
 
-.promise {
-  background: #f1f4f8;
-  border: 1px solid #d8e0ea;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-  font-weight: 600;
-}
+    .promise {
+      background: #f1f4f8;
+      border: 1px solid #d8e0ea;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+      font-weight: 600;
+    }
 
-.note {
-  background: #fff8e6;
-  border: 1px solid #ead89a;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ead89a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.privacy-note {
-  background: #eef7ff;
-  border: 1px solid #cde5fa;
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin: 16px 0;
-}
+    .privacy-note {
+      background: #eef7ff;
+      border: 1px solid #cde5fa;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 16px 0;
+    }
 
-.buttons {
-  margin: 18px 0 8px 0;
-}
+    .buttons {
+      margin: 18px 0 8px 0;
+    }
 
-.button {
-  display: inline-block;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 10px 14px;
-  margin: 6px 8px 6px 0;
-  font-weight: 600;
-}
+    .button {
+      display: inline-block;
+      background: #0a66c2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 6px 8px 6px 0;
+      font-weight: 600;
+    }
 
-.button.secondary {
-  background: #333;
-}
+    .button.secondary {
+      background: #333;
+    }
 
-.button:hover {
-  text-decoration: underline;
-}
+    .button:hover,
+    .button:focus {
+      text-decoration: underline;
+    }
 
-.steps {
-  padding-left: 24px;
-}
+    .steps {
+      padding-left: 24px;
+    }
 
-.steps li {
-  margin-bottom: 10px;
-}
+    .steps li {
+      margin-bottom: 10px;
+    }
 
-.features {
-  padding-left: 20px;
-}
+    .features {
+      padding-left: 20px;
+    }
 
-.features li {
-  margin-bottom: 7px;
-}
+    .features li {
+      margin-bottom: 7px;
+    }
 
-.small {
-  color: #666;
-  font-size: 0.95rem;
-}
+    .small {
+      color: #666;
+      font-size: 0.95rem;
+    }
 
-.top-nav {
-  margin-bottom: 22px;
-  font-size: 0.95rem;
-}
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
 
-.top-nav a {
-  margin-right: 14px;
-}
+    .top-nav a {
+      margin-right: 14px;
+    }
 
-code {
-  background: #f1f4f8;
-  padding: 2px 5px;
-  border-radius: 5px;
-}
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #fff;
+      color: #0a66c2;
+      padding: 8px 12px;
+      border: 2px solid #0a66c2;
+      border-radius: 6px;
+      z-index: 1000;
+      font-weight: 600;
+    }
 
-a {
-  color: #0a66c2;
-}
+    .skip-link:focus {
+      left: 8px;
+    }
 
-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 36px;
-  padding-top: 16px;
-  color: #666;
-  font-size: 0.95rem;
-}
+    code {
+      background: #f1f4f8;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
 
+    a {
+      color: #0a66c2;
+    }
 
+    a:focus,
+    .button:focus {
+      outline: 3px solid #111;
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #ddd;
+      margin-top: 36px;
+      padding-top: 16px;
+      color: #666;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
-  <div class="top-nav">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav class="top-nav" aria-label="Site navigation">
     <a href="index.html">Ranbyte Apps</a>
     <a href="photo-splitter.html">Photo Splitter Guide</a>
     <a href="redaction.html">Redaction Guide</a>
@@ -164,240 +191,249 @@ footer {
     <a href="upscaler.html">Upscaler Guide</a>
     <a href="organizer.html">Organizer Guide</a>
     <a href="rename-files.html">Rename Files Guide</a>
-    <a href="black-and-white.html">Black & White Guide</a>
+    <a href="black-and-white.html">Black &amp; White Guide</a>
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+  </nav>
 
-  <h1>Create motion from still images with zoom, pan, and parallax</h1>
-  <p class="tagline">Use Grafiq Motion Effects to turn still images into simple motion clips with zoom, pan, frame blend, and parallax-style movement.</p>
+  <main id="main-content">
+    <h1>Create motion from still images with zoom, pan, and parallax</h1>
+    <p class="tagline">Use Grafiq Motion Effects to turn still images into simple motion clips with zoom, pan, frame blend, and parallax-style movement.</p>
 
-  <div class="card">
-    <p class="lead">
-      A still image can feel more alive when it slowly zooms, pans, or shifts with a subtle motion effect.
-      Grafiq Motion Effects gives you a local desktop workflow for creating simple motion clips from images.
-    </p>
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Motion Effects overview</h2>
+      <p class="lead">
+        A still image can feel more alive when it slowly zooms, pans, or shifts with a subtle motion effect.
+        Grafiq Motion Effects gives you a local desktop workflow for creating simple motion clips from images.
+      </p>
 
+      <p>
+        Use it for family photos, slideshow inserts, thumbnails, short social clips, presentation media, video backgrounds, or creative experiments.
+      </p>
 
-<p>
-  Use it for family photos, slideshow inserts, thumbnails, short social clips, presentation media, video backgrounds, or creative experiments.
-</p>
+      <div class="promise">
+        No account. No ads. No subscriptions. No watermarks. No data harvesting.
+      </div>
 
-<div class="promise">
-  No account. No ads. No subscriptions. No watermarks. No data harvesting.
-</div>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
+    </section>
 
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
+    <section aria-labelledby="what-for-heading">
+      <h2 id="what-for-heading">What Motion Effects is for</h2>
+      <p>
+        Motion Effects is useful when you want to turn a still image into a short video or animated result.
+        Instead of a static photo, you can create movement with zoom, pan, frame blending, or depth-style effects.
+      </p>
 
+      <ul class="features">
+        <li>Create smooth zoom effects from still images.</li>
+        <li>Create pan-style motion across an image.</li>
+        <li>Create depth or parallax-style movement where supported.</li>
+        <li>Create frame blend effects for a softer motion look.</li>
+        <li>Create creative motion variations from one source image.</li>
+        <li>Preview motion before exporting when available.</li>
+        <li>Export motion results as new files without changing the original image.</li>
+      </ul>
 
-  </div>
+      <div class="privacy-note">
+        <strong>Local-first note:</strong>
+        Motion Effects works on your computer. You do not need to upload personal photos to an online animation or motion-effect service.
+      </div>
+    </section>
 
-  <h2>What Motion Effects is for</h2>
-  <p>
-    Motion Effects is useful when you want to turn a still image into a short video or animated result.
-    Instead of a static photo, you can create movement with zoom, pan, frame blending, or depth-style effects.
-  </p>
+    <section aria-labelledby="zoom-pan-heading">
+      <h2 id="zoom-pan-heading">How to create a simple zoom or pan effect</h2>
 
-  <ul class="features">
-    <li>Create smooth zoom effects from still images.</li>
-    <li>Create pan-style motion across an image.</li>
-    <li>Create depth or parallax-style movement where supported.</li>
-    <li>Create frame blend effects for a softer motion look.</li>
-    <li>Create creative motion variations from one source image.</li>
-    <li>Preview motion before exporting when available.</li>
-    <li>Export motion results as new files without changing the original image.</li>
-  </ul>
+      <ol class="steps">
+        <li>
+          <strong>Open Motion Effects.</strong><br>
+          In Grafiq, open <strong>More → Motion Effects</strong>.
+        </li>
 
-  <div class="privacy-note">
-    <strong>Local-first note:</strong>
-    Motion Effects works on your computer. You do not need to upload personal photos to an online animation or motion-effect service.
-  </div>
+        <li>
+          <strong>Choose an image.</strong><br>
+          Select the photo, scan, screenshot, or graphic you want to animate.
+        </li>
 
-  <h2>How to create a simple zoom or pan effect</h2>
+        <li>
+          <strong>Choose a motion type.</strong><br>
+          Pick a motion effect such as smooth zoom, pan, or another available motion option.
+        </li>
 
-  <ol class="steps">
-    <li>
-      <strong>Open Motion Effects.</strong><br>
-      In Grafiq, open <strong>More → Motion Effects</strong>.
-    </li>
+        <li>
+          <strong>Set the duration.</strong><br>
+          Choose how long the motion clip should be.
+        </li>
 
+        <li>
+          <strong>Adjust the motion amount.</strong><br>
+          Use the available controls to make the movement subtle or stronger.
+        </li>
 
-<li>
-  <strong>Choose an image.</strong><br>
-  Select the photo, scan, screenshot, or graphic you want to animate.
-</li>
+        <li>
+          <strong>Preview the result.</strong><br>
+          Preview the motion before creating the final export.
+        </li>
 
-<li>
-  <strong>Choose a motion type.</strong><br>
-  Pick a motion effect such as smooth zoom, pan, or another available motion option.
-</li>
+        <li>
+          <strong>Export the motion clip.</strong><br>
+          Save the result as a new file.
+        </li>
+      </ol>
 
-<li>
-  <strong>Set the duration.</strong><br>
-  Choose how long the motion clip should be.
-</li>
+      <div class="note">
+        <strong>Simple rule:</strong>
+        Subtle motion usually looks better than extreme motion. A slow zoom or gentle pan can make a still photo feel polished without distracting from the image.
+      </div>
+    </section>
 
-<li>
-  <strong>Adjust the motion amount.</strong><br>
-  Use the available controls to make the movement subtle or stronger.
-</li>
+    <section aria-labelledby="parallax-heading">
+      <h2 id="parallax-heading">How to use depth or parallax-style motion</h2>
 
-<li>
-  <strong>Preview the result.</strong><br>
-  Preview the motion before creating the final export.
-</li>
+      <p>
+        Depth-style motion can make a still image feel more dimensional by shifting parts of the image in a way that suggests foreground and background movement.
+        This type of effect works best on images with a clear subject and background separation.
+      </p>
 
-<li>
-  <strong>Export the motion clip.</strong><br>
-  Save the result as a new file.
-</li>
+      <ol class="steps">
+        <li>
+          <strong>Choose a photo with a clear subject.</strong><br>
+          Photos with a person, object, or strong foreground/background separation usually work best.
+        </li>
 
+        <li>
+          <strong>Open Motion Effects.</strong><br>
+          Add the photo to Motion Effects.
+        </li>
 
-  </ol>
+        <li>
+          <strong>Choose the depth or parallax option.</strong><br>
+          Select the available depth/parallax-style motion effect.
+        </li>
 
-  <div class="note">
-    <strong>Simple rule:</strong>
-    Subtle motion usually looks better than extreme motion. A slow zoom or gentle pan can make a still photo feel polished without distracting from the image.
-  </div>
+        <li>
+          <strong>Keep the movement moderate.</strong><br>
+          Smaller movement often looks more natural than exaggerated movement.
+        </li>
 
-  <h2>How to use depth or parallax-style motion</h2>
+        <li>
+          <strong>Preview carefully.</strong><br>
+          Watch edges, faces, and background details to make sure the motion still looks acceptable.
+        </li>
 
-  <p>
-    Depth-style motion can make a still image feel more dimensional by shifting parts of the image in a way that suggests foreground and background movement.
-    This type of effect works best on images with a clear subject and background separation.
-  </p>
+        <li>
+          <strong>Export the result.</strong><br>
+          Save the motion clip as a new file.
+        </li>
+      </ol>
+    </section>
 
-  <ol class="steps">
-    <li>
-      <strong>Choose a photo with a clear subject.</strong><br>
-      Photos with a person, object, or strong foreground/background separation usually work best.
-    </li>
+    <section aria-labelledby="good-images-heading">
+      <h2 id="good-images-heading">Good images for Motion Effects</h2>
 
+      <ul class="features">
+        <li>Family photos with a clear subject.</li>
+        <li>Product images or object photos.</li>
+        <li>Landscape photos with room to pan or zoom.</li>
+        <li>Old scanned photos that need a little movement for a slideshow.</li>
+        <li>Wide images that can be panned across slowly.</li>
+        <li>Images with enough resolution to crop or zoom without looking too soft.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Open Motion Effects.</strong><br>
-  Add the photo to Motion Effects.
-</li>
+    <section aria-labelledby="ideas-heading">
+      <h2 id="ideas-heading">Motion effect ideas</h2>
 
-<li>
-  <strong>Choose the depth or parallax option.</strong><br>
-  Select the available depth/parallax-style motion effect.
-</li>
+      <ul class="features">
+        <li><strong>Slow zoom in:</strong> Good for portraits, product photos, and family photos.</li>
+        <li><strong>Slow zoom out:</strong> Good for revealing more of a scene.</li>
+        <li><strong>Pan left or right:</strong> Good for wide landscapes or group photos.</li>
+        <li><strong>Depth parallax:</strong> Good for photos with a strong foreground subject.</li>
+        <li><strong>Frame blend:</strong> Good for a softer, smoother creative look.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Keep the movement moderate.</strong><br>
-  Smaller movement often looks more natural than exaggerated movement.
-</li>
+    <section aria-labelledby="good-uses-heading">
+      <h2 id="good-uses-heading">Good uses for Motion Effects</h2>
 
-<li>
-  <strong>Preview carefully.</strong><br>
-  Watch edges, faces, and background details to make sure the motion still looks acceptable.
-</li>
+      <ul class="features">
+        <li>Create short motion clips from still photos.</li>
+        <li>Add life to old family photos for a slideshow.</li>
+        <li>Create gentle movement for a video intro or background.</li>
+        <li>Make a still product image feel more dynamic.</li>
+        <li>Create simple media inserts for Video Tools.</li>
+        <li>Make short animated clips without using a full video editor.</li>
+      </ul>
+    </section>
 
-<li>
-  <strong>Export the result.</strong><br>
-  Save the motion clip as a new file.
-</li>
+    <section aria-labelledby="tips-heading">
+      <h2 id="tips-heading">Tips for better results</h2>
 
+      <ul class="features">
+        <li>Start with the highest-resolution image you have.</li>
+        <li>Use subtle motion for a cleaner result.</li>
+        <li>Avoid zooming too far into low-resolution images.</li>
+        <li>Preview the motion before exporting.</li>
+        <li>Check faces, edges, and text after motion effects.</li>
+        <li>Keep the original image unchanged and export a new motion version.</li>
+      </ul>
+    </section>
 
-  </ol>
+    <section aria-labelledby="watch-out-heading">
+      <h2 id="watch-out-heading">What to watch out for</h2>
 
-  <h2>Good images for Motion Effects</h2>
+      <ul class="features">
+        <li>Motion effects cannot create true video footage from a still image.</li>
+        <li>Strong zooms can make the image look soft or pixelated.</li>
+        <li>Depth or parallax-style effects may look better on some images than others.</li>
+        <li>Photos with busy backgrounds, fine hair, text, or thin edges may show artifacts with stronger effects.</li>
+        <li>Always preview the final motion before using it in another project.</li>
+      </ul>
+    </section>
 
-  <ul class="features">
-    <li>Family photos with a clear subject.</li>
-    <li>Product images or object photos.</li>
-    <li>Landscape photos with room to pan or zoom.</li>
-    <li>Old scanned photos that need a little movement for a slideshow.</li>
-    <li>Wide images that can be panned across slowly.</li>
-    <li>Images with enough resolution to crop or zoom without looking too soft.</li>
-  </ul>
+    <section class="card" aria-labelledby="get-grafiq-heading">
+      <h2 id="get-grafiq-heading">Get Grafiq</h2>
+      <p>
+        Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
+        Motion Effects is included alongside Black &amp; White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, and more.
+      </p>
 
-  <h2>Motion effect ideas</h2>
+      <nav class="buttons" aria-label="Get Grafiq">
+        <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
+        <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
+      </nav>
 
-  <ul class="features">
-    <li><strong>Slow zoom in:</strong> Good for portraits, product photos, and family photos.</li>
-    <li><strong>Slow zoom out:</strong> Good for revealing more of a scene.</li>
-    <li><strong>Pan left or right:</strong> Good for wide landscapes or group photos.</li>
-    <li><strong>Depth parallax:</strong> Good for photos with a strong foreground subject.</li>
-    <li><strong>Frame blend:</strong> Good for a softer, smoother creative look.</li>
-  </ul>
-
-  <h2>Good uses for Motion Effects</h2>
-
-  <ul class="features">
-    <li>Create short motion clips from still photos.</li>
-    <li>Add life to old family photos for a slideshow.</li>
-    <li>Create gentle movement for a video intro or background.</li>
-    <li>Make a still product image feel more dynamic.</li>
-    <li>Create simple media inserts for Video Tools.</li>
-    <li>Make short animated clips without using a full video editor.</li>
-  </ul>
-
-  <h2>Tips for better results</h2>
-
-  <ul class="features">
-    <li>Start with the highest-resolution image you have.</li>
-    <li>Use subtle motion for a cleaner result.</li>
-    <li>Avoid zooming too far into low-resolution images.</li>
-    <li>Preview the motion before exporting.</li>
-    <li>Check faces, edges, and text after motion effects.</li>
-    <li>Keep the original image unchanged and export a new motion version.</li>
-  </ul>
-
-  <h2>What to watch out for</h2>
-
-  <ul class="features">
-    <li>Motion effects cannot create true video footage from a still image.</li>
-    <li>Strong zooms can make the image look soft or pixelated.</li>
-    <li>Depth or parallax-style effects may look better on some images than others.</li>
-    <li>Photos with busy backgrounds, fine hair, text, or thin edges may show artifacts with stronger effects.</li>
-    <li>Always preview the final motion before using it in another project.</li>
-  </ul>
-
-  <div class="card">
-    <h2>Get Grafiq</h2>
-    <p>
-      Grafiq is a local-first desktop toolbox for everyday image, video, GIF, metadata, and file cleanup tasks.
-      Motion Effects is included alongside Black & White Tools, Rename Files, Organizer, Upscaler, Video Tools, Crop Studio, background removal, conversion, downscaling, GIF tools, redaction, metadata tools, photo splitting, duplicate finding, and more.
-    </p>
-
-
-<div class="buttons" aria-label="Get Grafiq">
-  <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
-  <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
-</div>
-
-<p class="small">
-  Built like a utility, not a subscription platform.
-</p>
-
-
-  </div>
+      <p class="small">
+        Built like a utility, not a subscription platform.
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>
-      <a href="index.html">Ranbyte Apps</a> |
-      <a href="photo-splitter.html">Photo Splitter Guide</a> |
-      <a href="redaction.html">Redaction Guide</a> |
-      <a href="metadata.html">Metadata Guide</a> |
-      <a href="duplicate-images.html">Duplicate Images Guide</a> |
-      <a href="gif-tools.html">GIF Tools Guide</a> |
-      <a href="converter.html">Converter Guide</a> |
-      <a href="downscaler.html">Downscaler Guide</a> |
-      <a href="background-remover.html">Background Remover Guide</a> |
-      <a href="crop-studio.html">Crop Studio Guide</a> |
-      <a href="video-tools.html">Video Tools Guide</a> |
-      <a href="upscaler.html">Upscaler Guide</a> |
-      <a href="organizer.html">Organizer Guide</a> |
-      <a href="rename-files.html">Rename Files Guide</a> |
-      <a href="black-and-white.html">Black & White Guide</a> |
-      <a href="support.html">Support</a> |
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <nav aria-label="Footer">
+      <p>
+        <a href="index.html">Ranbyte Apps</a> |
+        <a href="photo-splitter.html">Photo Splitter Guide</a> |
+        <a href="redaction.html">Redaction Guide</a> |
+        <a href="metadata.html">Metadata Guide</a> |
+        <a href="duplicate-images.html">Duplicate Images Guide</a> |
+        <a href="gif-tools.html">GIF Tools Guide</a> |
+        <a href="converter.html">Converter Guide</a> |
+        <a href="downscaler.html">Downscaler Guide</a> |
+        <a href="background-remover.html">Background Remover Guide</a> |
+        <a href="crop-studio.html">Crop Studio Guide</a> |
+        <a href="video-tools.html">Video Tools Guide</a> |
+        <a href="upscaler.html">Upscaler Guide</a> |
+        <a href="organizer.html">Organizer Guide</a> |
+        <a href="rename-files.html">Rename Files Guide</a> |
+        <a href="black-and-white.html">Black &amp; White Guide</a> |
+        <a href="support.html">Support</a> |
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </nav>
     <p>© 2026 Ranbyte Apps. Grafiq is a product of Ranbyte Apps.</p>
   </footer>
 </body>
