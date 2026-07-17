@@ -77,6 +77,25 @@
       margin: 16px 0;
     }
 
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      margin-top: 16px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid #ddd;
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
     .buttons {
       margin: 18px 0 8px 0;
     }
@@ -213,6 +232,29 @@
         <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
         <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
       </nav>
+    </section>
+
+    <section class="card" aria-labelledby="video-heading">
+      <h2 id="video-heading">Watch Crop Studio in action</h2>
+      <p>
+        This short demo shows Grafiq Crop Studio opening media files, cropping images, GIFs, and videos,
+        exporting a cropped copy, and previewing the cropped result.
+      </p>
+
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/bEuYlYCz35I"
+          title="Crop Images, GIFs, and Videos Locally with Grafiq"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="small">
+        Some demo visuals were AI-generated for demonstration purposes.
+        This demo was created using Grafiq Crop Studio, Redactor,
+        Build MP4 from Images, and Video Tools.
+      </p>
     </section>
 
     <section aria-labelledby="what-for-heading">
