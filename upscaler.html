@@ -85,6 +85,33 @@
       margin: 16px 0;
     }
 
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      margin-top: 16px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid #ddd;
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .placeholder {
+      background: #f7f7f7;
+      border: 1px dashed #aaa;
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 16px;
+    }
+
     .buttons {
       margin: 18px 0 8px 0;
     }
@@ -223,6 +250,50 @@
         <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
         <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
       </nav>
+    </section>
+
+    <section class="card" aria-labelledby="classic-video-heading">
+      <h2 id="classic-video-heading">Watch classic Upscaler in action</h2>
+      <p>
+        This short demo shows Grafiq Upscaler adding images, choosing an output folder,
+        selecting a scale, choosing a classic upscaling method, optionally enabling Sharpen,
+        and saving enlarged copies locally.
+      </p>
+
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/G-_CfBWZduQ"
+          title="Enlarge Images Locally with Grafiq Upscaler"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="small">
+        This demo was created using Grafiq Upscaler, Redactor,
+        Build MP4 from Images, and Video Tools.
+        Some demo visuals were AI-generated for demonstration purposes.
+        Music: Pure French Electro by Jerome Chauvel / Abydos_Music, via Pixabay Content License.
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="realesrgan-video-heading">
+      <h2 id="realesrgan-video-heading">RealESRGAN local AI upscaling video coming soon</h2>
+      <p>
+        A separate demo will show Grafiq’s built-in RealESRGAN local AI upscaler where supported.
+        This keeps the classic Upscaler workflow separate from the local AI workflow.
+      </p>
+
+      <div class="placeholder">
+        <p>
+          <strong>Coming soon:</strong>
+          Local AI image upscaling with Grafiq RealESRGAN.
+        </p>
+        <p class="small">
+          RealESRGAN/local AI upscaling is available on Windows and Apple silicon Macs where supported.
+          It is not available on Intel Macs in the Mac App Store build.
+        </p>
+      </div>
     </section>
 
     <section aria-labelledby="platform-heading">
