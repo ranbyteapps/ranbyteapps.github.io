@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Preview and Convert SVG Files Without Uploading Them | Grafiq</title>
-  <meta name="description" content="Use Grafiq SVG Tools to preview SVG files, inspect vector artwork, and export SVGs to common image formats locally on Windows or Mac.">
+  <title>Preview and Edit SVG Text Locally | Grafiq</title>
+  <meta name="description" content="Use Grafiq SVG Tools to preview SVG files, export SVG text, edit extracted SVG text, and save updated SVG files locally on Windows or Mac.">
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -75,6 +75,25 @@
       border-radius: 10px;
       padding: 12px 14px;
       margin: 16px 0;
+    }
+
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      margin-top: 16px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid #ddd;
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
 
     .buttons {
@@ -199,18 +218,22 @@
   </nav>
 
   <main id="main-content">
-    <h1>Preview and convert SVG files without uploading them</h1>
-    <p class="tagline">Use Grafiq SVG Tools to preview vector artwork and export SVG files to common image formats locally on your desktop.</p>
+    <h1>Preview and edit SVG text locally</h1>
+    <p class="tagline">Use Grafiq SVG Tools to preview SVG files, export SVG text, edit extracted text, and save updated SVG files locally on your desktop.</p>
 
     <section class="card" aria-labelledby="intro-heading">
       <h2 id="intro-heading">SVG Tools overview</h2>
       <p class="lead">
-        SVG files are useful for logos, icons, drawings, and web graphics, but they can be awkward when you just need a normal image file.
-        Grafiq SVG Tools gives you a local desktop workflow for opening, previewing, and exporting SVG files.
+    <section class="card" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">SVG Tools overview</h2>
+      <p class="lead">
+        SVG files are useful for logos, icons, drawings, and web graphics, but they can be awkward when you just need to preview them,
+        pull out text, make a quick text edit, or save an updated SVG file.
       </p>
 
       <p>
-        Use it when you want to inspect an SVG, convert it into a PNG or other image format, or prepare vector artwork for a document, website, project folder, or support message.
+        Grafiq SVG Tools gives you a local desktop workflow for previewing SVG files, exporting text from SVGs,
+        editing extracted SVG text, and saving updated SVG files without uploading your artwork to an online converter.
       </p>
 
       <div class="promise">
@@ -223,6 +246,31 @@
       </nav>
     </section>
 
+    <section class="card" aria-labelledby="demo-video-heading">
+      <h2 id="demo-video-heading">Watch SVG Tools in action</h2>
+      <p>
+        This short demo shows Grafiq SVG Tools opening an SVG file, previewing it locally,
+        exporting text from the SVG, editing extracted SVG text, saving an updated SVG,
+        and viewing the edited result.
+      </p>
+
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/Mk7yNY5Xb1M"
+          title="Preview and Edit SVG Text Locally with Grafiq"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="small">
+        This demo was created using Grafiq SVG Tools, Redactor,
+        Build MP4 from Images, and Video Tools.
+        Some demo visuals were AI-generated for demonstration purposes.
+        Music: Pure French Electro by Jerome Chauvel / Abydos_Music, via Pixabay Content License.
+      </p>
+    </section>
+
     <section aria-labelledby="what-for-heading">
       <h2 id="what-for-heading">What SVG Tools is for</h2>
       <p>
@@ -233,8 +281,9 @@
       <ul class="features">
         <li>Open and preview SVG files.</li>
         <li>Inspect vector artwork before using it in another project.</li>
-        <li>Export SVG artwork to common image formats where supported.</li>
-        <li>Create PNG versions of SVG logos, icons, or drawings.</li>
+        <li>Export text from SVG files.</li>
+        <li>Edit extracted SVG text and save an updated SVG copy.</li>
+        <li>Export SVG artwork to PNG or PDF where supported.</li>
         <li>Prepare SVG artwork for documents, websites, presentations, or image workflows.</li>
         <li>Work locally without uploading SVG files to an online converter.</li>
       </ul>
@@ -314,23 +363,43 @@
         </li>
 
         <li>
-          <strong>Choose PNG output.</strong><br>
-          Pick PNG when you want a widely supported image format, especially for logos, icons, or artwork that may need transparency.
+    <section aria-labelledby="text-edit-heading">
+      <h2 id="text-edit-heading">How to export and edit SVG text</h2>
+
+      <ol class="steps">
+        <li>
+          <strong>Open SVG Tools.</strong><br>
+          Open <strong>More → SVG Tools</strong>.
         </li>
 
         <li>
-          <strong>Choose the export size if available.</strong><br>
-          Use a larger size if you need the PNG for high-resolution display, printing, or editing.
+          <strong>Choose the SVG file.</strong><br>
+          Select the SVG artwork you want to inspect.
         </li>
 
         <li>
-          <strong>Export the file.</strong><br>
-          Save the converted PNG as a new file.
+          <strong>Preview the SVG.</strong><br>
+          Confirm that the SVG renders correctly before making changes.
         </li>
 
         <li>
-          <strong>Review the export.</strong><br>
-          Open the PNG and check edges, transparency, color, and size.
+          <strong>Export text from the SVG.</strong><br>
+          Use <strong>Export Text</strong> to review text found inside the SVG file.
+        </li>
+
+        <li>
+          <strong>Edit extracted SVG text.</strong><br>
+          Use <strong>Edit Text</strong> to select SVG text, change it, and apply the change.
+        </li>
+
+        <li>
+          <strong>Save the updated SVG.</strong><br>
+          Save the edited SVG as a new copy so your original file remains available.
+        </li>
+
+        <li>
+          <strong>View the edited result.</strong><br>
+          Open the updated SVG and confirm the text change looks right.
         </li>
       </ol>
     </section>
