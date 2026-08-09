@@ -77,6 +77,25 @@
       margin: 16px 0;
     }
 
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      margin-top: 16px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid #ddd;
+    }
+
+    .video-wrap iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
     .buttons {
       margin: 18px 0 8px 0;
     }
@@ -223,6 +242,31 @@
         <a class="button" href="https://apps.microsoft.com/detail/9NDK62TNH50V">Get Grafiq for Windows</a>
         <a class="button secondary" href="https://apps.apple.com/us/app/grafiq/id6770397506?mt=12">Get Grafiq for Mac</a>
       </nav>
+    </section>
+
+    <section class="card" aria-labelledby="demo-video-heading">
+      <h2 id="demo-video-heading">Watch Image Caption &amp; Overlay in action</h2>
+      <p>
+        This short demo shows Grafiq Image Caption &amp; Overlay selecting images,
+        entering a caption or description, saving captioned image copies,
+        viewing the overlay result, and verifying the saved caption metadata.
+      </p>
+
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/vK1gBbxRK-g"
+          title="Add Captions to Images with Grafiq"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="small">
+        This demo was created using Grafiq Image Caption &amp; Overlay, Redactor,
+        Build MP4 from Images, and Video Tools.
+        Some demo visuals were AI-generated for demonstration purposes.
+        Music: Sunday Browsing by WilliamMorin, via Pixabay Content License.
+      </p>
     </section>
 
     <section aria-labelledby="what-for-heading">
